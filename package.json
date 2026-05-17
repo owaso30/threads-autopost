@@ -1,6 +1,7 @@
 {
   "name": "threads-autopost",
   "version": "1.0.0",
+  "type": "module",
   "description": "Threads auto post bot for Rakuten ROOM",
   "main": "index.js",
   "scripts": {
