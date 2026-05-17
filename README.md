@@ -1,12 +1,13 @@
 # Threads Auto Post Bot
 
 楽天ROOM連携用のThreads自動投稿ボットです。
-毎日21:00 JSTに日常トピックをベースにしたAI生成投稿を自動でThreadsに投稿します。
+毎日20:00〜20:15 JSTのあいだにランダムな時刻で、日常トピックをベースにしたAI生成投稿を自動でThreadsに投稿します。
 
 ## セットアップ手順
 
-### 1. GitHubリポジトリを作成
-GitHubで新しいリポジトリを作成し、このフォルダの中身をすべてpushします。
+### 1. GitHubリポジトリにpush
+GitHubで新しいリポジトリを作成し、このフォルダの中身をすべてpushします。  
+自動投稿の設定は `.github/workflows/autopost.yml` にあります（リポジトリ直下ではなく、このパスが必須です）。
 
 ```bash
 git init
@@ -28,15 +29,16 @@ GitHubリポジトリの Settings → Secrets and variables → Actions → New 
 
 | Secret名 | 値 |
 |---|---|
-| `THREADS_ACCESS_TOKEN` | ThreadsのアクセストークN |
+| `THREADS_ACCESS_TOKEN` | Threadsのアクセストークン |
 | `THREADS_USER_ID` | 上で取得したid |
 | `OPENAI_API_KEY` | OpenAIのAPIキー |
 
 ### 4. 動作確認
-GitHubリポジトリの Actions タブ → Threads Auto Post → Run workflow で手動実行して確認します。
+GitHubリポジトリの **Actions** タブ → 左の **Threads Auto Post** → **Run workflow** で手動実行します。  
+ログに `投稿成功！ Post ID:` が出ればOKです。以降は毎日20:00〜20:15 JST頃に自動実行されます。
 
 ## 投稿タイミング
-毎日21:00 JST（GitHub Actionsの仕様上±30分の誤差が出る場合あります）
+毎日20:00〜20:15 JSTのランダム時刻（起動は20:00 JST頃。GitHub Actionsの仕様上、さらに±30分ほどずれる場合があります）
 
 ## トークン更新（60日ごと）
 Threadsのアクセストークンは60日で期限切れになります。

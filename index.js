@@ -23,6 +23,10 @@ const DAILY_TOPICS = [
   "最近ちょっとした発見があったこと",
 ];
 
+// 日常トピック本文のあとに毎回付ける定型文（必要ならここだけ編集）
+const RAKUTEN_ROOM_FOOTER =
+  "\n\n楽天ROOMで日用品・ファッション・インテリアなどを紹介しています。つながり大歓迎です🙌 よろしくお願いします🙇";
+
 // 今日の日付をシードにして毎日違うトピックを選ぶ
 function getTodaysTopic() {
   const today = new Date();
@@ -41,7 +45,7 @@ async function generatePost(topic) {
   const weekday = weekdays[today.getDay()];
 
   const response = await client.chat.completions.create({
-    model: "gpt-4o-mini",
+    model: "gpt-5.4-mini",
     max_tokens: 300,
     messages: [
       {
@@ -56,18 +60,19 @@ async function generatePost(topic) {
 
 【ルール】
 - 丁寧すぎず、フランクすぎない「丁寧寄りのカジュアル」なトーン
-- 日常のリアルな感想・共感を誘う内容
-- 最後に楽天ROOMで商品を探したくなるような自然な一言でつなげる（「楽天ROOMで探してみました」「楽天ROOMで見つけたんですが」など、押しつけがましくなく）
+- 日常のリアルな感想・共感を誘う内容にする（トピックの話だけで完結させる）
+- 楽天ROOM・商品探し・つながり募集には一切触れない（別途定型文が後から付く）
 - URLやハッシュタグは含めない
-- 全体で120〜200文字程度
-- 絵文字を2〜3個使う
+- 100〜200文字程度
+- 絵文字を2〜4個使う
 
 投稿文のみを出力してください。前置きや説明は不要です。`,
       },
     ],
   });
 
-  return response.choices[0].message.content.trim();
+  const body = response.choices[0].message.content.trim();
+  return body + RAKUTEN_ROOM_FOOTER;
 }
 
 async function postToThreads(text) {

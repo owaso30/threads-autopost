@@ -2,8 +2,8 @@ name: Threads Auto Post
 
 on:
   schedule:
-    # 毎日21:00 JST (12:00 UTC)に実行
-    - cron: '0 12 * * *'
+    # 毎日20:00 JST (11:00 UTC)に起動し、0〜15分のランダム待機後に投稿
+    - cron: '0 11 * * *'
   workflow_dispatch: # 手動実行も可能
 
 jobs:
@@ -19,6 +19,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Random delay (20:00–20:15 JST)
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$((RANDOM % 901))
+          echo "20:00 JST 起動後、${DELAY} 秒待機してから投稿します（最大15分）"
+          sleep "$DELAY"
 
       - name: Run auto post
         env:
