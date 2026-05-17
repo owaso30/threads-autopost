@@ -46,7 +46,7 @@ async function generatePost(topic) {
 
   const response = await client.chat.completions.create({
     model: "gpt-5.4-mini",
-    max_tokens: 300,
+    max_completion_tokens: 300,
     messages: [
       {
         role: "user",
