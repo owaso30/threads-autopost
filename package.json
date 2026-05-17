@@ -1,0 +1,13 @@
+{
+  "name": "threads-autopost",
+  "version": "1.0.0",
+  "description": "Threads auto post bot for Rakuten ROOM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai": "^4.52.0",
+    "node-fetch": "^3.3.2"
+  }
+}
