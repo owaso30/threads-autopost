@@ -2,10 +2,12 @@ name: Threads Auto Post
 
 on:
   schedule:
-    # 毎日20:00 JST 起動（:00ちょうどは混雑しやすいので3分過ぎ）→ 0〜15分ランダム待機後に投稿
-    - cron: '3 20 * * *'
-      timezone: Asia/Tokyo
+    # 毎日20:03 JST = 11:03 UTC（GitHub cronはUTC。:00は混雑しやすいので3分過ぎ）
+    - cron: '3 11 * * *'
   workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: read
 
 jobs:
   post:
