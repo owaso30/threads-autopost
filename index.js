@@ -23,6 +23,9 @@ const DAILY_TOPICS = [
   "最近ちょっとした発見があったこと",
 ];
 
+// Threads API の topic_tag（画面上は # なしの青リンクになるのが仕様）
+const TOPIC_TAG = "楽天ROOM";
+
 // 日常トピック本文のあとに毎回付ける定型文（必要ならここだけ編集）
 const RAKUTEN_ROOM_FOOTER =
   "\n\n楽天ROOMで日用品・ファッション・インテリアなどを紹介しています。つながり大歓迎です🙌 よろしくお願いします🙇\n\n#楽天ROOM";
@@ -71,7 +74,7 @@ async function generatePost(topic) {
     ],
   });
 
-  const body = response.choices[0].message.content.trim();
+  const body = response.choices[0].message.content.trim().replace(/#\S+/g, "");
   return body + RAKUTEN_ROOM_FOOTER;
 }
 
@@ -85,6 +88,7 @@ async function postToThreads(text) {
       body: JSON.stringify({
         media_type: "TEXT",
         text: text,
+        topic_tag: TOPIC_TAG,
         access_token: THREADS_ACCESS_TOKEN,
       }),
     }
@@ -131,6 +135,7 @@ async function main() {
 
   const postText = await generatePost(topic);
   console.log(`生成された投稿文:\n${postText}`);
+  console.log(`トピックタグ: ${TOPIC_TAG}（Threads上は # なしで表示されます）`);
 
   const postId = await postToThreads(postText);
   console.log(`投稿成功！ Post ID: ${postId}`);

@@ -2,8 +2,9 @@ name: Threads Auto Post
 
 on:
   schedule:
-    # 毎日20:00 JST (11:00 UTC)に起動し、0〜15分のランダム待機後に投稿
-    - cron: '0 11 * * *'
+    # 毎日20:00 JST 起動（:00ちょうどは混雑しやすいので3分過ぎ）→ 0〜15分ランダム待機後に投稿
+    - cron: '3 20 * * *'
+      timezone: Asia/Tokyo
   workflow_dispatch: # 手動実行も可能
 
 jobs:
@@ -24,7 +25,7 @@ jobs:
         if: github.event_name == 'schedule'
         run: |
           DELAY=$((RANDOM % 901))
-          echo "20:00 JST 起動後、${DELAY} 秒待機してから投稿します（最大15分）"
+          echo "20:03 JST 起動後、${DELAY} 秒待機してから投稿します（最大15分）"
           sleep "$DELAY"
 
       - name: Run auto post
