@@ -2,8 +2,8 @@ name: Threads Auto Post
 
 on:
   schedule:
-    # 毎日20:03 JST = 11:03 UTC（GitHub cronはUTC。:00は混雑しやすいので3分過ぎ）
-    - cron: '3 11 * * *'
+    # GitHub cronはUTC。Actions起動が1〜3時間遅れるため、早めに起動して index.js 側で20:00 JSTまで待機
+    - cron: '3 6 * * *'
   workflow_dispatch: # 手動実行も可能
 
 permissions:
@@ -23,15 +23,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Random delay (20:00–20:15 JST)
-        if: github.event_name == 'schedule'
-        run: |
-          DELAY=$((RANDOM % 901))
-          echo "20:03 JST 起動後、${DELAY} 秒待機してから投稿します（最大15分）"
-          sleep "$DELAY"
-
       - name: Run auto post
         env:
+          SCHEDULED_RUN: ${{ github.event_name == 'schedule' }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

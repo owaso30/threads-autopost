@@ -28,13 +28,49 @@ const TOPIC_TAG = "楽天ROOM";
 
 // 日常トピック本文のあとに毎回付ける定型文（必要ならここだけ編集）
 const RAKUTEN_ROOM_FOOTER =
-  "\n\n楽天ROOMで日用品・ファッション・インテリアなどを紹介しています。つながり大歓迎です🙌 よろしくお願いします🙇\n\n#楽天ROOM";
+  "\n\n楽天ROOMで主にファッション・インテリアなどを紹介しています。つながり大歓迎＆フォロバ100%です🙌 \n\n#楽天ROOM";
 
 // 今日の日付をシードにして毎日違うトピックを選ぶ
+function getJstDateParts(date = new Date()) {
+  const jst = new Date(date.getTime() + 9 * 60 * 60 * 1000);
+  return {
+    year: jst.getUTCFullYear(),
+    month: jst.getUTCMonth(),
+    day: jst.getUTCDate(),
+  };
+}
+
+function getDateSeed(date = new Date()) {
+  const { year, month, day } = getJstDateParts(date);
+  return year * 10000 + (month + 1) * 100 + day;
+}
+
+// 定時実行時の投稿目標時刻（20:00 JST + 日替わり0〜15分）
+function getScheduledPostTargetUtc() {
+  const { year, month, day } = getJstDateParts();
+  const randomSec = getDateSeed() % 901;
+  // 20:00 JST = 11:00 UTC
+  return new Date(Date.UTC(year, month, day, 11, 0, randomSec));
+}
+
+async function waitUntilPostWindowIfScheduled() {
+  if (process.env.SCHEDULED_RUN !== "true") return;
+
+  const target = getScheduledPostTargetUtc();
+  const waitMs = target.getTime() - Date.now();
+
+  if (waitMs > 0) {
+    const min = Math.floor(waitMs / 60000);
+    const sec = Math.floor((waitMs % 60000) / 1000);
+    console.log(`定時投稿: 20:00 JST窓まで ${min}分${sec}秒 待機します`);
+    await new Promise((resolve) => setTimeout(resolve, waitMs));
+  } else {
+    console.log("定時投稿: 20:00 JST窓を過ぎているため、すぐ投稿します（GitHub Actions 起動遅延）");
+  }
+}
+
 function getTodaysTopic() {
-  const today = new Date();
-  const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
-  const index = seed % DAILY_TOPICS.length;
+  const index = getDateSeed() % DAILY_TOPICS.length;
   return DAILY_TOPICS[index];
 }
 
@@ -129,6 +165,8 @@ async function postToThreads(text) {
 
 async function main() {
   console.log("=== Threads Auto Post 開始 ===");
+
+  await waitUntilPostWindowIfScheduled();
 
   const topic = getTodaysTopic();
   console.log(`今日のトピック: ${topic}`);
