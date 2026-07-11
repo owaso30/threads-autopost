@@ -27,8 +27,9 @@ const DAILY_TOPICS = [
 const TOPIC_TAG = "楽天ROOM";
 
 // 日常トピック本文のあとに毎回付ける定型文（必要ならここだけ編集）
+// #楽天ROOM は本文に書かず topic_tag のみで付ける（二重指定だと API が unknown error になることがある）
 const RAKUTEN_ROOM_FOOTER =
-  "\n\n楽天ROOMで主にファッション・インテリアなどを紹介しています。つながり大歓迎＆フォロバ100%です🙌 \n\n#楽天ROOM";
+  "\n\n楽天ROOMで主にファッション・インテリアなどを紹介しています。つながり大歓迎＆フォロバ100%です🙌";
 
 // 今日の日付をシードにして毎日違うトピックを選ぶ
 function getJstDateParts(date = new Date()) {
@@ -58,8 +59,14 @@ async function waitUntilPostWindowIfScheduled() {
 
   const target = getScheduledPostTargetUtc();
   const waitMs = target.getTime() - Date.now();
+  // Actions を長時間占有しない（通常は最大15分程度。これ以上なら起動時刻設定ミスとみなす）
+  const MAX_WAIT_MS = 20 * 60 * 1000;
 
-  if (waitMs > 0) {
+  if (waitMs > MAX_WAIT_MS) {
+    console.log(
+      `定時投稿: 待機が${Math.floor(waitMs / 60000)}分になるためスキップしてすぐ投稿します`
+    );
+  } else if (waitMs > 0) {
     const min = Math.floor(waitMs / 60000);
     const sec = Math.floor((waitMs % 60000) / 1000);
     console.log(`定時投稿: 20:00 JST窓まで ${min}分${sec}秒 待機します`);
@@ -114,26 +121,33 @@ async function generatePost(topic) {
   return body + RAKUTEN_ROOM_FOOTER;
 }
 
+async function threadsPost(path, params) {
+  const body = new URLSearchParams(params);
+  const res = await fetch(`https://graph.threads.net/v1.0/${path}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body,
+  });
+  const data = await res.json();
+  return { ok: res.ok, status: res.status, data };
+}
+
 async function postToThreads(text) {
-  // Step 1: コンテナ作成
-  const createRes = await fetch(
-    `https://graph.threads.net/v1.0/${THREADS_USER_ID}/threads`,
+  // Step 1: コンテナ作成（公式は form-urlencoded。JSON だと unknown error になることがある）
+  const { status: createStatus, data: createData } = await threadsPost(
+    `${THREADS_USER_ID}/threads`,
     {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        media_type: "TEXT",
-        text: text,
-        topic_tag: TOPIC_TAG,
-        access_token: THREADS_ACCESS_TOKEN,
-      }),
+      media_type: "TEXT",
+      text,
+      topic_tag: TOPIC_TAG,
+      access_token: THREADS_ACCESS_TOKEN,
     }
   );
 
-  const createData = await createRes.json();
-
   if (!createData.id) {
-    throw new Error(`コンテナ作成失敗: ${JSON.stringify(createData)}`);
+    throw new Error(
+      `コンテナ作成失敗 (HTTP ${createStatus}): ${JSON.stringify(createData)}`
+    );
   }
 
   console.log(`コンテナ作成成功: ${createData.id}`);
@@ -142,22 +156,18 @@ async function postToThreads(text) {
   await new Promise((resolve) => setTimeout(resolve, 30000));
 
   // Step 3: 公開
-  const publishRes = await fetch(
-    `https://graph.threads.net/v1.0/${THREADS_USER_ID}/threads_publish`,
+  const { status: publishStatus, data: publishData } = await threadsPost(
+    `${THREADS_USER_ID}/threads_publish`,
     {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        creation_id: createData.id,
-        access_token: THREADS_ACCESS_TOKEN,
-      }),
+      creation_id: createData.id,
+      access_token: THREADS_ACCESS_TOKEN,
     }
   );
 
-  const publishData = await publishRes.json();
-
   if (!publishData.id) {
-    throw new Error(`公開失敗: ${JSON.stringify(publishData)}`);
+    throw new Error(
+      `公開失敗 (HTTP ${publishStatus}): ${JSON.stringify(publishData)}`
+    );
   }
 
   return publishData.id;
