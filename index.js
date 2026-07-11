@@ -4,34 +4,52 @@ const THREADS_ACCESS_TOKEN = process.env.THREADS_ACCESS_TOKEN;
 const THREADS_USER_ID = process.env.THREADS_USER_ID;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-// 日常トピックのリスト（毎回ランダムに選ばれる）
-const DAILY_TOPICS = [
-  "最近のアプリ開発事情・AI",
-  "最近の副業事情・副業で稼ぐ話",
-  "最近のトレード事情・FXや仮想通貨でどう稼ぐか",
-  "最近のNFTゲーム事情・Web3の未来",
-  "最近ハマっているガジェット",
-  "もし転職するなら・目指すべきIT職種",
-  "今日の晩ごはん・料理",
-  "季節の変わり目と体調",
-  "週末の過ごし方・お出かけ",
-  "掃除・片付けのタイミング",
-  "今の季節に欲しいもの",
-  "最近ハマっているドリンク・食べ物",
-  "買い物で失敗したこと・成功したこと",
-  "節約・ポイント活用の話",
-  "最近ちょっとした発見があったこと",
-];
-
-// Threads API の topic_tag（画面上は # なしの青リンクになるのが仕様）
+// Threads の公式トピックタグは1つのみ（青リンクになる）
 const TOPIC_TAG = "楽天ROOM";
 
-// 日常トピック本文のあとに毎回付ける定型文（必要ならここだけ編集）
-// #楽天ROOM は本文に書かず topic_tag のみで付ける（二重指定だと API が unknown error になることがある）
-const RAKUTEN_ROOM_FOOTER =
-  "\n\n楽天ROOMで主にファッション・インテリアなどを紹介しています。つながり大歓迎＆フォロバ100%です🙌";
+// 本文末尾に必ず付けるハッシュタグ（#楽天ROOM は topic_tag と二重にしない）
+const FIXED_HASHTAGS = ["フォロバ100%"];
 
-// 今日の日付をシードにして毎日違うトピックを選ぶ
+// 許可ジャンルのみ。その日のニュースから熱いものを選ぶ
+const GENRES = [
+  {
+    id: "fx",
+    name: "FX自動売買",
+    query: "FX 自動売買 OR EA トレーディング",
+    seedTags: ["FX", "自動売買"],
+  },
+  {
+    id: "ai",
+    name: "AI開発",
+    query: "AI開発 OR 生成AI OR ChatGPT OR LLM",
+    seedTags: ["AI", "AI開発"],
+  },
+  {
+    id: "bitradex",
+    name: "BitradeX",
+    query: "BitradeX OR BitTrade OR ビットトレード",
+    seedTags: ["BitradeX", "仮想通貨"],
+  },
+  {
+    id: "crypto",
+    name: "仮想通貨とエアドロップ",
+    query: "仮想通貨 エアドロップ OR 暗号資産 OR Bitcoin OR Ethereum",
+    seedTags: ["仮想通貨", "エアドロップ"],
+  },
+  {
+    id: "nft",
+    name: "NFTゲーム",
+    query: "NFTゲーム OR GameFi OR ブロックチェーンゲーム",
+    seedTags: ["NFT", "NFTゲーム"],
+  },
+  {
+    id: "automation",
+    name: "業務自動化",
+    query: "業務自動化 OR RPA OR ノーコード 自動化",
+    seedTags: ["業務自動化", "RPA"],
+  },
+];
+
 function getJstDateParts(date = new Date()) {
   const jst = new Date(date.getTime() + 9 * 60 * 60 * 1000);
   return {
@@ -46,7 +64,6 @@ function getDateSeed(date = new Date()) {
   return year * 10000 + (month + 1) * 100 + day;
 }
 
-// 定時実行時の投稿目標時刻（20:00 JST + 日替わり0〜15分）
 function getScheduledPostTargetUtc() {
   const { year, month, day } = getJstDateParts();
   const randomSec = getDateSeed() % 901;
@@ -59,7 +76,6 @@ async function waitUntilPostWindowIfScheduled() {
 
   const target = getScheduledPostTargetUtc();
   const waitMs = target.getTime() - Date.now();
-  // Actions を長時間占有しない（通常は最大15分程度。これ以上なら起動時刻設定ミスとみなす）
   const MAX_WAIT_MS = 20 * 60 * 1000;
 
   if (waitMs > MAX_WAIT_MS) {
@@ -76,49 +92,212 @@ async function waitUntilPostWindowIfScheduled() {
   }
 }
 
-function getTodaysTopic() {
-  const index = getDateSeed() % DAILY_TOPICS.length;
-  return DAILY_TOPICS[index];
+function decodeXmlEntities(text) {
+  return text
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-async function generatePost(topic) {
-  const client = new OpenAI({ apiKey: OPENAI_API_KEY });
+function extractTag(block, tag) {
+  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i");
+  const m = block.match(re);
+  return m ? decodeXmlEntities(m[1]) : "";
+}
 
-  const today = new Date();
-  const month = today.getMonth() + 1;
-  const day = today.getDate();
+function parseRssItems(xml, genre) {
+  const items = [];
+  const itemBlocks = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
+  for (const block of itemBlocks) {
+    const title = extractTag(block, "title");
+    const link = extractTag(block, "link");
+    const description = extractTag(block, "description");
+    const pubDateRaw = extractTag(block, "pubDate");
+    const publishedAt = pubDateRaw ? Date.parse(pubDateRaw) : NaN;
+    if (!title) continue;
+    items.push({
+      title,
+      link,
+      description: description.slice(0, 400),
+      publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0,
+      genreId: genre.id,
+      genreName: genre.name,
+      seedTags: genre.seedTags,
+    });
+  }
+  return items;
+}
+
+async function fetchGenreNews(genre) {
+  const url =
+    "https://news.google.com/rss/search?q=" +
+    encodeURIComponent(genre.query) +
+    "&hl=ja&gl=JP&ceid=JP:ja";
+
+  const res = await fetch(url, {
+    headers: { "User-Agent": "threads-autopost/1.0" },
+  });
+  if (!res.ok) {
+    throw new Error(`ニュース取得失敗 (${genre.name}): HTTP ${res.status}`);
+  }
+  const xml = await res.text();
+  return parseRssItems(xml, genre);
+}
+
+function scoreArticle(article, now = Date.now()) {
+  const ageHours = article.publishedAt
+    ? (now - article.publishedAt) / 3600000
+    : 72;
+  // 新しいほど高得点。48時間超は大きく減点
+  const freshness = Math.max(0, 48 - ageHours);
+  const heatKeywords =
+    /急騰|急落|上場|提携|規制|破綻|爆益|アップデート|リリース|承認|停止|ハッキング|エアドロ|AI|自動/i;
+  const heatBonus = heatKeywords.test(article.title + article.description) ? 12 : 0;
+  return freshness + heatBonus;
+}
+
+async function pickHottestStory() {
+  const results = await Promise.allSettled(GENRES.map((g) => fetchGenreNews(g)));
+  const articles = [];
+
+  results.forEach((result, i) => {
+    if (result.status === "fulfilled") {
+      articles.push(...result.value.slice(0, 8));
+    } else {
+      console.warn(`ジャンル取得スキップ (${GENRES[i].name}):`, result.reason?.message || result.reason);
+    }
+  });
+
+  if (articles.length === 0) {
+    throw new Error("全ジャンルでニュースを取得できませんでした");
+  }
+
+  const now = Date.now();
+  const recent = articles.filter((a) => !a.publishedAt || now - a.publishedAt < 72 * 3600000);
+  const pool = recent.length > 0 ? recent : articles;
+
+  pool.sort((a, b) => scoreArticle(b, now) - scoreArticle(a, now));
+
+  // 同点付近なら日付シードでブレを入れて、毎日まったく同じ見出しに固定しすぎない
+  const top = pool.slice(0, Math.min(5, pool.length));
+  const chosen = top[getDateSeed() % top.length];
+  return { chosen, candidates: top };
+}
+
+function sanitizeHashtag(tag) {
+  return String(tag)
+    .replace(/^#/, "")
+    .replace(/[.\s&@!?,;:＃]/g, "")
+    .trim();
+}
+
+function buildHashtagLine(extraTags) {
+  const tags = [];
+  const seen = new Set(["楽天ROOM".toLowerCase()]);
+
+  for (const raw of [...FIXED_HASHTAGS, ...extraTags]) {
+    const tag = sanitizeHashtag(raw);
+    if (!tag) continue;
+    const key = tag.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    tags.push(`#${tag}`);
+    if (tags.length >= 5) break; // 固定1 + 記事由来最大4程度
+  }
+
+  return tags.join(" ");
+}
+
+async function generatePost(story) {
+  const client = new OpenAI({ apiKey: OPENAI_API_KEY });
+  const { year, month, day } = getJstDateParts();
   const weekdays = ["日", "月", "火", "水", "木", "金", "土"];
-  const weekday = weekdays[today.getDay()];
+  const weekday = weekdays[new Date(Date.UTC(year, month, day)).getUTCDay()];
+  const monthLabel = month + 1;
 
   const response = await client.chat.completions.create({
     model: "gpt-5.4-mini",
-    max_completion_tokens: 300,
+    max_completion_tokens: 700,
+    response_format: { type: "json_object" },
     messages: [
       {
+        role: "system",
+        content:
+          "あなたはFX・仮想通貨・AI・業務自動化に詳しい実務寄りのThreads発信者。ありきたりなまとめは禁止。独自の考察と見通しを短く鋭く書く。",
+      },
+      {
         role: "user",
-        content: `あなたは楽天ROOMで日用品・ファッション・インテリアなどを紹介している主婦目線のThreadsユーザーです。
+        content: `今日は${monthLabel}月${day}日（${weekday}曜日）JSTです。
 
-今日は${month}月${day}日（${weekday}曜日）です。
+次のニュースを素材に、Threads投稿をJSONで作ってください。
 
-以下のトピックをベースに、Threads投稿文を1つ作成してください。
+【ジャンル】${story.genreName}
+【見出し】${story.title}
+【概要】${story.description || "（概要なし）"}
+【参考リンク】${story.link || "なし"}
 
-【トピック】${topic}
+【出力JSONスキーマ】
+{
+  "body": "投稿本文（ハッシュタグなし）",
+  "hashtags": ["記事内容に合うタグ2〜4個。#なし"]
+}
 
-【ルール】
-- 丁寧すぎず、フランクすぎない「丁寧寄りのカジュアル」なトーン
-- 日常のリアルな感想・共感を誘う内容にする（トピックの話だけで完結させる）
-- 楽天ROOM・商品探し・つながり募集には一切触れない（別途定型文が後から付く）
-- URLやハッシュタグは含めない（#楽天ROOM は別途付与される）
-- 100〜200文字程度
-- 絵文字を2〜4個使う
+【本文ルール】
+- 280〜420文字程度（日本語）
+- 構成: ①何が起きたか一言 → ②なぜ重要か・自分の意見 → ③今後の見通し
+- カタログ的な一般論・「〜が注目されています」だけの文は禁止
+- 断定しすぎず、リスクや前提にも1つ触れる
+- URLは書かない（リンクはThreads側で別途扱わない）
+- 楽天ROOM・フォロバ・つながり募集の話は本文に書かない
+- 絵文字は0〜2個まで（多用しない）
+- ハッシュタグは body に入れない（hashtags配列のみ）
 
-投稿文のみを出力してください。前置きや説明は不要です。`,
+【hashtagsルール】
+- ジャンルに関連する具体語を優先（例: エアドロップ, GameFi, RPA）
+- 「ニュース」「注目」「今日」など曖昧語は禁止
+- 楽天ROOM と フォロバ100% はこちらで付けるので含めない`,
       },
     ],
   });
 
-  const body = response.choices[0].message.content.trim().replace(/#\S+/g, "");
-  return body + RAKUTEN_ROOM_FOOTER;
+  let parsed;
+  try {
+    parsed = JSON.parse(response.choices[0].message.content);
+  } catch {
+    throw new Error(`投稿JSONの解析に失敗: ${response.choices[0].message.content}`);
+  }
+
+  let body = String(parsed.body || "")
+    .trim()
+    .replace(/#\S+/g, "")
+    .replace(/https?:\/\/\S+/gi, "")
+    .trim();
+
+  if (!body) {
+    throw new Error("生成本文が空です");
+  }
+
+  const extraTags = [
+    ...(Array.isArray(parsed.hashtags) ? parsed.hashtags : []),
+    ...story.seedTags,
+  ];
+  const tagLine = buildHashtagLine(extraTags);
+  const post = `${body}\n\n${tagLine}`;
+
+  // Threads上限500文字（絵文字はバイト換算されうるので余裕を見る）
+  if ([...post].length > 480) {
+    const maxBody = 480 - tagLine.length - 2;
+    body = [...body].slice(0, Math.max(120, maxBody)).join("").trim();
+    return `${body}\n\n${tagLine}`;
+  }
+
+  return post;
 }
 
 async function threadsPost(path, params) {
@@ -133,7 +312,6 @@ async function threadsPost(path, params) {
 }
 
 async function postToThreads(text) {
-  // Step 1: コンテナ作成（公式は form-urlencoded。JSON だと unknown error になることがある）
   const { status: createStatus, data: createData } = await threadsPost(
     `${THREADS_USER_ID}/threads`,
     {
@@ -152,10 +330,8 @@ async function postToThreads(text) {
 
   console.log(`コンテナ作成成功: ${createData.id}`);
 
-  // Step 2: 30秒待機（Threads APIの仕様）
   await new Promise((resolve) => setTimeout(resolve, 30000));
 
-  // Step 3: 公開
   const { status: publishStatus, data: publishData } = await threadsPost(
     `${THREADS_USER_ID}/threads_publish`,
     {
@@ -178,12 +354,16 @@ async function main() {
 
   await waitUntilPostWindowIfScheduled();
 
-  const topic = getTodaysTopic();
-  console.log(`今日のトピック: ${topic}`);
+  const { chosen, candidates } = await pickHottestStory();
+  console.log("候補トピック:");
+  for (const c of candidates) {
+    console.log(`- [${c.genreName}] ${c.title}`);
+  }
+  console.log(`採用: [${chosen.genreName}] ${chosen.title}`);
 
-  const postText = await generatePost(topic);
+  const postText = await generatePost(chosen);
   console.log(`生成された投稿文:\n${postText}`);
-  console.log(`トピックタグ: ${TOPIC_TAG}（Threads上は # なしで表示されます）`);
+  console.log(`トピックタグ: ${TOPIC_TAG}（Threads上は # なしの青リンク）`);
 
   const postId = await postToThreads(postText);
   console.log(`投稿成功！ Post ID: ${postId}`);
