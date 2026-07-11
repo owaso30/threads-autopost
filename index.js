@@ -4,11 +4,8 @@ const THREADS_ACCESS_TOKEN = process.env.THREADS_ACCESS_TOKEN;
 const THREADS_USER_ID = process.env.THREADS_USER_ID;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-// Threads の公式トピックタグは1つのみ（青リンクになる）
-const TOPIC_TAG = "楽天ROOM";
-
-// 本文末尾に必ず付けるハッシュタグ（#楽天ROOM は topic_tag と二重にしない）
-const FIXED_HASHTAGS = ["フォロバ100%"];
+// 本文末尾に必ず付けるハッシュタグ
+const FIXED_HASHTAGS = ["楽天ROOM", "フォロバ100%"];
 
 // 許可ジャンルのみ。その日のニュースから熱いものを選ぶ
 const GENRES = [
@@ -197,9 +194,17 @@ function sanitizeHashtag(tag) {
     .trim();
 }
 
-function buildHashtagLine(extraTags) {
+// Threads topic_tag: 1〜50文字、ピリオドと&は不可
+function sanitizeTopicTag(tag) {
+  const cleaned = sanitizeHashtag(tag).replace(/[.&]/g, "");
+  if (!cleaned || cleaned.length > 50) return "";
+  return cleaned;
+}
+
+function buildHashtagLine(extraTags, topicTag = "") {
   const tags = [];
-  const seen = new Set(["楽天ROOM".toLowerCase()]);
+  const seen = new Set();
+  if (topicTag) seen.add(topicTag.toLowerCase()); // 公式トピックと本文タグの二重指定を避ける
 
   for (const raw of [...FIXED_HASHTAGS, ...extraTags]) {
     const tag = sanitizeHashtag(raw);
@@ -208,10 +213,27 @@ function buildHashtagLine(extraTags) {
     if (seen.has(key)) continue;
     seen.add(key);
     tags.push(`#${tag}`);
-    if (tags.length >= 5) break; // 固定1 + 記事由来最大4程度
+    if (tags.length >= 6) break; // 固定2 + 記事由来
   }
 
   return tags.join(" ");
+}
+
+function pickTopicTag(parsed, story) {
+  const candidates = [
+    parsed.topic_tag,
+    ...(Array.isArray(parsed.hashtags) ? parsed.hashtags : []),
+    ...story.seedTags,
+    story.genreName,
+  ];
+  for (const raw of candidates) {
+    const tag = sanitizeTopicTag(raw);
+    if (!tag) continue;
+    // 固定ハッシュタグは公式トピックにしない（記事内容のタグを優先）
+    if (FIXED_HASHTAGS.some((f) => f.toLowerCase() === tag.toLowerCase())) continue;
+    return tag;
+  }
+  return sanitizeTopicTag(story.seedTags[0]) || "AI";
 }
 
 async function generatePost(story) {
@@ -223,13 +245,13 @@ async function generatePost(story) {
 
   const response = await client.chat.completions.create({
     model: "gpt-5.4-mini",
-    max_completion_tokens: 700,
+    max_completion_tokens: 900,
     response_format: { type: "json_object" },
     messages: [
       {
         role: "system",
         content:
-          "あなたはFX・仮想通貨・AI・業務自動化に詳しい実務寄りのThreads発信者。ありきたりなまとめは禁止。独自の考察と見通しを短く鋭く書く。",
+          "あなたはFX・仮想通貨・AI・業務自動化に詳しい実務寄りのThreads発信者。ありきたりなまとめは禁止。背景→考察→転換→見通しの起承転結で、読みやすく書く。",
       },
       {
         role: "user",
@@ -244,22 +266,35 @@ async function generatePost(story) {
 
 【出力JSONスキーマ】
 {
-  "body": "投稿本文（ハッシュタグなし）",
-  "hashtags": ["記事内容に合うタグ2〜4個。#なし"]
+  "body": "投稿本文（ハッシュタグなし。改行あり）",
+  "topic_tag": "記事内容を最もよく表す公式トピック1語。#なし",
+  "hashtags": ["記事内容に合う追加タグ2〜4個。#なし"]
 }
 
 【本文ルール】
-- 280〜420文字程度（日本語）
-- 構成: ①何が起きたか一言 → ②なぜ重要か・自分の意見 → ③今後の見通し
+- 360〜450文字程度（日本語。空白・改行含む）
+- 起承転結を必ず守る（各パートのあいだは空行で区切る）
+  - 起: 唐突に結論から入らない。いま何が話題か、記事の背景・前提を1〜2文で導入
+  - 承: 今回のニュースで何が起きたかを具体的に
+  - 転: 自分の意見・違和感・見落とされがちな論点（ここが核）
+  - 結: 今後の見通しと、見るべきポイントを一文で締める
+- 読みやすさのため、1文は短め。段落は4つ（起承転結）に分け、段落間は空行
 - カタログ的な一般論・「〜が注目されています」だけの文は禁止
-- 断定しすぎず、リスクや前提にも1つ触れる
-- URLは書かない（リンクはThreads側で別途扱わない）
+- 断定しすぎず、リスクや前提にも触れる
+- URLは書かない
 - 楽天ROOM・フォロバ・つながり募集の話は本文に書かない
-- 絵文字は0〜2個まで（多用しない）
-- ハッシュタグは body に入れない（hashtags配列のみ）
+- 絵文字は3〜6個。各段落にバランスよく置き、装飾過多にしない
+- ハッシュタグは body に入れない（topic_tag / hashtags 配列のみ）
+
+【topic_tagルール】
+- この投稿の主題を一言で表す語（例: エアドロップ, GameFi, 生成AI, FX自動売買）
+- 記事・ジャンルに最適化する。汎用語（ニュース, 話題, 今日）は禁止
+- 楽天ROOM や フォロバ100% は使わない
+- ピリオド(.)と&は使わない。50文字以内
 
 【hashtagsルール】
-- ジャンルに関連する具体語を優先（例: エアドロップ, GameFi, RPA）
+- topic_tag と重複しない語を選ぶ
+- ジャンルに関連する具体語を優先
 - 「ニュース」「注目」「今日」など曖昧語は禁止
 - 楽天ROOM と フォロバ100% はこちらで付けるので含めない`,
       },
@@ -277,27 +312,39 @@ async function generatePost(story) {
     .trim()
     .replace(/#\S+/g, "")
     .replace(/https?:\/\/\S+/gi, "")
+    .replace(/\n{3,}/g, "\n\n")
     .trim();
 
   if (!body) {
     throw new Error("生成本文が空です");
   }
 
+  const topicTag = pickTopicTag(parsed, story);
   const extraTags = [
     ...(Array.isArray(parsed.hashtags) ? parsed.hashtags : []),
     ...story.seedTags,
   ];
-  const tagLine = buildHashtagLine(extraTags);
-  const post = `${body}\n\n${tagLine}`;
+  const tagLine = buildHashtagLine(extraTags, topicTag);
+  let post = `${body}\n\n${tagLine}`;
 
-  // Threads上限500文字（絵文字はバイト換算されうるので余裕を見る）
-  if ([...post].length > 480) {
-    const maxBody = 480 - tagLine.length - 2;
-    body = [...body].slice(0, Math.max(120, maxBody)).join("").trim();
-    return `${body}\n\n${tagLine}`;
+  // Threads上限500。絵文字はUTF-8バイト換算されうるので余裕を見る
+  const MAX_LEN = 480;
+  if ([...post].length > MAX_LEN) {
+    const maxBody = MAX_LEN - [...tagLine].length - 2;
+    let truncated = [...body].slice(0, Math.max(160, maxBody)).join("");
+    const lastBreak = Math.max(
+      truncated.lastIndexOf("\n\n"),
+      truncated.lastIndexOf("。"),
+      truncated.lastIndexOf("！"),
+      truncated.lastIndexOf("？")
+    );
+    if (lastBreak > 120) {
+      truncated = truncated.slice(0, lastBreak + (truncated[lastBreak] === "\n" ? 0 : 1)).trim();
+    }
+    post = `${truncated}\n\n${tagLine}`;
   }
 
-  return post;
+  return { text: post, topicTag };
 }
 
 async function threadsPost(path, params) {
@@ -311,13 +358,13 @@ async function threadsPost(path, params) {
   return { ok: res.ok, status: res.status, data };
 }
 
-async function postToThreads(text) {
+async function postToThreads(text, topicTag) {
   const { status: createStatus, data: createData } = await threadsPost(
     `${THREADS_USER_ID}/threads`,
     {
       media_type: "TEXT",
       text,
-      topic_tag: TOPIC_TAG,
+      topic_tag: topicTag,
       access_token: THREADS_ACCESS_TOKEN,
     }
   );
@@ -361,11 +408,11 @@ async function main() {
   }
   console.log(`採用: [${chosen.genreName}] ${chosen.title}`);
 
-  const postText = await generatePost(chosen);
+  const { text: postText, topicTag } = await generatePost(chosen);
   console.log(`生成された投稿文:\n${postText}`);
-  console.log(`トピックタグ: ${TOPIC_TAG}（Threads上は # なしの青リンク）`);
+  console.log(`公式トピックタグ: ${topicTag}（Threads上は # なしの青リンク）`);
 
-  const postId = await postToThreads(postText);
+  const postId = await postToThreads(postText, topicTag);
   console.log(`投稿成功！ Post ID: ${postId}`);
 }
 
