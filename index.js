@@ -108,12 +108,24 @@ function extractTag(block, tag) {
   return m ? decodeXmlEntities(m[1]) : "";
 }
 
+/** Google News の description 内 <a href> から記事本体URLを取る（なければ RSS link） */
+function extractSourceUrl(block, fallbackLink = "") {
+  const descMatch = block.match(/<description[^>]*>([\s\S]*?)<\/description>/i);
+  const rawDesc = descMatch ? descMatch[1] : "";
+  const hrefMatch = rawDesc.match(/href=["'](https?:\/\/[^"']+)["']/i);
+  if (hrefMatch) {
+    return decodeXmlEntities(hrefMatch[1]);
+  }
+  return fallbackLink || "";
+}
+
 function parseRssItems(xml, genre) {
   const items = [];
   const itemBlocks = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
   for (const block of itemBlocks) {
     const title = extractTag(block, "title");
     const link = extractTag(block, "link");
+    const sourceUrl = extractSourceUrl(block, link);
     const description = extractTag(block, "description");
     const pubDateRaw = extractTag(block, "pubDate");
     const publishedAt = pubDateRaw ? Date.parse(pubDateRaw) : NaN;
@@ -121,6 +133,7 @@ function parseRssItems(xml, genre) {
     items.push({
       title,
       link,
+      sourceUrl,
       description: description.slice(0, 400),
       publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0,
       genreId: genre.id,
@@ -262,7 +275,7 @@ async function generatePost(story) {
 【ジャンル】${story.genreName}
 【見出し】${story.title}
 【概要】${story.description || "（概要なし）"}
-【参考リンク】${story.link || "なし"}
+【参考リンク】${story.sourceUrl || story.link || "なし"}
 
 【出力JSONスキーマ】
 {
@@ -272,7 +285,7 @@ async function generatePost(story) {
 }
 
 【本文ルール】
-- 400〜480文字程度（日本語。空白・改行含む。ハッシュタグは別途付けるので本文のみでこの範囲）
+- 280〜360文字程度（日本語。空白・改行含む。参照URL・ハッシュタグは別途付けるので本文のみでこの範囲）
 - 空行で区切るのは3段落のみ（4段落以上にしない）
   - 1段: 導入。唐突に結論から入らない。いま何が話題か、記事の背景・前提を軽く
   - 2段: 今回の事実＋自分の意見・違和感・見落とされがちな論点（ここが核）
@@ -280,7 +293,7 @@ async function generatePost(story) {
 - 読みやすさのため1文は短め。段落内は必要なら改行してよいが、空行は段落間の2箇所だけ
 - カタログ的な一般論・「〜が注目されています」だけの文は禁止
 - 断定しすぎず、リスクや前提にも触れる
-- URLは書かない
+- URLは本文に書かない（参照元URLはシステムがハッシュタグ直前に付ける）
 - 楽天ROOM・フォロバ・つながり募集の話は本文に書かない
 - 絵文字は3〜6個。各段落にバランスよく置き、装飾過多にしない
 - ハッシュタグは body に入れない（topic_tag / hashtags 配列のみ）
@@ -324,23 +337,32 @@ async function generatePost(story) {
     ...story.seedTags,
   ];
   const tagLine = buildHashtagLine(extraTags, topicTag);
-  let post = `${body}\n\n${tagLine}`;
+  const sourceUrl = String(story.sourceUrl || story.link || "").trim();
+  // 本文 → 参照元URL → ハッシュタグ（URLはハッシュタグ直前）
+  const joinParts = (mainBody) =>
+    sourceUrl
+      ? `${mainBody}\n\n${sourceUrl}\n\n${tagLine}`
+      : `${mainBody}\n\n${tagLine}`;
+  let post = joinParts(body);
 
-  // Threads上限500。ハッシュタグ分を残して本文を収める
+  // Threads上限500。参照URL・ハッシュタグ分を残して本文を収める
   const MAX_LEN = 500;
   if ([...post].length > MAX_LEN) {
-    const maxBody = MAX_LEN - [...tagLine].length - 2;
-    let truncated = [...body].slice(0, Math.max(160, maxBody)).join("");
+    const reserved =
+      [...tagLine].length +
+      (sourceUrl ? [...sourceUrl].length + 4 : 2); // 空行分
+    const maxBody = Math.max(0, MAX_LEN - reserved);
+    let truncated = [...body].slice(0, maxBody).join("");
     const lastBreak = Math.max(
       truncated.lastIndexOf("\n\n"),
       truncated.lastIndexOf("。"),
       truncated.lastIndexOf("！"),
       truncated.lastIndexOf("？")
     );
-    if (lastBreak > 120) {
+    if (lastBreak > 40) {
       truncated = truncated.slice(0, lastBreak + (truncated[lastBreak] === "\n" ? 0 : 1)).trim();
     }
-    post = `${truncated}\n\n${tagLine}`;
+    post = joinParts(truncated);
   }
 
   return { text: post, topicTag };
