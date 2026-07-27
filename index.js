@@ -108,15 +108,102 @@ function extractTag(block, tag) {
   return m ? decodeXmlEntities(m[1]) : "";
 }
 
-/** Google News の description 内 <a href> から記事本体URLを取る（なければ RSS link） */
-function extractSourceUrl(block, fallbackLink = "") {
-  const descMatch = block.match(/<description[^>]*>([\s\S]*?)<\/description>/i);
-  const rawDesc = descMatch ? descMatch[1] : "";
-  const hrefMatch = rawDesc.match(/href=["'](https?:\/\/[^"']+)["']/i);
-  if (hrefMatch) {
-    return decodeXmlEntities(hrefMatch[1]);
+const BROWSER_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+function isGoogleNewsArticleUrl(url) {
+  try {
+    const u = new URL(url);
+    return u.hostname === "news.google.com" && /\/articles\//.test(u.pathname);
+  } catch {
+    return false;
   }
-  return fallbackLink || "";
+}
+
+/**
+ * Google News の articles/CBMi… を掲載元の記事URLに解決する。
+ * 記事ページの signature / timestamp を取り、batchexecute で復元する。
+ */
+async function resolvePublisherUrl(url) {
+  if (!url) return "";
+  if (!isGoogleNewsArticleUrl(url)) return url;
+
+  const articleId = url.replace(/\/$/, "").split("/").pop().split("?")[0];
+  try {
+    const pageRes = await fetch(url, {
+      headers: {
+        "User-Agent": BROWSER_UA,
+        Accept: "text/html,application/xhtml+xml",
+        "Accept-Language": "ja,en;q=0.9",
+      },
+      redirect: "follow",
+    });
+    const pageText = await pageRes.text();
+    const signature = pageText.match(/data-n-a-sg="([^"]+)"/)?.[1];
+    const timestamp = pageText.match(/data-n-a-ts="([^"]+)"/)?.[1];
+    if (!signature || !timestamp) {
+      console.warn("掲載元URL解決: signature/timestamp 取得失敗");
+      return url;
+    }
+
+    const rpcInner = JSON.stringify([
+      "garturlreq",
+      [
+        ["X", "X", ["X", "X"], null, null, 1, 1, "US:en", null, 1, null, null, null, null, null, 0, 1],
+        "X",
+        "X",
+        1,
+        [1, 1, 1],
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        0,
+      ],
+      articleId,
+      Number(timestamp),
+      signature,
+    ]);
+    const fReq = JSON.stringify([[["Fbv4je", rpcInner, null, "generic"]]]);
+    const postRes = await fetch(
+      "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          Referer: "https://news.google.com/",
+          "User-Agent": BROWSER_UA,
+        },
+        body: new URLSearchParams({ "f.req": fReq }),
+      }
+    );
+
+    let text = await postRes.text();
+    if (text.startsWith(")]}'")) {
+      text = text.split("\n").slice(1).join("\n").trimStart();
+    }
+    const firstLine = text.split("\n")[0]?.trim();
+    if (/^\d+$/.test(firstLine || "")) {
+      text = text.split("\n").slice(1).join("\n");
+    }
+
+    const envelopes = JSON.parse(text);
+    for (const env of envelopes) {
+      if (Array.isArray(env) && env[0] === "wrb.fr" && env[1] === "Fbv4je") {
+        const payload = JSON.parse(env[2]);
+        if (payload?.[0] === "garturlres" && typeof payload[1] === "string") {
+          return payload[1];
+        }
+      }
+    }
+    console.warn("掲載元URL解決: batchexecute 応答にURLなし");
+    return url;
+  } catch (err) {
+    console.warn("掲載元URL解決失敗:", err.message || err);
+    return url;
+  }
 }
 
 function parseRssItems(xml, genre) {
@@ -125,7 +212,6 @@ function parseRssItems(xml, genre) {
   for (const block of itemBlocks) {
     const title = extractTag(block, "title");
     const link = extractTag(block, "link");
-    const sourceUrl = extractSourceUrl(block, link);
     const description = extractTag(block, "description");
     const pubDateRaw = extractTag(block, "pubDate");
     const publishedAt = pubDateRaw ? Date.parse(pubDateRaw) : NaN;
@@ -133,7 +219,7 @@ function parseRssItems(xml, genre) {
     items.push({
       title,
       link,
-      sourceUrl,
+      sourceUrl: link,
       description: description.slice(0, 400),
       publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0,
       genreId: genre.id,
@@ -428,6 +514,9 @@ async function main() {
     console.log(`- [${c.genreName}] ${c.title}`);
   }
   console.log(`採用: [${chosen.genreName}] ${chosen.title}`);
+
+  chosen.sourceUrl = await resolvePublisherUrl(chosen.link || chosen.sourceUrl);
+  console.log(`参照元（掲載元）: ${chosen.sourceUrl}`);
 
   const { text: postText, topicTag } = await generatePost(chosen);
   console.log(`生成された投稿文:\n${postText}`);
