@@ -9,6 +9,14 @@ function clip(text, max) {
   return chars.slice(0, max).join("").replace(/[、。\s]+$/, "");
 }
 
+function stripPartMarks(text) {
+  return String(text || "")
+    .replace(/[1-9]\/[1-9]/g, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 function fitPost(text) {
   const raw = String(text || "").trim();
   if ([...raw].length <= MAX_POST_LEN) return raw;
@@ -35,14 +43,10 @@ function punchLayout(hook) {
 }
 
 export function buildReply({ product, item, pitch }) {
-  const reason = clip(pitch || product.pitch || "", 60);
+  const reason = clip(String(pitch || product.pitch || "").replace(/※[\s\S]*/g, "").trim(), 60);
   const name = item.name || product.name;
   const shop = item.network === "amazon" ? "Amazon" : "楽天";
-  const disclosure =
-    item.network === "amazon"
-      ? "※Amazonアソシエイトとして収入を得ています。買わなくても大丈夫。"
-      : "";
-  const parts = [reason, name, item.url, "#PR #防災", disclosure, "2/2"];
+  const parts = [reason, name, item.url, "#PR #防災"];
   const body = parts.filter(Boolean).join("\n");
   return fitPost(body.includes(shop) ? body : `${shop}\n${body}`);
 }
@@ -78,7 +82,7 @@ async function generateCopy({ product, item, playbook, weekday, reuse, recentOpe
   const reuseBlock = reuse?.hook
     ? `【再投稿】過去に伸びた投稿の核は残し、言い回しだけ変える。丸コピー禁止。先頭2行は別の強いフックに作り直す。
 元の親:
-${reuse.hook}
+${stripPartMarks(reuse.hook)}
 ${reuse.productPitch ? `元のリプ理由: ${reuse.productPitch}` : ""}`
     : "";
 
@@ -114,7 +118,7 @@ ${reuseBlock}
 
 【出力JSON】
 {
-  "hook": "親投稿。先頭2行が本体。そのあと体験で着地。末尾は 1/2。リンクとハッシュタグ禁止",
+  "hook": "親投稿。先頭2行が本体。そのあと体験で着地。リンクとハッシュタグ禁止",
   "productPitch": "リプ用の1文。この実商品を推す短い理由",
   "topic_tag": "防災または非常食など1語。#なし"
 }
@@ -124,7 +128,7 @@ ${reuseBlock}
 - 先頭2行に全力。スクロールを止める。やや言い過ぎ、感情強め、具体的な不便や驚き。「備えましょう」系の優等生は禁止
 - 1行目は短く強く。2行目で引っかける。3行目以降で実商品の体験に着地
 - 他人の文面は使わない。美容・玩具そのものは書かない
-- 末尾にだけ 1/2
+- 1/2 や 2/2 は書かない
 - 曜日が自然なときだけ入れる
 - 絵文字は0〜3個
 - URL・#PRは書かない`,
@@ -145,10 +149,7 @@ ${reuseBlock}
       .replace(/#\S+/g, "")
       .trim();
 
-  let hook = fitPost(punchLayout(clean(parsed.hook)));
-  if (!/1\/2\s*$/.test(hook)) {
-    hook = fitPost(`${hook.replace(/\s*1\/2\s*$/, "")} 1/2`);
-  }
+  let hook = fitPost(stripPartMarks(punchLayout(clean(parsed.hook))));
 
   return {
     hook,

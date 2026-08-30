@@ -18,11 +18,13 @@ export async function postAffiliateThread({ force = false, now = new Date() } = 
   const thread = await generateThread({ products, playbook, ownPosts, winners, now });
 
   console.log(`親:\n${thread.hook}`);
+  if (thread.item.imageUrl) console.log(`画像: ${thread.item.imageUrl}`);
   console.log(`商品リプ (${thread.item.network}):\n${thread.reply}`);
 
   const rootId = await createAndPublish({
     text: thread.hook,
     topicTag: thread.topicTag,
+    imageUrl: thread.item.imageUrl || "",
   });
   console.log(`親投稿: ${rootId}`);
 

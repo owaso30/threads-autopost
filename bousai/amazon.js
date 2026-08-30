@@ -85,7 +85,7 @@ async function paapiSearchItems(keyword) {
     Keywords: keyword,
     SearchIndex: "All",
     ItemCount: 3,
-    Resources: ["ItemInfo.Title", "Offers.Listings.Price"],
+    Resources: ["ItemInfo.Title", "Offers.Listings.Price", "Images.Primary.Large"],
   });
   const target = "com.amazon.paapi5.v1.ProductAdvertisingAPIv1.SearchItems";
   const signed = signPaapi({ target, payload });
@@ -114,6 +114,7 @@ async function paapiSearchItems(keyword) {
     network: "amazon",
     name: item.ItemInfo?.Title?.DisplayValue || keyword,
     url: item.DetailPageURL,
+    imageUrl: item.Images?.Primary?.Large?.URL || "",
     price: item.Offers?.Listings?.[0]?.Price?.DisplayAmount || null,
     shop: "Amazon",
     concrete: true,
@@ -157,6 +158,7 @@ export async function searchAmazonItem(product) {
       price: null,
       shop: "Amazon",
       concrete: true,
+      imageUrl: "",
     };
   }
 
@@ -168,5 +170,6 @@ export async function searchAmazonItem(product) {
     price: null,
     shop: "Amazon",
     concrete: false,
+    imageUrl: "",
   };
 }

@@ -24,6 +24,22 @@ async function fetchOn(network, product) {
   return searchRakutenItem(product?.keywords?.rakuten || product?.name);
 }
 
+async function withImage(item, product) {
+  if (item?.imageUrl) return item;
+  const keyword = product?.keywords?.rakuten || product?.keywords?.amazon || product?.name || item?.name;
+  if (!rakutenConfigured() || !keyword) return item;
+  try {
+    const rakuten = await searchRakutenItem(keyword);
+    if (rakuten?.imageUrl) {
+      console.log(`商品画像: 楽天サムネを使用 (${product.id})`);
+      return { ...item, imageUrl: rakuten.imageUrl };
+    }
+  } catch (err) {
+    console.warn("商品画像の取得スキップ:", err.message || err);
+  }
+  return item;
+}
+
 export async function resolveAffiliateItem(product) {
   const preferred = pickRandomNetwork();
   if (!preferred) {
@@ -35,14 +51,14 @@ export async function resolveAffiliateItem(product) {
   const first = await fetchOn(preferred, product);
   if (first) {
     console.log(`アフィ選定 ${product.id}: ${preferred}（ランダム）`);
-    return { ...first, preferred, fallback: false, productId: product.id };
+    return withImage({ ...first, preferred, fallback: false, productId: product.id }, product);
   }
 
   const other = preferred === "amazon" ? "rakuten" : "amazon";
   const second = await fetchOn(other, product);
   if (second) {
     console.warn(`アフィ ${preferred} が空のため ${other} にフォールバック (${product.id})`);
-    return { ...second, preferred, fallback: true, productId: product.id };
+    return withImage({ ...second, preferred, fallback: true, productId: product.id }, product);
   }
 
   throw new Error(

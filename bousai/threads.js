@@ -35,18 +35,32 @@ export async function threadsPost(path, params = {}) {
   return { ok: res.ok, status: res.status, data };
 }
 
-export async function createAndPublish({ text, topicTag, replyToId }) {
+export async function createAndPublish({ text, topicTag, replyToId, imageUrl }) {
   const { userId } = credentials();
-  const payload = { media_type: "TEXT", text };
+  const payload = { text };
   if (topicTag) payload.topic_tag = topicTag;
   if (replyToId) payload.reply_to_id = replyToId;
 
-  const created = await threadsPost(`${userId}/threads`, payload);
+  if (imageUrl && !replyToId) {
+    payload.media_type = "IMAGE";
+    payload.image_url = imageUrl;
+  } else {
+    payload.media_type = "TEXT";
+  }
+
+  let created = await threadsPost(`${userId}/threads`, payload);
+  if (!created.data?.id && payload.media_type === "IMAGE") {
+    console.warn(`画像コンテナ失敗。テキストのみで再試行: ${JSON.stringify(created.data).slice(0, 200)}`);
+    delete payload.image_url;
+    payload.media_type = "TEXT";
+    created = await threadsPost(`${userId}/threads`, payload);
+  }
   if (!created.data?.id) {
     throw new Error(`コンテナ作成失敗 (HTTP ${created.status}): ${JSON.stringify(created.data)}`);
   }
 
-  await new Promise((r) => setTimeout(r, replyToId ? REPLY_WAIT_MS : PUBLISH_WAIT_MS));
+  const waitMs = payload.media_type === "IMAGE" ? Math.max(PUBLISH_WAIT_MS, 30000) : replyToId ? REPLY_WAIT_MS : PUBLISH_WAIT_MS;
+  await new Promise((r) => setTimeout(r, waitMs));
 
   const published = await threadsPost(`${userId}/threads_publish`, {
     creation_id: created.data.id,

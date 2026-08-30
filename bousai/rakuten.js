@@ -37,6 +37,19 @@ async function searchAt(endpoint, keyword, { hits = "8", sort = "-reviewCount" }
   return data;
 }
 
+function firstImageUrl(item) {
+  const lists = [item.mediumImageUrls, item.smallImageUrls, item.mediumImageUrl, item.smallImageUrl];
+  for (const entry of lists) {
+    if (typeof entry === "string" && /^https?:\/\//i.test(entry)) return entry;
+    if (Array.isArray(entry) && entry.length) {
+      const u = entry[0]?.imageUrl || entry[0]?.url || entry[0];
+      if (typeof u === "string" && /^https?:\/\//i.test(u)) return u;
+    }
+  }
+  if (typeof item.imageUrl === "string" && /^https?:\/\//i.test(item.imageUrl)) return item.imageUrl;
+  return "";
+}
+
 function mapItem(raw) {
   const first = raw?.Item || raw;
   if (!first) return null;
@@ -47,6 +60,7 @@ function mapItem(raw) {
     network: "rakuten",
     name: String(name).slice(0, 80),
     url,
+    imageUrl: firstImageUrl(first),
     price: first.itemPrice ?? first.price ?? null,
     shop: first.shopName || "",
     concrete: true,
