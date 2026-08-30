@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17924469549416378",
+      "replyIds": [
+        "18041721896814880"
+      ],
+      "postedAt": "2026-08-30T14:12:57.413Z",
+      "hook": "日曜にこれ、玄関の安心が一気に変わる。\nヘルメットって「しまいっぱなし」だと、いざという時にまず取り出せない。これなら薄く置けるから、在宅避難のときもすぐ頭にかぶれる。\nしかも2人用の防災セットだから、家族分をまとめて見直しやすい。袋がかさばりにくいのも地味に助かる。\n防災って、気合いより「すぐ使える形」にしておくのが強い。",
+      "reply": "楽天\n折りたたみヘルメット付きで、普段は薄く置けて在宅避難でもすぐ使えるのがかなりいい。\n【40%OFF】選べる 防災セット 2人用 防災 ヘルメット 付 7種類 防災リュック セット 避難セット 折りたたみヘルメット 防災バッグ 非常持ち出し袋 防\nhttps://hb.afl.rakuten.co.jp/hgc/g00ttgxo.4qw3j27b.g00ttgxo.4qw3k753/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fosamet%2Fkgrs-0011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fosamet%2Fi%2F10000098%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "折りたたみヘルメット付きで、普段は薄く置けて在宅避難でもすぐ使えるのがかなりいい。",
+      "topicTag": "防災",
+      "productId": "trend-99841f1346",
+      "productName": "折りたたみ防災ヘルメット",
+      "itemName": "【40%OFF】選べる 防災セット 2人用 防災 ヘルメット 付 7種類 防災リュック セット 避難セット 折りたたみヘルメット 防災バッグ 非常持ち出し袋 防",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ttgxo.4qw3j27b.g00ttgxo.4qw3k753/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fosamet%2Fkgrs-0011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fosamet%2Fi%2F10000098%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/osamet/cabinet/07853450/08022326/kgrs-0011_osbxx.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 防災ヘルメット",
+        "amazon": "折りたたみ 防災ヘルメット"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18122392132852166",
       "replyIds": [
         "18191607754388468"
