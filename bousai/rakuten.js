@@ -15,13 +15,13 @@ export function rakutenConfigured() {
   return Boolean(env().applicationId);
 }
 
-async function searchAt(endpoint, keyword) {
+async function searchAt(endpoint, keyword, { hits = "8", sort = "-reviewCount" } = {}) {
   const { applicationId, affiliateId, accessKey } = env();
   const params = new URLSearchParams({
     applicationId,
     keyword,
-    hits: "3",
-    sort: "-reviewCount",
+    hits: String(hits),
+    sort,
     formatVersion: "2",
   });
   if (affiliateId) params.set("affiliateId", affiliateId);
@@ -37,9 +37,8 @@ async function searchAt(endpoint, keyword) {
   return data;
 }
 
-function pickItem(data) {
-  const items = Array.isArray(data?.Items) ? data.Items : [];
-  const first = items[0]?.Item || items[0];
+function mapItem(raw) {
+  const first = raw?.Item || raw;
   if (!first) return null;
   const url = first.affiliateUrl || first.itemUrl || "";
   const name = first.itemName || first.name || "";
@@ -50,7 +49,29 @@ function pickItem(data) {
     url,
     price: first.itemPrice ?? first.price ?? null,
     shop: first.shopName || "",
+    concrete: true,
   };
+}
+
+function pickItem(data) {
+  const items = (Array.isArray(data?.Items) ? data.Items : []).map(mapItem).filter(Boolean);
+  if (!items.length) return null;
+  return items[Math.floor(Math.random() * Math.min(5, items.length))];
+}
+
+export async function searchRakutenItems(keyword, options = {}) {
+  if (!rakutenConfigured() || !keyword) return [];
+  const hits = options.hits || 8;
+  const sort = options.sort || "-reviewCount";
+  try {
+    const data = env().accessKey
+      ? await searchAt(NEW_ENDPOINT, keyword, { hits, sort })
+      : await searchAt(LEGACY_ENDPOINT, keyword, { hits, sort });
+    return (Array.isArray(data?.Items) ? data.Items : []).map(mapItem).filter(Boolean);
+  } catch (err) {
+    console.warn("楽天一覧検索失敗:", err.message || err);
+    return [];
+  }
 }
 
 export async function searchRakutenItem(keyword) {

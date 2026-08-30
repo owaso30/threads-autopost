@@ -1,6 +1,6 @@
 import { WIN_REUSE_DAYS } from "./config.js";
 import { generateThread } from "./generate.js";
-import { loadOwnPosts, loadPlaybook, loadProducts, loadWinners, saveOwnPosts } from "./store.js";
+import { loadOwnPosts, loadPlaybook, loadProducts, loadWinners, saveOwnPosts, saveWinners } from "./store.js";
 import { createAndPublish } from "./threads.js";
 import { shouldPostNow } from "./time.js";
 
@@ -14,15 +14,11 @@ export async function postAffiliateThread({ force = false, now = new Date() } = 
   }
 
   const products = await loadProducts();
-  if (!products.length) {
-    throw new Error("data/products.json が空です");
-  }
   const winners = await loadWinners();
   const thread = await generateThread({ products, playbook, ownPosts, winners, now });
 
-  console.log(`親フック:\n${thread.hook}`);
-  console.log(`1リプ:\n${thread.body}`);
-  console.log(`2リプ (${thread.item.network}):\n${thread.reply2}`);
+  console.log(`親:\n${thread.hook}`);
+  console.log(`商品リプ (${thread.item.network}):\n${thread.reply}`);
 
   const rootId = await createAndPublish({
     text: thread.hook,
@@ -30,41 +26,52 @@ export async function postAffiliateThread({ force = false, now = new Date() } = 
   });
   console.log(`親投稿: ${rootId}`);
 
-  const reply1Id = await createAndPublish({
-    text: thread.body,
+  const replyId = await createAndPublish({
+    text: thread.reply,
     replyToId: rootId,
   });
-  console.log(`1リプ: ${reply1Id}`);
-
-  const reply2Id = await createAndPublish({
-    text: thread.reply2,
-    replyToId: reply1Id,
-  });
-  console.log(`2リプ: ${reply2Id}`);
+  console.log(`商品リプ: ${replyId}`);
 
   const record = {
     id: rootId,
-    replyIds: [reply1Id, reply2Id],
+    replyIds: [replyId],
     postedAt: now.toISOString(),
     hook: thread.hook,
-    body: thread.body,
-    reply2: thread.reply2,
+    reply: thread.reply,
+    productPitch: thread.productPitch || "",
     topicTag: thread.topicTag,
     productId: thread.product.id,
     productName: thread.product.name,
+    itemName: thread.item.name,
     category: thread.product.category,
     network: thread.item.network,
     preferredNetwork: thread.item.preferred,
     fallback: Boolean(thread.item.fallback),
     affiliateUrl: thread.item.url,
+    keywords: thread.product.keywords || null,
+    trendSource: thread.product.trendSource || "",
     reuseFrom: thread.reuseFrom,
+    generation: thread.generation || 1,
     metrics: { views: 0, likes: 0, replies: 0, clicks: 0 },
     verdict: "pending",
-    reuseAfter: new Date(now.getTime() + WIN_REUSE_DAYS * 24 * 3600000).toISOString(),
   };
 
   ownPosts.unshift(record);
   await saveOwnPosts(ownPosts.slice(0, 200));
-  console.log(`投稿成功: ${rootId} / ${thread.product.id} / ${thread.item.network}`);
+
+  if (thread.reuseFrom) {
+    const nextReuse = new Date(now.getTime() + WIN_REUSE_DAYS * 24 * 3600000).toISOString();
+    const updated = winners.map((w) =>
+      w.productId === thread.product.id || w.id === thread.reuseFrom
+        ? { ...w, reuseAfter: nextReuse, generation: thread.generation || (w.generation || 1) + 1 }
+        : w
+    );
+    await saveWinners(updated);
+  }
+
+  console.log(
+    `投稿成功: ${rootId} / ${thread.product.id} / ${thread.item.network}` +
+      (thread.reuseFrom ? ` / 再投稿 gen${thread.generation}` : "")
+  );
   return { skipped: false, post: record };
 }

@@ -106,7 +106,9 @@ async function paapiSearchItems(keyword) {
   if (!res.ok) {
     throw new Error(`PA-API失敗 (${res.status}): ${JSON.stringify(data).slice(0, 300)}`);
   }
-  const item = data?.SearchResult?.Items?.[0];
+  const items = data?.SearchResult?.Items || [];
+  if (!items.length) return null;
+  const item = items[Math.floor(Math.random() * items.length)];
   if (!item?.DetailPageURL) return null;
   return {
     network: "amazon",
@@ -114,6 +116,7 @@ async function paapiSearchItems(keyword) {
     url: item.DetailPageURL,
     price: item.Offers?.Listings?.[0]?.Price?.DisplayAmount || null,
     shop: "Amazon",
+    concrete: true,
   };
 }
 
@@ -153,6 +156,7 @@ export async function searchAmazonItem(product) {
       url: amazonAsinUrl(asin),
       price: null,
       shop: "Amazon",
+      concrete: true,
     };
   }
 
@@ -163,5 +167,6 @@ export async function searchAmazonItem(product) {
     url: amazonSearchUrl(keyword),
     price: null,
     shop: "Amazon",
+    concrete: false,
   };
 }

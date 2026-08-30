@@ -91,10 +91,11 @@ Threadsのアクセストークンは60日で期限切れになります。
 
 現行の20:00ニュース投稿とは別に、`.github/workflows/bousai-pdca.yml` が「暮らしと防災」スレッドを回します。`index.js` と `autopost.yml` は変更しません。
 
-- 朝7時JST: 競合約20件＋自投稿Insightsを分析し、`data/playbook.json` を更新
-- 8:15 / 11:15 / 14:15 / 17:15 / 21:15 JST: playbookの頻度を見て1スレッド投稿（親フック → 本編リプ → 商品リプ）
+- 朝7時JST: 手集めの伸び投稿（`data/viral_observed.json`）と自投稿Insightsから `data/playbook.json` を更新
+- 8:15 / 11:15 / 14:15 / 17:15 / 21:15 JST: 実商品を先に選び、親（強いフック + `1/2`）→ リプ（リンク + `#PR` + `2/2`）を1本投稿
+- 投稿ごとにニュースと市場の動きから、防災・暮らしの画期的なグッズを選び、楽天か Amazon をランダムに1本貼る
+- 伸びた投稿は7日後に言い回しを変えて再投稿し、より伸びた型を残す
 - 19:45〜20:30 JST は投稿しない（ニュース投稿と衝突させない）
-- 商品は `data/products.json` の軸から選び、Amazon / 楽天を商品ごとに切り替え（1投稿1リンク、`#PR` 付き）
 
 手動実行:
 
@@ -104,9 +105,7 @@ npm run bousai:post     # 頻度ゲート付き投稿
 node bousai/pdca.js post --force
 ```
 
-ローカルで初回分析するときは、リポジトリ直下に `.env` を置き（`.env.example` をコピー）、GitHub Secrets と同じ `THREADS_ACCESS_TOKEN` と `THREADS_USER_ID` を入れる。無いと seed にフォールバックする。GitHub Actions 上では Secrets が自動で使われる。
-
-Metaアプリに `threads_manage_insights` / `threads_manage_replies` / `threads_keyword_search` があると、公開バズ検索と自投稿分析が精度高くなります。keyword_search が公開投稿を返せない場合は `data/viral_seed.json` を使います。
+ローカル実行はリポジトリ直下の `.env`（`.env.example` をコピー）。GitHub Actions では Secrets を使う。伸び投稿の追加は `data/viral_observed.json` に型だけ足す（文面の再投稿はしない）。
 
 ## Meta アプリ設定用の公開ページ
 

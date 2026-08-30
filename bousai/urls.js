@@ -13,6 +13,7 @@ export function classifyNetwork(url) {
       host.includes("amazon.") ||
       host.includes("amzn.to") ||
       host.includes("amzn.asia") ||
+      host.includes("amzlinks.") ||
       host.includes("a.co")
     ) {
       return "amazon";
@@ -39,27 +40,8 @@ export function classifyUrls(urls) {
   return counts;
 }
 
-export function linkPlacementOf({ rootText, replies }) {
-  const rootUrls = extractUrls(rootText);
-  if (rootUrls.length) return "body";
-
-  const replyList = Array.isArray(replies) ? replies : [];
-  for (let i = 0; i < replyList.length; i += 1) {
-    const urls = extractUrls(replyList[i]?.text || "");
-    if (urls.length) {
-      if (i === 0) return "reply1";
-      if (i === 1) return "reply2";
-      return `reply${i + 1}`;
-    }
-  }
-
-  const blob = [rootText, ...replyList.map((r) => r.text || "")].join("\n");
-  if (/プロフィール|固定|ハイライト|bio/i.test(blob) && /http|リンク|見て/i.test(blob)) {
-    return "profile";
-  }
-  return "none";
-}
-
 export function hasPrMark(text) {
-  return /#PR\b|#広告\b|#アフィリエイト\b|プロモーション|広告を含み/i.test(text || "");
+  return /#PR\b|#広告\b|#アフィリエイト\b|プロモーション|広告を含み|\[Amazon PR\]|Amazon PR|\bPR\b|アソシエイトとして収入/i.test(
+    text || ""
+  );
 }

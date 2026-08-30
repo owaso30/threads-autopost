@@ -2,7 +2,7 @@ name: Bousai Affiliate PDCA
 
 on:
   schedule:
-    # 07:00 JST = 22:00 UTC。競合収集 + 自投稿分析 + playbook更新（投稿しない）
+    # 07:00 JST = 22:00 UTC。手集め競合 + 自投稿分析 + playbook更新（投稿しない）
     - cron: "0 22 * * *"
     # 08:15 / 11:15 / 14:15 / 17:15 / 21:15 JST。20:00ニュース窓は含めない
     - cron: "15 23,2,5,8,12 * * *"

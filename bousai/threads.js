@@ -57,36 +57,6 @@ export async function createAndPublish({ text, topicTag, replyToId }) {
   return published.data.id;
 }
 
-export async function keywordSearch({ q, searchMode, searchType = "TOP", limit = 25 }) {
-  const params = {
-    q,
-    search_type: searchType,
-    media_type: "TEXT",
-    limit: String(limit),
-    fields: "id,text,media_type,permalink,timestamp,username,has_replies,is_quote_post,is_reply",
-  };
-  if (searchMode) params.search_mode = searchMode;
-  return threadsGet("keyword_search", params);
-}
-
-export async function fetchReplies(mediaId) {
-  const conversation = await threadsGet(`${mediaId}/conversation`, {
-    fields: "id,text,timestamp,username,permalink,is_reply",
-    reverse: "false",
-  });
-  if (conversation.ok && Array.isArray(conversation.data?.data)) {
-    return conversation.data.data.filter((item) => item.id !== mediaId);
-  }
-
-  const replies = await threadsGet(`${mediaId}/replies`, {
-    fields: "id,text,timestamp,username,permalink",
-  });
-  if (replies.ok && Array.isArray(replies.data?.data)) {
-    return replies.data.data;
-  }
-  return [];
-}
-
 export async function fetchMediaInsights(mediaId) {
   const { ok, status, data } = await threadsGet(`${mediaId}/insights`, {
     metric: "views,likes,replies,reposts,quotes,shares",
@@ -101,16 +71,4 @@ export async function fetchMediaInsights(mediaId) {
     if (name in metrics) metrics[name] = Number(value) || 0;
   }
   return metrics;
-}
-
-export async function fetchOwnThreads(limit = 50) {
-  const { userId } = credentials();
-  const { ok, status, data } = await threadsGet(`${userId}/threads`, {
-    fields: "id,text,timestamp,permalink,has_replies",
-    limit: String(limit),
-  });
-  if (!ok) {
-    throw new Error(`自投稿一覧失敗 (HTTP ${status}): ${JSON.stringify(data)}`);
-  }
-  return data?.data || [];
 }

@@ -1,96 +1,60 @@
 {
-  "updatedAt": "2026-08-30T09:21:27.816Z",
+  "updatedAt": "2026-08-30T13:27:07.065Z",
   "theme": "暮らしと防災",
   "viral": {
-    "sampleSize": 20,
+    "sampleSize": 21,
     "hookPatterns": [
       {
-        "text": "夜中に揺れても、懐中電灯の場所が分からなくて、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "こういう護身グッズひとつ持ってるだけで、なんか安心感すごい。1/2",
+        "likes": 3086
       },
       {
-        "text": "非常食、賞味期限切れに気づいたのが昨日で、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "スレッズ楽しい。カルディとトップバリュで5分の米粉パンパニーニ、大人版。1/2",
+        "likes": 2905
       },
       {
-        "text": "断水したら、トイレが一番先に詰むって聞いて、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "ただの可愛いつかまり立ちの練習だと思ってた。でも想像の5倍は筋トレだった。1/2",
+        "likes": 2123
       },
       {
-        "text": "保存水、2リットルを床に直置きしてたけど、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "100均から乗り換えて感動したキッチングッズ集めてみました 1/4",
+        "likes": 1332
       },
       {
-        "text": "防災セット、中身を一度も開けてなくて、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "遊びに来る友達に、え、ここ賃貸、ってびっくりされるわが家が買ってよかったグッズ。1/2",
+        "likes": 1216
       },
       {
-        "text": "金曜の夜、夫がいるうちにこれだけ確認して、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "TOTONOが便利すぎる。指定ゴミ袋が4種類ある家でも、パントリーからサッと取れて詰め替えも楽。縦置き横置きできる。1/2",
+        "likes": 1127
       },
       {
-        "text": "子どもが「地震来たらどうする」って聞いてきて、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "ダイソー行ったらコレ買って。便利グッズ、その名もだいじょうぶセット。パッと鼻水を拭いたり、ゴミ袋どこだっけを一気に解決。1/2",
+        "likes": 1069
       },
       {
-        "text": "停電した瞬間、情報が途切れるのが怖くて、",
-        "endsWithTouten": true,
-        "placement": "reply2"
+        "text": "七五三の準備前に見つけてよかった。ママ友に見せたら、かわいい、ここに決めた、と喜ばれた。入学式や授業参観にも使える。1/3",
+        "likes": 731
       }
     ],
-    "toutenRate": 0.9,
-    "prRate": 0.8,
-    "placements": {
-      "reply2": 15,
-      "none": 2,
-      "profile": 1,
-      "body": 1,
-      "reply1": 1
-    },
-    "splitRules": {
-      "cutAt": "読点",
-      "hookMaxLines": 2,
-      "linkPlacement": "reply2"
-    },
-    "affiliatePlacement": "reply2",
+    "prRate": 0.8095238095238095,
+    "affiliatePlacement": "reply1",
     "affiliateNetworks": {
-      "amazon": 9,
-      "rakuten": 8,
+      "amazon": 10656,
+      "rakuten": 11046,
       "other": 0,
       "byCategory": {
-        "electronics": {
-          "amazon": 5,
-          "rakuten": 1,
-          "other": 0
-        },
         "food": {
-          "amazon": 1,
-          "rakuten": 3,
-          "other": 0
-        },
-        "water": {
-          "amazon": 2,
-          "rakuten": 1,
-          "other": 0
-        },
-        "gear": {
-          "amazon": 1,
-          "rakuten": 0,
-          "other": 0
-        },
-        "kit": {
           "amazon": 0,
-          "rakuten": 3,
+          "rakuten": 471,
           "other": 0
         },
         "other": {
+          "amazon": 10656,
+          "rakuten": 10575,
+          "other": 0
+        },
+        "electronics": {
           "amazon": 0,
           "rakuten": 0,
           "other": 0
@@ -98,16 +62,17 @@
       }
     },
     "frequency": {
-      "postsPerDay": 2,
-      "hoursBetween": 8,
+      "postsPerDay": 3,
+      "hoursBetween": 4,
       "peakHoursJst": [
-        8,
-        12,
+        10,
+        14,
         21
       ],
-      "sampleUsers": 8
+      "sampleUsers": 21
     },
-    "source": "seed"
+    "engagementWeightSum": 18146,
+    "source": "observed"
   },
   "own": {
     "winningHooks": [],

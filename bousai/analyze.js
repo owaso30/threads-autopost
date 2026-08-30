@@ -1,12 +1,5 @@
-import { DEFAULT_FREQUENCY, DEFAULT_SPLIT, THEME, VIRAL_TARGET } from "./config.js";
-import {
-  loadOwnPosts,
-  loadPlaybook,
-  loadWinners,
-  readJson,
-  saveWinners,
-  writeJson,
-} from "./store.js";
+import { DEFAULT_FREQUENCY, THEME } from "./config.js";
+import { loadOwnPosts, loadPlaybook, readJson, writeJson } from "./store.js";
 import { toJstHour } from "./time.js";
 import { classifyNetwork } from "./urls.js";
 
@@ -77,53 +70,46 @@ function analyzeFrequency(posts) {
   };
 }
 
+function weightOf(post) {
+  return Math.max(1, Number(post.likes) || 0);
+}
+
 function analyzeViral(posts) {
-  const placements = {};
   const networks = { amazon: 0, rakuten: 0, other: 0 };
   const byCategory = {};
   const hooks = [];
-  let touten = 0;
   let pr = 0;
+  let weightSum = 0;
 
   for (const p of posts) {
-    const place = p.linkPlacement || "none";
-    placements[place] = (placements[place] || 0) + 1;
-    if (p.endsWithTouten) touten += 1;
+    const w = weightOf(p);
+    weightSum += w;
     if (p.hasPr) pr += 1;
     const cat = guessCategory(`${p.text} ${(p.replies || []).map((r) => r.text).join(" ")}`);
     if (!byCategory[cat]) byCategory[cat] = { amazon: 0, rakuten: 0, other: 0 };
     for (const url of p.urls || []) {
       const net = classifyNetwork(url);
-      networks[net] += 1;
-      byCategory[cat][net] += 1;
+      networks[net] += w;
+      byCategory[cat][net] += w;
     }
     if (p.text) {
       hooks.push({
         text: p.text.slice(0, 80),
-        endsWithTouten: Boolean(p.endsWithTouten),
-        placement: place,
+        likes: Number(p.likes) || 0,
       });
     }
   }
 
-  const topPlacement = Object.entries(placements).sort((a, b) => b[1] - a[1])[0]?.[0] || "reply2";
-  const linkPlacement = topPlacement === "none" ? DEFAULT_SPLIT.linkPlacement : topPlacement;
+  hooks.sort((a, b) => b.likes - a.likes);
 
   return {
     sampleSize: posts.length,
-    hookPatterns: hooks.filter((h) => h.endsWithTouten).slice(0, 8),
-    toutenRate: posts.length ? touten / posts.length : 0,
+    hookPatterns: hooks.slice(0, 8),
     prRate: posts.length ? pr / posts.length : 0,
-    placements,
-    splitRules: {
-      ...DEFAULT_SPLIT,
-      linkPlacement,
-      hookMaxLines: 2,
-      cutAt: touten / Math.max(1, posts.length) >= 0.3 ? "読点" : "読点",
-    },
-    affiliatePlacement: linkPlacement,
+    affiliatePlacement: "reply1",
     affiliateNetworks: { ...networks, byCategory },
     frequency: analyzeFrequency(posts),
+    engagementWeightSum: weightSum,
   };
 }
 
@@ -168,12 +154,12 @@ function analyzeOwn(ownPosts) {
 
 export async function analyzePlaybook() {
   const viralFile = await readJson("viral_posts.json", { posts: [], source: "none" });
-  const posts = (viralFile.posts || []).slice(0, VIRAL_TARGET);
+  const posts = viralFile.posts || [];
   const ownPosts = await loadOwnPosts();
   const prev = await loadPlaybook();
 
   const viral = analyzeViral(posts);
-  viral.source = viralFile.source || prev.viral?.source || "seed";
+  viral.source = viralFile.source || prev.viral?.source || "observed";
   const own = analyzeOwn(ownPosts);
 
   const playbook = {
@@ -184,13 +170,8 @@ export async function analyzePlaybook() {
   };
   await writeJson("playbook.json", playbook);
 
-  const winners = (await loadWinners()).filter((w) =>
-    ownPosts.some((p) => p.id === w.id && p.verdict === "win")
-  );
-  await saveWinners(winners);
-
   console.log(
-    `playbook 更新: 競合${viral.sampleSize}件 source=${viral.source} 頻度=${viral.frequency.postsPerDay}本/日 間隔=${viral.frequency.hoursBetween}h ピーク=${viral.frequency.peakHoursJst.join(",")}時 貼り方=${viral.affiliatePlacement}`
+    `playbook 更新: 競合${viral.sampleSize}件 source=${viral.source} 頻度=${viral.frequency.postsPerDay}本/日 間隔=${viral.frequency.hoursBetween}h ピーク=${viral.frequency.peakHoursJst.join(",")}時`
   );
   return playbook;
 }

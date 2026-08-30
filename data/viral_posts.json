@@ -1,383 +1,79 @@
 {
-  "collectedAt": "2026-08-30T09:21:27.812Z",
-  "source": "seed",
-  "count": 20,
+  "collectedAt": "2026-08-30T13:27:06.965Z",
+  "source": "observed",
+  "count": 21,
   "posts": [
     {
-      "id": "seed-01",
-      "username": "kurashi_bousai",
-      "timestamp": "2026-08-28T23:02:00.000Z",
-      "text": "夜中に揺れても、懐中電灯の場所が分からなくて、",
+      "id": "obs-maa-715",
+      "username": "maa._.715",
+      "timestamp": "2025-06-24T12:00:00.000Z",
+      "text": "赤ちゃん用の防災グッズが好評だったので、家族全員分の備えもまとめた。非常食は楽天でセットを頼んだけど、震災後は届くまで3ヶ月半かかった。1/2",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "真っ暗なまま家族の声だけ聞こえるのが一番怖い。枕元に1本置くだけで、次の行動が全然違う。寝室・玄関・袋の3箇所が最低ライン。",
+          "text": "5年保存の非常食セットはこちら。\nhttps://a.r10.to/example-food\n#PR",
           "timestamp": "",
-          "username": "kurashi_bousai"
-        },
-        {
-          "id": "",
-          "text": "充電式で両手があくやつを1本。停電でも情報が取れる。\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E6%87%87%E4%B8%AD%E9%9B%BB%E7%81%AF\n#PR #防災",
-          "timestamp": "",
-          "username": "kurashi_bousai"
+          "username": "maa._.715"
         }
       ],
       "urls": [
-        "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E6%87%87%E4%B8%AD%E9%9B%BB%E7%81%AF"
-      ],
-      "networks": {
-        "amazon": 1,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-02",
-      "username": "kurashi_bousai",
-      "timestamp": "2026-08-29T03:05:00.000Z",
-      "text": "非常食、賞味期限切れに気づいたのが昨日で、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "ローリングストックって言葉は知ってたのに、棚の奥が化石になってた。年2回、衣替えの日に期限だけ見る。食べ慣れた味を少し多めに買う方が続く。",
-          "timestamp": "",
-          "username": "kurashi_bousai"
-        },
-        {
-          "id": "",
-          "text": "5年保存のセットを家族人数×3日分から。ポイントが付くうちに入れ替え。\nhttps://hb.afl.rakuten.co.jp/hgc/example/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexample%2Ffood\n#PR #非常食",
-          "timestamp": "",
-          "username": "kurashi_bousai"
-        }
-      ],
-      "urls": [
-        "https://hb.afl.rakuten.co.jp/hgc/example/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexample%2Ffood"
+        "https://a.r10.to/example-food"
       ],
       "networks": {
         "amazon": 0,
         "rakuten": 1,
         "other": 0
       },
-      "linkPlacement": "reply2",
       "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "likes": 471
     },
     {
-      "id": "seed-03",
-      "username": "kurashi_bousai",
-      "timestamp": "2026-08-29T12:10:00.000Z",
-      "text": "断水したら、トイレが一番先に詰むって聞いて、",
+      "id": "obs-kyomutsu",
+      "username": "kyomutsu6256",
+      "timestamp": "2025-11-28T12:00:00.000Z",
+      "text": "防災用の収納ボックス、3000〜4000円のばかり見てたのに、トライアルで1300円くらいのを見つけた。小さいのも1000円以下で、日本製。",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "水より先に凝固剤を置けと言われる理由が、被災後の話を聞いてやっと分かった。臭いと衛生で避難所に行けなくなる家庭がある。",
+          "text": "Amazonだとこれ。大当たりだったかも。\nhttps://amzn.asia/d/example-box\n#PR",
           "timestamp": "",
-          "username": "kurashi_bousai"
-        },
-        {
-          "id": "",
-          "text": "簡易トイレは人数×7回分あると安心。袋と凝固剤がセットのものが扱いやすい。\nhttps://item.rakuten.co.jp/example/toilet\n#PR",
-          "timestamp": "",
-          "username": "kurashi_bousai"
+          "username": "kyomutsu6256"
         }
       ],
       "urls": [
-        "https://item.rakuten.co.jp/example/toilet"
-      ],
-      "networks": {
-        "amazon": 0,
-        "rakuten": 1,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-04",
-      "username": "stock_home",
-      "timestamp": "2026-08-27T23:12:00.000Z",
-      "text": "保存水、2リットルを床に直置きしてたけど、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "落下と期限管理が雑になる。ケースごと棚の下段。1人1日3リットル×3日が目安。開封してないペットボトルの買い置きでもいい。",
-          "timestamp": "",
-          "username": "stock_home"
-        },
-        {
-          "id": "",
-          "text": "5年保存水を箱で。重いので配送で揃える方が続く。\nhttps://www.amazon.co.jp/s?k=%E4%BF%9D%E5%AD%98%E6%B0%B4%205%E5%B9%B4\n#PR #備蓄",
-          "timestamp": "",
-          "username": "stock_home"
-        }
-      ],
-      "urls": [
-        "https://www.amazon.co.jp/s?k=%E4%BF%9D%E5%AD%98%E6%B0%B4%205%E5%B9%B4"
+        "https://amzn.asia/d/example-box"
       ],
       "networks": {
         "amazon": 1,
         "rakuten": 0,
         "other": 0
       },
-      "linkPlacement": "reply2",
       "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "likes": 295
     },
     {
-      "id": "seed-05",
-      "username": "stock_home",
-      "timestamp": "2026-08-28T11:00:00.000Z",
-      "text": "防災セット、中身を一度も開けてなくて、",
+      "id": "obs-yogurt",
+      "username": "yogurt____chan",
+      "timestamp": "2026-06-27T12:00:00.000Z",
+      "text": "ダイソー行ったらコレ買って。便利グッズ、その名もだいじょうぶセット。パッと鼻水を拭いたり、ゴミ袋どこだっけを一気に解決。1/2",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "ラジオの電池が液漏れしてた。買ったら当日、懐中電灯だけ点灯確認。ヘルメットが折りたたみなら玄関の棚に入る。",
+          "text": "詳細はリールにて 2/2",
           "timestamp": "",
-          "username": "stock_home"
-        },
-        {
-          "id": "",
-          "text": "1人用の必要最低限セット。ポイント還元で揃えて、中身は自分で足す。\nhttps://hb.afl.rakuten.co.jp/hgc/example/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexample%2Fkit\n#PR",
-          "timestamp": "",
-          "username": "stock_home"
-        }
-      ],
-      "urls": [
-        "https://hb.afl.rakuten.co.jp/hgc/example/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexample%2Fkit"
-      ],
-      "networks": {
-        "amazon": 0,
-        "rakuten": 1,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-06",
-      "username": "life_prep",
-      "timestamp": "2026-08-26T07:40:00.000Z",
-      "text": "金曜の夜、夫がいるうちにこれだけ確認して、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "避難口・充電器・薬。土曜に一緒に棚を見る約束ができると、一人で抱え込まなくていい。週末にしか動けない家庭向け。",
-          "timestamp": "",
-          "username": "life_prep"
-        },
-        {
-          "id": "",
-          "text": "まずモバイルバッテリー。連絡が切れると安否確認が全部止まる。\nhttps://www.amazon.co.jp/dp/B0EXAMPLE?tag=example-22\n#PR",
-          "timestamp": "",
-          "username": "life_prep"
-        }
-      ],
-      "urls": [
-        "https://www.amazon.co.jp/dp/B0EXAMPLE?tag=example-22"
-      ],
-      "networks": {
-        "amazon": 1,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-07",
-      "username": "life_prep",
-      "timestamp": "2026-08-27T03:08:00.000Z",
-      "text": "子どもが「地震来たらどうする」って聞いてきて、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "正解を並べるより、靴の位置と集合場所を一緒に指差した。怖い話より手順。ヘルメットは自分でかぶれる高さに。",
-          "timestamp": "",
-          "username": "life_prep"
-        },
-        {
-          "id": "",
-          "text": "折りたたみヘルメット。玄関の靴箱上に置ける。\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E3%83%98%E3%83%AB%E3%83%A1%E3%83%83%E3%83%88\n#PR",
-          "timestamp": "",
-          "username": "life_prep"
-        }
-      ],
-      "urls": [
-        "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E3%83%98%E3%83%AB%E3%83%A1%E3%83%83%E3%83%88"
-      ],
-      "networks": {
-        "amazon": 1,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-08",
-      "username": "life_prep",
-      "timestamp": "2026-08-27T12:20:00.000Z",
-      "text": "停電した瞬間、情報が途切れるのが怖くて、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "スマホの電池が20%切る前にラジオへ。手回しとソーラーがあると、電池切れの不安が一段下がる。",
-          "timestamp": "",
-          "username": "life_prep"
-        },
-        {
-          "id": "",
-          "text": "手回し充電の防災ラジオ。ライト付きを選ぶ。\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E3%83%A9%E3%82%B8%E3%82%AA%20%E6%89%8B%E5%9B%9E%E3%81%97\n#PR #防災ラジオ",
-          "timestamp": "",
-          "username": "life_prep"
-        }
-      ],
-      "urls": [
-        "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E3%83%A9%E3%82%B8%E3%82%AA%20%E6%89%8B%E5%9B%9E%E3%81%97"
-      ],
-      "networks": {
-        "amazon": 1,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-09",
-      "username": "ie_to_sonae",
-      "timestamp": "2026-08-25T01:15:00.000Z",
-      "text": "救急箱、絆創膏しか入ってなくて、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "消毒液、常備薬、包帯、体温計。夜中に病院へ行けない前提で組む。期限は年1回、誕生日に入れ替える。",
-          "timestamp": "",
-          "username": "ie_to_sonae"
-        },
-        {
-          "id": "",
-          "text": "防災用の救急セット。常備薬は自分で足す。\nhttps://item.rakuten.co.jp/example/aid\n#PR",
-          "timestamp": "",
-          "username": "ie_to_sonae"
-        }
-      ],
-      "urls": [
-        "https://item.rakuten.co.jp/example/aid"
-      ],
-      "networks": {
-        "amazon": 0,
-        "rakuten": 1,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-10",
-      "username": "ie_to_sonae",
-      "timestamp": "2026-08-25T10:50:00.000Z",
-      "text": "備蓄、完璧を目指して何も買えてなくて、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "水6本と缶詰め4つからでいい。揃わない家より、途中の家の方が強い。今日1品だけカゴに入れる。",
-          "timestamp": "",
-          "username": "ie_to_sonae"
-        },
-        {
-          "id": "",
-          "text": "まずは保存水。続きは来週でいい。\nhttps://hb.afl.rakuten.co.jp/hgc/example/\n#PR #備蓄",
-          "timestamp": "",
-          "username": "ie_to_sonae"
-        }
-      ],
-      "urls": [
-        "https://hb.afl.rakuten.co.jp/hgc/example/"
-      ],
-      "networks": {
-        "amazon": 0,
-        "rakuten": 1,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-11",
-      "username": "bousai_note",
-      "timestamp": "2026-08-24T23:30:00.000Z",
-      "text": "寝室のガラス、割れたら足の裏が終わりで、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "スリッパをベッド下。厚底じゃなくていい。夜の揺れは、まず足元。懐中電灯より先に靴、という家もある。",
-          "timestamp": "",
-          "username": "bousai_note"
+          "username": "yogurt____chan"
         }
       ],
       "urls": [],
@@ -386,292 +82,519 @@
         "rakuten": 0,
         "other": 0
       },
-      "linkPlacement": "none",
       "hasPr": false,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "likes": 1069
     },
     {
-      "id": "seed-12",
-      "username": "bousai_note",
-      "timestamp": "2026-08-25T08:40:00.000Z",
-      "text": "プロフィールに置いてる備えリスト、更新したから、\n気になる人はプロフィールの固定を見て。水・トイレ・ライトの順。",
+      "id": "obs-perfect-ouchi",
+      "username": "perfect_ouchi",
+      "timestamp": "2026-06-22T12:00:00.000Z",
+      "text": "TOTONOが便利すぎる。指定ゴミ袋が4種類ある家でも、パントリーからサッと取れて詰め替えも楽。縦置き横置きできる。1/2",
       "permalink": "",
-      "has_replies": false,
+      "has_replies": true,
       "is_reply": false,
-      "source": "seed",
-      "replies": [],
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "https://a.r10.to/example-totono\n2/2\n#PR",
+          "timestamp": "",
+          "username": "perfect_ouchi"
+        }
+      ],
+      "urls": [
+        "https://a.r10.to/example-totono"
+      ],
+      "networks": {
+        "amazon": 0,
+        "rakuten": 1,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 1127
+    },
+    {
+      "id": "obs-mochimaru",
+      "username": "mochimaru.club",
+      "timestamp": "2026-08-01T12:00:00.000Z",
+      "text": "スレッズありがとう。防災意識が高まった。災害時に水を入れる容器は、話題のイワタニを用意しようかな。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "小さい子供をかかえて被災したときが本当に恐い。南海トラフもいつか来るのかな。\n2個セット https://a.r10.to/example-iwatani-2 PR\n単体 https://a.r10.to/example-iwatani-1 PR 2/2",
+          "timestamp": "",
+          "username": "mochimaru.club"
+        }
+      ],
+      "urls": [
+        "https://a.r10.to/example-iwatani-2",
+        "https://a.r10.to/example-iwatani-1"
+      ],
+      "networks": {
+        "amazon": 0,
+        "rakuten": 2,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 654
+    },
+    {
+      "id": "obs-coco-bear",
+      "username": "coco.bear.14",
+      "timestamp": "2026-08-30T02:00:00.000Z",
+      "text": "ただの可愛いつかまり立ちの練習だと思ってた。でも想像の5倍は筋トレだった。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "Amazon ⤵️ PR\nhttps://amzn.to/example-rings\n※Amazonアソシエイトとして収入を得ています。買わなくても大丈夫。2/2",
+          "timestamp": "",
+          "username": "coco.bear.14"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-rings"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 2123
+    },
+    {
+      "id": "obs-jjo",
+      "username": "jjo.7984",
+      "timestamp": "2026-08-30T08:00:00.000Z",
+      "text": "運動不足の旦那のためにポチったんだけど、これが大正解だった。音が静かだから夜でも使える。一生懸命やってる姿見てたら、私も借りたくなってきた。1/3",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "テレビ見ながら足を動かすだけで運動できる [Amazon PR]\nhttps://www.amazon.co.jp/dp/example-stepper\n3/3",
+          "timestamp": "",
+          "username": "jjo.7984"
+        }
+      ],
+      "urls": [
+        "https://www.amazon.co.jp/dp/example-stepper"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 5
+    },
+    {
+      "id": "obs-f5rebirth",
+      "username": "f5rebirth",
+      "timestamp": "2026-08-30T01:00:00.000Z",
+      "text": "待って、これ可愛すぎて無理。赤ちゃんが恐竜に乗ってお散歩してるの見つけた。癒やし効果がすごすぎる。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "Amazon PR\nhttps://amzn.to/example-dino\n",
+          "timestamp": "",
+          "username": "f5rebirth"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-dino"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 694
+    },
+    {
+      "id": "obs-chomo",
+      "username": "chomo_no_ouchi",
+      "timestamp": "2026-08-30T01:00:00.000Z",
+      "text": "スレッズ楽しい。カルディとトップバリュで5分の米粉パンパニーニ、大人版。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "しば漬けタルタルと青紫蘇ジェノベーゼ。pr\nhttps://amzn.to/example-kaldi\nhttps://a.r10.to/example-knife",
+          "timestamp": "",
+          "username": "chomo_no_ouchi"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-kaldi",
+        "https://a.r10.to/example-knife"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 1,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 2905
+    },
+    {
+      "id": "obs-amesuki",
+      "username": "amesuki0",
+      "timestamp": "2026-08-30T06:00:00.000Z",
+      "text": "これ考えた人、天才かも。田舎の母に送ったら、近所の友達にもあげたいから追加で送って、と言われた。指にはめるだけで園芸が楽。",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "これです [PR]\nhttps://amzn.to/example-thumbknife",
+          "timestamp": "",
+          "username": "amesuki0"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-thumbknife"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 132
+    },
+    {
+      "id": "obs-ac0",
+      "username": "ac0__0ca",
+      "timestamp": "2026-08-30T05:00:00.000Z",
+      "text": "七五三の準備前に見つけてよかった。ママ友に見せたら、かわいい、ここに決めた、と喜ばれた。入学式や授業参観にも使える。1/3",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "https://a.r10.to/example-ruirue\n2/3",
+          "timestamp": "",
+          "username": "ac0__0ca"
+        }
+      ],
+      "urls": [
+        "https://a.r10.to/example-ruirue"
+      ],
+      "networks": {
+        "amazon": 0,
+        "rakuten": 1,
+        "other": 0
+      },
+      "hasPr": false,
+      "likes": 731
+    },
+    {
+      "id": "obs-promiseflowers",
+      "username": "promiseflowers4251",
+      "timestamp": "2026-08-30T10:00:00.000Z",
+      "text": "子どもがこれ見つけてから、寝る前になると自分から入っていく。普通のマットが車みたいになるのが楽しいらしくて、最近ここで寝るのがお気に入り。",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "寝る場所なのに、本人は完全に車だと思ってる。うちはこっちのデザインにしたよ。\n[Amazon PR]\nhttps://amzn.to/example-carbed",
+          "timestamp": "",
+          "username": "promiseflowers4251"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-carbed"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 678
+    },
+    {
+      "id": "obs-blue-natto",
+      "username": "blue.natto",
+      "timestamp": "2026-08-30T05:00:00.000Z",
+      "text": "育児って道具次第だわ。昼寝させるのに外出しなくていい。これに乗せたらぐっすり。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "これだわ。\nAmazon PR 🔻\nhttps://amzn.to/example-naptruck\nカートに保存 2/2",
+          "timestamp": "",
+          "username": "blue.natto"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-naptruck"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 438
+    },
+    {
+      "id": "obs-dayr-zakka",
+      "username": "dayr.ypick.zakka",
+      "timestamp": "2026-08-30T01:00:00.000Z",
+      "text": "最近リフォームした友人が教えてくれたシンク下収納。グチャグチャ詰め込みからすっかり解放された。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "スライド式で奥の物も取り出しやすくてうれしい。\n【PR】\nAmazonスマイルSale開催中\nここに載せたよ\nhttps://amzlinks.in/example-sink\n2/2",
+          "timestamp": "",
+          "username": "dayr.ypick.zakka"
+        }
+      ],
+      "urls": [
+        "https://amzlinks.in/example-sink"
+      ],
+      "networks": {
+        "amazon": 1,
+        "rakuten": 0,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 115
+    },
+    {
+      "id": "obs-niko-ie",
+      "username": "niko__ie",
+      "timestamp": "2026-08-30T00:00:00.000Z",
+      "text": "ソファ動くストレスこれで解決 1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "掃除したい時にはキャップ外してスイスイ動く\nRakuten pr\nhttps://a.r10.to/example-sofa-stopper\n2/2",
+          "timestamp": "",
+          "username": "niko__ie"
+        }
+      ],
+      "urls": [
+        "https://a.r10.to/example-sofa-stopper"
+      ],
+      "networks": {
+        "amazon": 0,
+        "rakuten": 1,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 426
+    },
+    {
+      "id": "obs-nico-mama",
+      "username": "nico_mama_select",
+      "timestamp": "2026-08-01T12:00:00.000Z",
+      "text": "被災した人の実声から選んだ、備えてよかった防災グッズ7選がよく見てもらえた。買い物ついでに買える防災も昨日まとめた。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "携帯トイレ、モバイルバッテリー、水なし口腔ケア、枕元スニーカー、養生テープと油性ペン、100均折りたたみカップ、少額現金。水や食料より先に限界が来るものから入れる。2/2",
+          "timestamp": "",
+          "username": "nico_mama_select"
+        }
+      ],
       "urls": [],
       "networks": {
         "amazon": 0,
         "rakuten": 0,
         "other": 0
       },
-      "linkPlacement": "profile",
       "hasPr": false,
-      "hookLines": 2,
-      "endsWithTouten": false
+      "likes": 266
     },
     {
-      "id": "seed-13",
-      "username": "family_stock",
-      "timestamp": "2026-08-23T02:00:00.000Z",
-      "text": "非常食を美味しくないまま置いてると、",
+      "id": "obs-kumaman",
+      "username": "kumaman_kurashi",
+      "timestamp": "2025-12-06T12:00:00.000Z",
+      "text": "遊びに来る友達に、え、ここ賃貸、ってびっくりされるわが家が買ってよかったグッズ。1/2",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "いざという時に子どもが食べない。普段のカレーを多めに買って回す方が現実的。アレルギー表示も先に見る。",
+          "text": "紹介した物はここに載せてます\nhttps://room.rakuten.co.jp/example-room\n2/2",
           "timestamp": "",
-          "username": "family_stock"
-        },
-        {
-          "id": "",
-          "text": "食べ慣れた味の5年保存セット。\nhttps://item.rakuten.co.jp/example/food2\n#PR #非常食",
-          "timestamp": "",
-          "username": "family_stock"
+          "username": "kumaman_kurashi"
         }
       ],
       "urls": [
-        "https://item.rakuten.co.jp/example/food2"
+        "https://room.rakuten.co.jp/example-room"
       ],
       "networks": {
         "amazon": 0,
         "rakuten": 1,
         "other": 0
       },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "hasPr": false,
+      "likes": 1216
     },
     {
-      "id": "seed-14",
-      "username": "family_stock",
-      "timestamp": "2026-08-23T12:05:00.000Z",
-      "text": "充電器、ケーブルが1本しかなくて、",
+      "id": "obs-ramune",
+      "username": "ramune.home",
+      "timestamp": "2026-08-29T12:00:00.000Z",
+      "text": "100均から乗り換えて感動したキッチングッズ集めてみました 1/4",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "家族4人で奪い合いになる。袋に予備ケーブル。モバイルバッテリーは満充電で眠らせない。月1で残量確認。",
+          "text": "買い換えると快適になるグッズリスト Rakuten PR\n卵のキレがいいミニボウル https://a.r10.to/example-bowl\n水切れのいいスポンジ https://a.r10.to/example-sponge\n2/4",
           "timestamp": "",
-          "username": "family_stock"
-        },
-        {
-          "id": "",
-          "text": "大容量で複数口。防災用に1台。\nhttps://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%20%E9%98%B2%E7%81%BD\n#PR",
-          "timestamp": "",
-          "username": "family_stock"
+          "username": "ramune.home"
         }
       ],
       "urls": [
-        "https://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%20%E9%98%B2%E7%81%BD"
+        "https://a.r10.to/example-bowl",
+        "https://a.r10.to/example-sponge"
+      ],
+      "networks": {
+        "amazon": 0,
+        "rakuten": 2,
+        "other": 0
+      },
+      "hasPr": true,
+      "likes": 1332
+    },
+    {
+      "id": "obs-dandy-lee",
+      "username": "dandy_lee01",
+      "timestamp": "2026-06-05T12:00:00.000Z",
+      "text": "こういう護身グッズひとつ持ってるだけで、なんか安心感すごい。1/2",
+      "permalink": "",
+      "has_replies": true,
+      "is_reply": false,
+      "source": "observed",
+      "replies": [
+        {
+          "id": "",
+          "text": "うちはもしもの時のために、娘にこれをいつも持ち歩くように言ってる。\n防犯スプレー ⤵️ PR\nhttps://amzn.to/example-spray\n※Amazonアソシエイトとして収入を得ています。\n買わなくても大丈夫。\n今タイムセールで良いのいっぱい出てるから、ついでに見てって。2/2",
+          "timestamp": "",
+          "username": "dandy_lee01"
+        }
+      ],
+      "urls": [
+        "https://amzn.to/example-spray"
       ],
       "networks": {
         "amazon": 1,
         "rakuten": 0,
         "other": 0
       },
-      "linkPlacement": "reply2",
       "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "likes": 3086
     },
     {
-      "id": "seed-15",
-      "username": "kurashi_bousai",
-      "timestamp": "2026-08-26T23:08:00.000Z",
-      "text": "地震のあと、水より先に買いに走る人がいて、",
+      "id": "obs-momomama",
+      "username": "momomama_3kids",
+      "timestamp": "2026-08-04T12:00:00.000Z",
+      "text": "防災バッグに、水なしで体を清潔にできるものは絶対入れる。本当に家族を守りたいなら、1/3",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "それが一番危ない。家に72時間分があると、外に出なくていい。情報を取ってから動く。",
+          "text": "頭から足まで水なしで清潔を保てるものを入れる。避難所では衛生が落ちると子どもが肌荒れしやすい、と元自衛官にも聞いた。2/3",
           "timestamp": "",
-          "username": "kurashi_bousai"
+          "username": "momomama_3kids"
         },
         {
           "id": "",
-          "text": "水とラジオを先に。リンクはリプに。\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E3%83%A9%E3%82%B8%E3%82%AA\n#PR",
+          "text": "防災バッグに1本。キャンプや車中泊、体調不良で入浴できないときにも使う。詰め替え2本セットはまだある。\nhttps://a.r10.to/example-fukuonsen\nPR 3/3",
           "timestamp": "",
-          "username": "kurashi_bousai"
+          "username": "momomama_3kids"
         }
       ],
       "urls": [
-        "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD%E3%83%A9%E3%82%B8%E3%82%AA"
-      ],
-      "networks": {
-        "amazon": 1,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "reply2",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-16",
-      "username": "sonaeru_days",
-      "timestamp": "2026-08-22T04:22:00.000Z",
-      "text": "防災グッズ、見た目が無骨すぎて部屋に出せなくて、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "見えない場所にしまうと、期限も存在も忘れる。箱のままリビング下。生活の一部にした家の方が続いてる。",
-          "timestamp": "",
-          "username": "sonaeru_days"
-        },
-        {
-          "id": "",
-          "text": "部屋に置ける1人用セット。\nhttps://hb.afl.rakuten.co.jp/hgc/example/kit2\n#PR #防災グッズ",
-          "timestamp": "",
-          "username": "sonaeru_days"
-        }
-      ],
-      "urls": [
-        "https://hb.afl.rakuten.co.jp/hgc/example/kit2"
+        "https://a.r10.to/example-fukuonsen"
       ],
       "networks": {
         "amazon": 0,
         "rakuten": 1,
         "other": 0
       },
-      "linkPlacement": "reply2",
       "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "likes": 198
     },
     {
-      "id": "seed-17",
-      "username": "sonaeru_days",
-      "timestamp": "2026-08-22T12:40:00.000Z",
-      "text": "雨の日に避難袋の重さを測ったら、",
+      "id": "obs-yunz",
+      "username": "yunz.aki",
+      "timestamp": "2026-08-30T08:00:00.000Z",
+      "text": "美容部員に、このエリクシールは本当にいいと言われた。化粧水と日焼け止めと下地がひとつで、忙しい朝が楽になった。買ってみたら想像以上だった。",
       "permalink": "",
       "has_replies": true,
       "is_reply": false,
-      "source": "seed",
+      "source": "observed",
       "replies": [
         {
           "id": "",
-          "text": "自分が歩けない重量だった。水は多めに家、歩く分は最小。女性や高齢者は特に、持って階段を一度降りる。",
+          "text": "汗にも強くて、今年の夏の必須にしてる。\nAmazon pr\nhttps://amzn.to/example-elixir\n2/2",
           "timestamp": "",
-          "username": "sonaeru_days"
-        }
-      ],
-      "urls": [],
-      "networks": {
-        "amazon": 0,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "none",
-      "hasPr": false,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-18",
-      "username": "stock_home",
-      "timestamp": "2026-08-29T23:18:00.000Z",
-      "text": "日曜のうちに期限切れだけ捨てて、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "空いた分だけ買い足す。完璧な棚より、空欄がない棚。来週の買い物リストに水を1行足す。",
-          "timestamp": "",
-          "username": "stock_home"
-        },
-        {
-          "id": "",
-          "text": "保存水の箱買い。配送で置き場所まで来る。\nhttps://www.amazon.co.jp/s?k=%E4%BF%9D%E5%AD%98%E6%B0%B4\n#広告",
-          "timestamp": "",
-          "username": "stock_home"
+          "username": "yunz.aki"
         }
       ],
       "urls": [
-        "https://www.amazon.co.jp/s?k=%E4%BF%9D%E5%AD%98%E6%B0%B4"
+        "https://amzn.to/example-elixir"
       ],
       "networks": {
         "amazon": 1,
         "rakuten": 0,
         "other": 0
       },
-      "linkPlacement": "reply2",
-      "hasPr": false,
-      "hookLines": 1,
-      "endsWithTouten": true
-    },
-    {
-      "id": "seed-19",
-      "username": "bousai_memo",
-      "timestamp": "2026-08-21T08:10:00.000Z",
-      "text": "https://www.amazon.co.jp/s?k=%E9%9D%9E%E5%B8%B8%E9%A3%9F このセット入れ替えた。賞味期限が見やすい箱を選んだ。#PR #非常食",
-      "permalink": "",
-      "has_replies": false,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [],
-      "urls": [
-        "https://www.amazon.co.jp/s?k=%E9%9D%9E%E5%B8%B8%E9%A3%9F"
-      ],
-      "networks": {
-        "amazon": 1,
-        "rakuten": 0,
-        "other": 0
-      },
-      "linkPlacement": "body",
       "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": false
-    },
-    {
-      "id": "seed-20",
-      "username": "bousai_memo",
-      "timestamp": "2026-08-21T12:55:00.000Z",
-      "text": "トイレの凝固剤、1リプに使い方書いたから、",
-      "permalink": "",
-      "has_replies": true,
-      "is_reply": false,
-      "source": "seed",
-      "replies": [
-        {
-          "id": "",
-          "text": "便器に袋→用を足す→凝固剤。水は流さない。臭い袋は二重。人数分がないと初日で終わる。\nhttps://item.rakuten.co.jp/example/toilet2\n#PR",
-          "timestamp": "",
-          "username": "bousai_memo"
-        }
-      ],
-      "urls": [
-        "https://item.rakuten.co.jp/example/toilet2"
-      ],
-      "networks": {
-        "amazon": 0,
-        "rakuten": 1,
-        "other": 0
-      },
-      "linkPlacement": "reply1",
-      "hasPr": true,
-      "hookLines": 1,
-      "endsWithTouten": true
+      "likes": 185
     }
   ]
 }

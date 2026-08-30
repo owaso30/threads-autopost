@@ -49,9 +49,9 @@ const force = process.argv.includes("--force");
 await loadEnv();
 console.log(`=== 暮らしと防災 PDCA: ${command} ===`);
 if (process.env.THREADS_ACCESS_TOKEN && process.env.THREADS_USER_ID) {
-  console.log("Threadsトークン: 読み込み済み（keyword_search を試行）");
+  console.log("Threadsトークン: 読み込み済み");
 } else {
-  console.log("Threadsトークン: 未設定（.env または環境変数が必要。無いと seed にフォールバック）");
+  console.log("Threadsトークン: 未設定（投稿・Insights には .env または Secrets が必要）");
 }
 
 run(command, { force })
