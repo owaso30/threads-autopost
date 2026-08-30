@@ -1,3 +1,37 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": "17884883973654611",
+      "replyIds": [
+        "18146270023557184"
+      ],
+      "postedAt": "2026-08-30T13:44:38.122Z",
+      "hook": "日曜にこれ、家にあるだけでかなり強い。\n停電しても「スマホどこで充電する？」が消えるの、想像以上に落ち着く。\nポータブル蓄電池があると、在宅避難の電源を省スペースで確保できるのが大きい。延長コードを探して右往左往しなくていいし、置き場所もとらない。暮らし用の安心って、こういう“出しっぱなしにできる備え”がいちばん効く気がする。1/2",
+      "reply": "在宅避難のとき、スマホや照明の電源を省スペースで確保しやすいのがポータブル蓄電池の強みです。\nポータブル蓄電池\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E8%93%84%E9%9B%BB%E6%B1%A0+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB&tag=growfolio-22\n#PR #防災\n※Amazonアソシエイトとして収入を得ています。買わなくても大丈夫。\n2/2",
+      "productPitch": "在宅避難のとき、スマホや照明の電源を省スペースで確保しやすいのがポータブル蓄電池の強みです。",
+      "topicTag": "防災",
+      "productId": "trend-ef66aca3a8",
+      "productName": "ポータブル蓄電池",
+      "itemName": "ポータブル蓄電池",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E8%93%84%E9%9B%BB%E6%B1%A0+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB&tag=growfolio-22",
+      "keywords": {
+        "rakuten": "ポータブル蓄電池 ソーラーパネル",
+        "amazon": "ポータブル蓄電池 ソーラーパネル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    }
+  ]
 }
