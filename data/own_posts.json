@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "18122392132852166",
+      "replyIds": [
+        "18191607754388468"
+      ],
+      "postedAt": "2026-08-30T14:01:30.099Z",
+      "hook": "日曜にこれ、家にあるだけでかなり強い。\n停電って「暗い」より先に、スマホの残量がじわじわ減るのが地味に怖い。折りたたみソーラーパネルがあると、在宅避難の電源不安を日常の延長で少しずつ埋められる。\nベランダや窓際に出して、晴れた日に充電しておく。使わない日は畳んでしまえるから、非常用だけで終わらないのがいい。暮らしに置きやすい備えでした☀️",
+      "reply": "Amazon\n折りたたみソーラーパネルは、停電時のスマホ充電を家で少しずつ補えるので在宅避難の不安を減らしやすいです。\n折りたたみソーラーパネル\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "折りたたみソーラーパネルは、停電時のスマホ充電を家で少しずつ補えるので在宅避難の不安を減らしやすいです。",
+      "topicTag": "防災",
+      "productId": "trend-1fa8760a86",
+      "productName": "折りたたみソーラーパネル",
+      "itemName": "折りたたみソーラーパネル",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "keywords": {
+        "rakuten": "折りたたみ ソーラーパネル 防災",
+        "amazon": "折りたたみ ソーラーパネル 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17884883973654611",
       "replyIds": [
         "18146270023557184"
