@@ -20,4 +20,8 @@ export const THREADS_API = "https://graph.threads.net/v1.0";
 export const PUBLISH_WAIT_MS = 20000;
 export const REPLY_WAIT_MS = 15000;
 
+/** 楽天 Developers の Allowed websites。GitHub Actions からの検索に Referer が必須 */
+export const RAKUTEN_REFERER =
+  process.env.RAKUTEN_REFERER || "https://growfolio-note.com/";
+
 export const MAX_POST_LEN = 500;

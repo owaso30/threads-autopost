@@ -18,7 +18,11 @@ export async function postAffiliateThread({ force = false, now = new Date() } = 
   const thread = await generateThread({ products, playbook, ownPosts, winners, now });
 
   console.log(`親:\n${thread.hook}`);
-  if (thread.item.imageUrl) console.log(`画像: ${thread.item.imageUrl}`);
+  if (thread.item.imageUrl) {
+    console.log(`画像: ${thread.item.imageUrl}`);
+  } else {
+    console.warn("商品画像なし。親はテキストのみになります");
+  }
   console.log(`商品リプ (${thread.item.network}):\n${thread.reply}`);
 
   const rootId = await createAndPublish({
@@ -50,6 +54,7 @@ export async function postAffiliateThread({ force = false, now = new Date() } = 
     preferredNetwork: thread.item.preferred,
     fallback: Boolean(thread.item.fallback),
     affiliateUrl: thread.item.url,
+    imageUrl: thread.item.imageUrl || "",
     keywords: thread.product.keywords || null,
     trendSource: thread.product.trendSource || "",
     reuseFrom: thread.reuseFrom,

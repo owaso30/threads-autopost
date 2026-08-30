@@ -31,9 +31,10 @@ async function withImage(item, product) {
   try {
     const rakuten = await searchRakutenItem(keyword);
     if (rakuten?.imageUrl) {
-      console.log(`商品画像: 楽天サムネを使用 (${product.id})`);
+      console.log(`商品画像: 楽天サムネを使用 (${rakuten.imageUrl})`);
       return { ...item, imageUrl: rakuten.imageUrl };
     }
+    console.warn(`商品画像: 楽天にもサムネがありません (${keyword})`);
   } catch (err) {
     console.warn("商品画像の取得スキップ:", err.message || err);
   }
