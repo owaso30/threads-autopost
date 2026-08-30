@@ -1,7 +1,13 @@
 import { DEFAULT_FREQUENCY, NEWS_WINDOW } from "./config.js";
 
+function toDate(value = new Date()) {
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) return new Date();
+  return date;
+}
+
 export function getJstParts(date = new Date()) {
-  const jst = new Date(date.getTime() + 9 * 60 * 60 * 1000);
+  const jst = new Date(toDate(date).getTime() + 9 * 60 * 60 * 1000);
   return {
     year: jst.getUTCFullYear(),
     month: jst.getUTCMonth(),
