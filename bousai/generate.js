@@ -42,23 +42,32 @@ function punchLayout(hook) {
   return one;
 }
 
-export function buildReply({ product, item, pitch }) {
-  const reason = clip(String(pitch || product.pitch || "").replace(/※[\s\S]*/g, "").trim(), 60);
-  const name = item.name || product.name;
+export function buildReply({ item, pitch }) {
   const shop = item.network === "amazon" ? "Amazon" : "楽天";
-  const parts = [reason, name, item.url, "#PR #防災"];
-  const body = parts.filter(Boolean).join("\n");
-  return fitPost(body.includes(shop) ? body : `${shop}\n${body}`);
+  const footer = `${shop} ⤵️\n${item.url}\n#PR #防災`;
+  const budget = Math.max(80, MAX_POST_LEN - [...footer].length - 1);
+  const review = clip(
+    stripPartMarks(
+      String(pitch || "")
+        .replace(/※[\s\S]*/g, "")
+        .replace(/https?:\/\/\S+/gi, "")
+        .replace(/#\S+/g, "")
+        .trim()
+    ),
+    budget
+  );
+  return `${review}\n${footer}`;
 }
 
 function itemBrief(item, product) {
   const price = item?.price != null ? String(item.price) : "";
   return [
+    `短い呼び（文面に出すならこれだけ）: ${product.name}`,
     `店: ${item?.network === "amazon" ? "Amazon" : "楽天"}`,
-    `商品名: ${item?.name || product.name}`,
-    price ? `価格: ${price}` : "",
+    `店の商品名（中身を想像する用。スペック・正式名称のコピペ禁止）: ${item?.name || product.name}`,
+    price ? `価格の目安: ${price}` : "",
     item?.shop ? `ショップ: ${item.shop}` : "",
-    `軸: ${product.name} / ${product.pitch}${product.trendSource ? "（今のトレンドから選定）" : ""}`,
+    `企画メモ（読み上げない）: ${product.pitch || ""}${product.trendSource ? " / 今のトレンドから選定" : ""}`,
   ]
     .filter(Boolean)
     .join("\n");
@@ -80,32 +89,32 @@ async function generateCopy({ product, item, playbook, weekday, reuse, recentOpe
     .join("\n");
 
   const reuseBlock = reuse?.hook
-    ? `【再投稿】過去に伸びた投稿の核は残し、言い回しだけ変える。丸コピー禁止。先頭2行は別の強いフックに作り直す。
+    ? `【再投稿】核だけ残し、言い回しは全部変える。丸コピー禁止。先頭2行は別の「買いたくなる」フックに作り直す。リプも別の体験談にする。
 元の親:
 ${stripPartMarks(reuse.hook)}
-${reuse.productPitch ? `元のリプ理由: ${reuse.productPitch}` : ""}`
+${reuse.productPitch ? `元のリプ: ${reuse.productPitch}` : ""}`
     : "";
 
   const avoid = (recentOpenings || []).filter(Boolean).slice(0, 5).join("\n") || "（なし）";
 
   const response = await client.chat.completions.create({
     model: "gpt-5.4-mini",
-    max_completion_tokens: 1000,
+    max_completion_tokens: 1400,
     response_format: { type: "json_object" },
     messages: [
       {
         role: "system",
         content:
-          "あなたは暮らしと防災のThreads発信者。実在する1商品ありきで書く。丸コピー禁止。フックは少し言い過ぎで目が止まる。恐怖の煽りすぎと医療断言はしない。",
+          "あなたは暮らしと防災のThreadsで、実在する1商品を欲しくさせて売っている発信者。口調は友達に「これ買い」と送る感じ。カタログ説明・スペック読み上げ・優等生の備え解説は禁止。フックは言い過ぎでスクロールを止める。恐怖の煽りすぎと医療断言はしない。",
       },
       {
         role: "user",
-        content: `今日は${weekday}曜日です。テーマは「${THEME}」。
+        content: `今日は${weekday}曜日です。テーマは「${THEME}」。目的はクリックと購入意欲。啓発ではない。
 
-【この投稿の実商品（これありきで書く。抽象的な防災一般論は禁止）】
+【この投稿の実商品（体験の種。掲載文は写さない）】
 ${itemBrief(item, product)}
 
-【競合で効いているフックの型（文面は使わない。強さだけ借りる）】
+【競合で効いているフックの型（文面は使わない。強さ・口調だけ借りる）】
 ${viralHooks || "（なし）"}
 
 【自分の勝ちフック】
@@ -118,18 +127,27 @@ ${reuseBlock}
 
 【出力JSON】
 {
-  "hook": "親投稿。先頭2行が本体。そのあと体験で着地。リンクとハッシュタグ禁止",
-  "productPitch": "リプ用の1文。この実商品を推す短い理由",
-  "topic_tag": "防災または非常食など1語。#なし"
+  "hook": "親投稿。1行目がキャッチ。2行目で欲しくする。3行目以降は短い体験。リンクとハッシュタグ禁止",
+  "productPitch": "リプ本文。使い勝手・見た目・置き心地の感想を3〜6文。購入先の説明文は禁止",
+  "topic_tag": "防災または暮らしなど1語。#なし"
 }
 
-【ルール】
-- 商品ありき。上の商品名の特徴・用途に寄せる。カタログの軸を棒読みしない
-- 先頭2行に全力。スクロールを止める。やや言い過ぎ、感情強め、具体的な不便や驚き。「備えましょう」系の優等生は禁止
-- 1行目は短く強く。2行目で引っかける。3行目以降で実商品の体験に着地
+【親（hook）】
+- 1行目は12〜28字。命令・断言・意外性。「これ買って」「家の空気変わった」「想像の何倍」系。優等生の「備えましょう」禁止
+- 2行目で購買スイッチ。見た目、出しやすさ、場所を取らない、生活が楽、という瞬間
+- 3〜5行で体験に着地。防災教科書・在宅避難の説明口調は弱める。日常の気持ちよさから自然に防災へ
+- 商品の正式名称・ワット数・容量・セット内容は書かない
+
+【リプ（productPitch）】
+- 購入ページの説明の言い換えは禁止。スペック・「〜できます」「〜に最適です」禁止
+- 実体験・感想だけ。触った感じ、見た目、出し入れ、置き場所、毎日使いたくなる理由を並べる
+- 「友達に見せたら」「出しっぱなしにできる」「100均から乗り換えた」など、欲しくなる主観
+- リンク・店名・ハッシュタグ・商品の長文タイトルは書かない（それ以外の場所で付ける）
+
+【共通】
 - 他人の文面は使わない。美容・玩具そのものは書かない
 - 1/2 や 2/2 は書かない
-- 曜日が自然なときだけ入れる
+- 曜日は自然なときだけ
 - 絵文字は0〜3個
 - URL・#PRは書かない`,
       },
@@ -150,10 +168,16 @@ ${reuseBlock}
       .trim();
 
   let hook = fitPost(stripPartMarks(punchLayout(clean(parsed.hook))));
+  const productPitch = clip(
+    stripPartMarks(clean(parsed.productPitch)).replace(/[、。\s]+$/g, ""),
+    320
+  );
 
   return {
     hook,
-    productPitch: String(parsed.productPitch || product.pitch || "").trim(),
+    productPitch:
+      productPitch ||
+      `家に置いてみたら、見た目と出しやすさで毎日使う側に回った。${product.name}、想像より暮らしに馴染む。`,
     topicTag: String(parsed.topic_tag || "防災").replace(/[.#&\s]/g, "").slice(0, 50) || "防災",
   };
 }
@@ -175,7 +199,6 @@ export async function generateThread({ products, playbook, ownPosts, winners, no
     recentOpenings,
   });
   const reply = buildReply({
-    product,
     item,
     pitch: copy.productPitch,
   });
