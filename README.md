@@ -107,3 +107,14 @@ node bousai/pdca.js post --force
 ローカルで初回分析するときは、リポジトリ直下に `.env` を置き（`.env.example` をコピー）、GitHub Secrets と同じ `THREADS_ACCESS_TOKEN` と `THREADS_USER_ID` を入れる。無いと seed にフォールバックする。GitHub Actions 上では Secrets が自動で使われる。
 
 Metaアプリに `threads_manage_insights` / `threads_manage_replies` / `threads_keyword_search` があると、公開バズ検索と自投稿分析が精度高くなります。keyword_search が公開投稿を返せない場合は `data/viral_seed.json` を使います。
+
+## Meta アプリ設定用の公開ページ
+
+GitHub Pages（`docs/`）にポリシーを置いています。Meta の **アプリ設定 → 基本設定** には次を貼ります。
+
+| 欄 | URL |
+|---|---|
+| プライバシーポリシーのURL | https://owaso30.github.io/threads-autopost/privacy.html |
+| データの削除手順URL | https://owaso30.github.io/threads-autopost/deletion.html |
+| 利用規約のURL | https://owaso30.github.io/threads-autopost/terms.html |
+| アプリドメイン | `owaso30.github.io` |
