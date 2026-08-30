@@ -5,7 +5,13 @@
   "description": "Threads auto post bot for Rakuten ROOM",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "bousai": "node bousai/pdca.js",
+    "bousai:collect": "node bousai/pdca.js collect",
+    "bousai:analyze": "node bousai/pdca.js analyze",
+    "bousai:learn": "node bousai/pdca.js learn",
+    "bousai:post": "node bousai/pdca.js post",
+    "bousai:insights": "node bousai/pdca.js insights"
   },
   "dependencies": {
     "openai": "^4.52.0",

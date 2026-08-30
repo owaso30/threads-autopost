@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "emergency-food",
+      "name": "非常食セット",
+      "category": "food",
+      "network": "rakuten",
+      "keywords": {
+        "rakuten": "非常食 セット 5年保存",
+        "amazon": "非常食 セット 5年保存"
+      },
+      "asin": "",
+      "pitch": "賞味期限が長く、家族分をまとめて置ける"
+    },
+    {
+      "id": "stored-water",
+      "name": "保存水",
+      "category": "water",
+      "network": "auto",
+      "keywords": {
+        "rakuten": "保存水 5年 2L",
+        "amazon": "保存水 5年 2リットル"
+      },
+      "asin": "",
+      "pitch": "水道が止まった最初の72時間を支える"
+    },
+    {
+      "id": "disaster-radio",
+      "name": "防災ラジオ",
+      "category": "electronics",
+      "network": "amazon",
+      "keywords": {
+        "rakuten": "防災ラジオ 手回し 充電",
+        "amazon": "防災ラジオ 手回し充電 LED"
+      },
+      "asin": "",
+      "pitch": "停電時に情報とライトと充電を兼ねる"
+    },
+    {
+      "id": "helmet",
+      "name": "防災ヘルメット",
+      "category": "gear",
+      "network": "auto",
+      "keywords": {
+        "rakuten": "防災ヘルメット 折りたたみ",
+        "amazon": "防災ヘルメット 折りたたみ"
+      },
+      "asin": "",
+      "pitch": "落下物から頭を守る、置き場所を取らない"
+    },
+    {
+      "id": "portable-toilet",
+      "name": "簡易トイレ",
+      "category": "kit",
+      "network": "rakuten",
+      "keywords": {
+        "rakuten": "簡易トイレ 防災 凝固剤",
+        "amazon": "簡易トイレ 防災 凝固剤 セット"
+      },
+      "asin": "",
+      "pitch": "断水時に一番困る問題を先に潰せる"
+    },
+    {
+      "id": "flashlight",
+      "name": "懐中電灯",
+      "category": "electronics",
+      "network": "amazon",
+      "keywords": {
+        "rakuten": "防災 懐中電灯 充電式",
+        "amazon": "LED 懐中電灯 充電式 防災"
+      },
+      "asin": "",
+      "pitch": "暗い避難経路で両手が使える明るさ"
+    },
+    {
+      "id": "first-aid",
+      "name": "救急セット",
+      "category": "kit",
+      "network": "auto",
+      "keywords": {
+        "rakuten": "救急セット 防災",
+        "amazon": "救急箱 防災 ファーストエイド"
+      },
+      "asin": "",
+      "pitch": "小さな怪我で病院に行けない夜に効く"
+    },
+    {
+      "id": "battery",
+      "name": "充電池・モバイルバッテリー",
+      "category": "electronics",
+      "network": "amazon",
+      "keywords": {
+        "rakuten": "防災 モバイルバッテリー 大容量",
+        "amazon": "モバイルバッテリー 大容量 防災"
+      },
+      "asin": "",
+      "pitch": "連絡手段が切れる前に電源を確保する"
+    },
+    {
+      "id": "disaster-kit",
+      "name": "防災セット",
+      "category": "kit",
+      "network": "rakuten",
+      "keywords": {
+        "rakuten": "防災セット 1人用 必要なもの",
+        "amazon": "防災セット 1人用"
+      },
+      "asin": "",
+      "pitch": "バラバラ買いより先に一式そろえる"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+name: Bousai Affiliate PDCA
+
+on:
+  schedule:
+    # 07:00 JST = 22:00 UTC。競合収集 + 自投稿分析 + playbook更新（投稿しない）
+    - cron: "0 22 * * *"
+    # 08:15 / 11:15 / 14:15 / 17:15 / 21:15 JST。20:00ニュース窓は含めない
+    - cron: "15 23,2,5,8,12 * * *"
+  workflow_dispatch:
+    inputs:
+      command:
+        description: PDCA command
+        type: choice
+        options: [learn, post, cycle, collect, analyze, insights]
+        default: learn
+      force:
+        description: Ignore frequency / peak / news-window gate
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bousai-pdca
+  cancel-in-progress: false
+
+jobs:
+  pdca:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Resolve command
+        id: cmd
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "command=${{ inputs.command }}" >> "$GITHUB_OUTPUT"
+            echo "force=${{ inputs.force }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then
+            echo "command=learn" >> "$GITHUB_OUTPUT"
+            echo "force=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "command=post" >> "$GITHUB_OUTPUT"
+            echo "force=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run PDCA
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RAKUTEN_APPLICATION_ID: ${{ secrets.RAKUTEN_APPLICATION_ID }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
+          AMAZON_PAAPI_ACCESS_KEY: ${{ secrets.AMAZON_PAAPI_ACCESS_KEY }}
+          AMAZON_PAAPI_SECRET_KEY: ${{ secrets.AMAZON_PAAPI_SECRET_KEY }}
+        run: |
+          EXTRA=""
+          if [ "${{ steps.cmd.outputs.force }}" = "true" ]; then
+            EXTRA="--force"
+          fi
+          node bousai/pdca.js "${{ steps.cmd.outputs.command }}" $EXTRA
+
+      - name: Commit PDCA data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no data changes"
+            exit 0
+          fi
+          git commit -m "chore: update bousai PDCA data"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push

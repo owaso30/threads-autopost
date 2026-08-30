@@ -1,0 +1,121 @@
+{
+  "updatedAt": "2026-08-30T09:14:16.197Z",
+  "theme": "暮らしと防災",
+  "viral": {
+    "sampleSize": 20,
+    "hookPatterns": [
+      {
+        "text": "夜中に揺れても、懐中電灯の場所が分からなくて、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "非常食、賞味期限切れに気づいたのが昨日で、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "断水したら、トイレが一番先に詰むって聞いて、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "保存水、2リットルを床に直置きしてたけど、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "防災セット、中身を一度も開けてなくて、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "金曜の夜、夫がいるうちにこれだけ確認して、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "子どもが「地震来たらどうする」って聞いてきて、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      },
+      {
+        "text": "停電した瞬間、情報が途切れるのが怖くて、",
+        "endsWithTouten": true,
+        "placement": "reply2"
+      }
+    ],
+    "toutenRate": 0.9,
+    "prRate": 0.8,
+    "placements": {
+      "reply2": 15,
+      "none": 2,
+      "profile": 1,
+      "body": 1,
+      "reply1": 1
+    },
+    "splitRules": {
+      "cutAt": "読点",
+      "hookMaxLines": 2,
+      "linkPlacement": "reply2"
+    },
+    "affiliatePlacement": "reply2",
+    "affiliateNetworks": {
+      "amazon": 9,
+      "rakuten": 8,
+      "other": 0,
+      "byCategory": {
+        "electronics": {
+          "amazon": 5,
+          "rakuten": 1,
+          "other": 0
+        },
+        "food": {
+          "amazon": 1,
+          "rakuten": 3,
+          "other": 0
+        },
+        "water": {
+          "amazon": 2,
+          "rakuten": 1,
+          "other": 0
+        },
+        "gear": {
+          "amazon": 1,
+          "rakuten": 0,
+          "other": 0
+        },
+        "kit": {
+          "amazon": 0,
+          "rakuten": 3,
+          "other": 0
+        },
+        "other": {
+          "amazon": 0,
+          "rakuten": 0,
+          "other": 0
+        }
+      }
+    },
+    "frequency": {
+      "postsPerDay": 2,
+      "hoursBetween": 8,
+      "peakHoursJst": [
+        8,
+        12,
+        21
+      ],
+      "sampleUsers": 8
+    },
+    "source": "seed"
+  },
+  "own": {
+    "winningHooks": [],
+    "winningProducts": [],
+    "networkClicks": {
+      "amazon": 0,
+      "rakuten": 0,
+      "byCategory": {}
+    }
+  }
+}

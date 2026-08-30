@@ -51,6 +51,12 @@ GitHubリポジトリの Settings → Secrets and variables → Actions → New 
 | `THREADS_ACCESS_TOKEN` | Threadsのアクセストークン |
 | `THREADS_USER_ID` | 上で取得したid |
 | `OPENAI_API_KEY` | OpenAIのAPIキー |
+| `RAKUTEN_APPLICATION_ID` | 楽天APIの applicationId（防災アフィリ用） |
+| `RAKUTEN_AFFILIATE_ID` | 楽天アフィリエイトID |
+| `RAKUTEN_ACCESS_KEY` | 楽天APIの accessKey（2026年仕様。任意） |
+| `AMAZON_ASSOCIATE_TAG` | Amazonアソシエイトタグ |
+| `AMAZON_PAAPI_ACCESS_KEY` | PA-API用（任意。無いときは検索URL＋タグ） |
+| `AMAZON_PAAPI_SECRET_KEY` | PA-API用（任意） |
 
 ### 4. 動作確認
 GitHubリポジトリの **Actions** タブ → 左の **Threads Auto Post** → **Run workflow** で手動実行します。  
@@ -80,3 +86,24 @@ Threadsのアクセストークンは60日で期限切れになります。
 期限前にMeta Developer Portalで新しいトークンを生成し、GitHub Secretsの `THREADS_ACCESS_TOKEN` を更新してください。
 
 期限切れ後はリフレッシュ不可です。認可し直して短期トークンを取得し、長期トークンへ交換してから Secrets を更新してください。
+
+## 暮らしと防災アフィリ（PDCA）
+
+現行の20:00ニュース投稿とは別に、`.github/workflows/bousai-pdca.yml` が「暮らしと防災」スレッドを回します。`index.js` と `autopost.yml` は変更しません。
+
+- 朝7時JST: 競合約20件＋自投稿Insightsを分析し、`data/playbook.json` を更新
+- 8:15 / 11:15 / 14:15 / 17:15 / 21:15 JST: playbookの頻度を見て1スレッド投稿（親フック → 本編リプ → 商品リプ）
+- 19:45〜20:30 JST は投稿しない（ニュース投稿と衝突させない）
+- 商品は `data/products.json` の軸から選び、Amazon / 楽天を商品ごとに切り替え（1投稿1リンク、`#PR` 付き）
+
+手動実行:
+
+```bash
+npm run bousai:learn    # 収集＋分析
+npm run bousai:post     # 頻度ゲート付き投稿
+node bousai/pdca.js post --force
+```
+
+ローカルで初回分析するときは、リポジトリ直下に `.env` を置き（`.env.example` をコピー）、GitHub Secrets と同じ `THREADS_ACCESS_TOKEN` と `THREADS_USER_ID` を入れる。無いと seed にフォールバックする。GitHub Actions 上では Secrets が自動で使われる。
+
+Metaアプリに `threads_manage_insights` / `threads_manage_replies` / `threads_keyword_search` があると、公開バズ検索と自投稿分析が精度高くなります。keyword_search が公開投稿を返せない場合は `data/viral_seed.json` を使います。
