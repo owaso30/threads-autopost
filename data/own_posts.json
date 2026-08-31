@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18121424005870005",
+      "replyIds": [
+        "18362869690243935"
+      ],
+      "postedAt": "2026-08-31T01:23:09.970Z",
+      "hook": "月曜の朝、これがあるとだいぶ強い。\n見た目がごちゃつかないから、玄関にもリビングにもそのまま置ける。\n暑い日の帰宅後にまず当たるやつとして、かなりちょうどいい。\n停電っぽい空気のときも、いつもの場所にこれがあるだけで落ち着く。",
+      "reply": "手に取ると軽くて、思ったより「しまい込まない」で済む感じがいい。\n出しっぱなしでも変に主張しない見た目で、部屋に置いても浮かなかった。\n友達に見せたら、まず「それいいね」って言われるタイプ。\nこの値段なら、日常の快適さともしもの安心を一緒に足せる感じでかなり買い\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00teedo.4qw3j58f.g00teedo.4qw3kfa9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flworld%2F121858%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flworld%2Fi%2F10000045%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手に取ると軽くて、思ったより「しまい込まない」で済む感じがいい。\n出しっぱなしでも変に主張しない見た目で、部屋に置いても浮かなかった。\n友達に見せたら、まず「それいいね」って言われるタイプ。\nこの値段なら、日常の快適さともしもの安心を一緒に足せる感じでかなり買い",
+      "topicTag": "暮らし",
+      "productId": "trend-82a697ac29",
+      "productName": "モバイル充電式首掛け扇風機",
+      "itemName": "在庫処分 充電式首かけ扇風機 ネックファン 首かけ 扇風機 HCF20-07TA BK WH 扇風機 折りたたみ 首掛け扇風機 小型扇風機 携帯扇風機 ネックク",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00teedo.4qw3j58f.g00teedo.4qw3kfa9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flworld%2F121858%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flworld%2Fi%2F10000045%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/lworld/cabinet/compass1597888752.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "首掛け扇風機 充電式 防災",
+        "amazon": "首掛け扇風機 充電式 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18205090627367110",
       "replyIds": [
         "18094638173432829"
