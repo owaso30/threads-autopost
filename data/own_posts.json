@@ -27,12 +27,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 0,
+        "views": 35,
         "likes": 0,
-        "replies": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "pending",
+      "metricsAt": "2026-08-31T00:03:37.323Z"
     },
     {
       "id": "17924469549416378",
@@ -64,9 +68,13 @@
         "views": 0,
         "likes": 0,
         "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "pending",
+      "metricsAt": "2026-08-31T00:03:37.323Z"
     },
     {
       "id": "18122392132852166",
@@ -97,9 +105,13 @@
         "views": 0,
         "likes": 0,
         "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "pending",
+      "metricsAt": "2026-08-31T00:03:37.323Z"
     },
     {
       "id": "17884883973654611",
@@ -130,9 +142,13 @@
         "views": 0,
         "likes": 0,
         "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "pending",
+      "metricsAt": "2026-08-31T00:03:37.323Z"
     }
   ]
 }
