@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17905731123542762",
+      "replyIds": [
+        "18112679407985195"
+      ],
+      "postedAt": "2026-09-01T13:31:01.130Z",
+      "hook": "家の空気、これで変わる。\n出しっぱなしにしたくなる見た目で、普段の部屋にすっと置ける。\n来客用っぽさが強すぎないから、しまい込まないで済むのがいい。\nいざという時の寝る場所って、結局こういう“いつもの延長”がいちばん強い。\nふわっと終わらない安心感、ある。",
+      "reply": "これ、広げた瞬間の「お、いいじゃん」が強い。安っぽさが出にくくて、部屋の隅に置いても嫌な圧がないのがかなり好き。使わない日は邪魔になりにくいのに、必要な時はちゃんと頼れる感じがある。来客用にも自分用にも、1個あると気持ちが落ち着くやつ。寝る場所の不安を、見た目から減らしてくれるのがえらい\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00ps5uo.4qw3j01b.g00ps5uo.4qw3kac9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglv%2Finx-0000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fglv%2Fi%2F10087090%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "これ、広げた瞬間の「お、いいじゃん」が強い。安っぽさが出にくくて、部屋の隅に置いても嫌な圧がないのがかなり好き。使わない日は邪魔になりにくいのに、必要な時はちゃんと頼れる感じがある。来客用にも自分用にも、1個あると気持ちが落ち着くやつ。寝る場所の不安を、見た目から減らしてくれるのがえらい",
+      "topicTag": "防災",
+      "productId": "trend-fb2e8444a7",
+      "productName": "ポータブルエアベッド",
+      "itemName": "【正規販売店】 インテックス INTEX エアーベッド シングル 電動 67765 ツインコンフォートプラッシュ 屋内用 高さ 33cm おすすめ エアー ベッ",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ps5uo.4qw3j01b.g00ps5uo.4qw3kac9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglv%2Finx-0000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fglv%2Fi%2F10087090%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/glv/cabinet/pointcabinet1/inx-90rak.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "エアーベッド シングル 屋内用",
+        "amazon": "エアーベッド シングル 屋内用"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18124539656498493",
       "replyIds": [
         "18063119744602558"
