@@ -27,12 +27,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 0,
+        "views": 6,
         "likes": 0,
-        "replies": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "pending",
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     },
     {
       "id": "18124539656498493",
@@ -61,12 +65,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 0,
+        "views": 9,
         "likes": 0,
-        "replies": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "lose",
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     },
     {
       "id": "18121424005870005",
@@ -104,7 +112,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-01T00:54:59.381Z"
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     },
     {
       "id": "18205090627367110",
@@ -142,7 +150,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-01T00:54:59.381Z"
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     },
     {
       "id": "17924469549416378",
@@ -180,7 +188,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-01T00:54:59.381Z"
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     },
     {
       "id": "18122392132852166",
@@ -217,7 +225,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-01T00:54:59.381Z"
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     },
     {
       "id": "17884883973654611",
@@ -254,7 +262,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-01T00:54:59.381Z"
+      "metricsAt": "2026-09-01T23:41:37.529Z"
     }
   ]
 }
