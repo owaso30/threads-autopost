@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17905082376519657",
+      "replyIds": [
+        "17984529348058309"
+      ],
+      "postedAt": "2026-09-02T12:47:21.917Z",
+      "hook": "床の冷たさ、なめたら負け。\nこれ、出しておくだけで寝る場所のストレスがかなり減る。\nふくらませると見た目よりちゃんとした感じで、片づけると薄くなるのがいい。\n普段のラグ感覚で置いておけるのに、いざって時の頼もしさがある。\n避難グッズっぽさが強すぎないのも、わりと買い。",
+      "reply": "触るとふわっとしてて、床にそのまま寝るときの「うっ…」がかなりやわらぐ感じ。見た目がいかにも防災用品すぎないから、部屋に置いても気まずくないのがいい。しまうと場所を取りにくくて、思ったより扱いがラクだった。来客用の“ちょい足し寝具”としても、正直かなり使いたくなる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%82%A8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88+%E6%96%AD%E7%86%B1+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "触るとふわっとしてて、床にそのまま寝るときの「うっ…」がかなりやわらぐ感じ。見た目がいかにも防災用品すぎないから、部屋に置いても気まずくないのがいい。しまうと場所を取りにくくて、思ったより扱いがラクだった。来客用の“ちょい足し寝具”としても、正直かなり使いたくなる",
+      "topicTag": "防災",
+      "productId": "trend-7f93beb746",
+      "productName": "エアー式断熱マット",
+      "itemName": "エアー式断熱マット",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%82%A8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88+%E6%96%AD%E7%86%B1+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/maxshare/cabinet/master/1st2/a21318.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "エアーマット 断熱 防災",
+        "amazon": "エアーマット 断熱 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17984143854060360",
       "replyIds": [
         "18096059612071210"
