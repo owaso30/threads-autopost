@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17984143854060360",
+      "replyIds": [
+        "18096059612071210"
+      ],
+      "postedAt": "2026-09-02T01:02:26.481Z",
+      "hook": "これ、冷蔵庫が詰んだ日に強い。\n見た目がすっきりで、買い物バッグとしてもそのまま持てるのがいい。\n置きっぱなしでも邪魔じゃないし、いざという時だけ引っぱり出す感じがちょうどいい。\n普段使いの延長で置けるから、気負わず持てる。🛒",
+      "reply": "触ると頼りない感じじゃなくて、ちゃんと安心感ある生地感が好き。中にものを入れても形が崩れにくくて、出し入れが地味に楽。買い物帰りにそのまま持って歩いても浮かない見た目だから、普段から使いたくなる。防災用っぽさが強すぎないのに、あるとかなり心強い\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E4%BF%9D%E5%86%B7%E3%83%90%E3%83%83%E3%82%B0+%E9%9B%BB%E6%BA%90%E4%B8%8D%E8%A6%81+%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&tag=growfolio-22\n#PR #防災",
+      "productPitch": "触ると頼りない感じじゃなくて、ちゃんと安心感ある生地感が好き。中にものを入れても形が崩れにくくて、出し入れが地味に楽。買い物帰りにそのまま持って歩いても浮かない見た目だから、普段から使いたくなる。防災用っぽさが強すぎないのに、あるとかなり心強い",
+      "topicTag": "防災",
+      "productId": "trend-2f650305c9",
+      "productName": "ポータブル冷蔵保冷バッグ",
+      "itemName": "ポータブル冷蔵保冷バッグ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "rakuten",
+      "fallback": true,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E4%BF%9D%E5%86%B7%E3%83%90%E3%83%83%E3%82%B0+%E9%9B%BB%E6%BA%90%E4%B8%8D%E8%A6%81+%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&tag=growfolio-22",
+      "imageUrl": "",
+      "keywords": {
+        "rakuten": "保冷バッグ 電源不要 折りたたみ",
+        "amazon": "保冷バッグ 電源不要 折りたたみ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17905731123542762",
       "replyIds": [
         "18112679407985195"
