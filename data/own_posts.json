@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18148484902526758",
+      "replyIds": [
+        "18091249202554872"
+      ],
+      "postedAt": "2026-09-03T01:07:37.183Z",
+      "hook": "これ、停電の日に強い。\nしかも普段はそのまま置いとける見た目で、1台で場所を食わないのがいい。\n明るさの気分まで変わるから、夜のリビングに出しっぱなしでも違和感ない。\n充電の不安と、灯りの頼りなさが一緒に減る感じ。\n木曜の買い足し候補、これ。",
+      "reply": "手に取ると軽すぎず重すぎずで、なんか“ちゃんとしてる感”があるのが好き。見た目がごつすぎないから、棚に置いたままでも浮かない。夜にふわっと灯すだけで気分が落ち着くし、これならいざという時だけじゃなく普段から触りたくなる。友達に見せても「それいいね」って言われそうな、地味に欲しくなるやつ。🔦\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00umdno.4qw3jf9a.g00umdno.4qw3kc62/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgadgetgarden%2Fgr-e9g42sqatd%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgadgetgarden%2Fi%2F10229037%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手に取ると軽すぎず重すぎずで、なんか“ちゃんとしてる感”があるのが好き。見た目がごつすぎないから、棚に置いたままでも浮かない。夜にふわっと灯すだけで気分が落ち着くし、これならいざという時だけじゃなく普段から触りたくなる。友達に見せても「それいいね」って言われそうな、地味に欲しくなるやつ。🔦",
+      "topicTag": "防災",
+      "productId": "trend-52f700665e",
+      "productName": "停電でも使えるソーラーライト付き充電ランタン",
+      "itemName": "BATOT ソーラーランタン LEDランタン USB充電 キャンプランタン ソーラーライト ソーラー充電 ランタン 4つ点灯モード 4000mAh 無段階調光 ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00umdno.4qw3jf9a.g00umdno.4qw3kc62/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgadgetgarden%2Fgr-e9g42sqatd%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgadgetgarden%2Fi%2F10229037%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/gadgetgarden/cabinet/g/9/e9g42sqatd-2.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラー充電ランタン USB",
+        "amazon": "ソーラー充電ランタン USB"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17905082376519657",
       "replyIds": [
         "17984529348058309"
