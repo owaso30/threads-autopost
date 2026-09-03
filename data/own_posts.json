@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18080100767345208",
+      "replyIds": [
+        "18122811209311390"
+      ],
+      "postedAt": "2026-09-03T12:50:33.689Z",
+      "hook": "これ、置きっぱなしで正解だった。\n細いのに頼れる感じで、部屋のすみがちょっと整う。\n普段は邪魔しないのに、いざって時だけ前に出てくる。\n木曜のまとめ買い候補、かなり本命。",
+      "reply": "思ったより“機械感つよつよ”じゃなくて、部屋に置いても浮きにくいのがよかった。\n使わない日はしまい込まなくても気にならないから、出し入れの面倒がない。\nいざ触ると、ちゃんと頼れる存在感があって安心する。⚡\nこの手のものって買った瞬間より、家に馴染んでからの満足感が強い。落ち着く\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったより“機械感つよつよ”じゃなくて、部屋に置いても浮きにくいのがよかった。\n使わない日はしまい込まなくても気にならないから、出し入れの面倒がない。\nいざ触ると、ちゃんと頼れる存在感があって安心する。⚡\nこの手のものって買った瞬間より、家に馴染んでからの満足感が強い。落ち着く",
+      "topicTag": "防災",
+      "productId": "trend-9a473bf4a9",
+      "productName": "折りたたみ式ポータブル電源",
+      "itemName": "折りたたみ式ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/12685177/12687049/imgrc0111255436.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ ポータブル電源",
+        "amazon": "折りたたみ ポータブル電源"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18148484902526758",
       "replyIds": [
         "18091249202554872"
