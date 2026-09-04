@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18118052707732098",
+      "replyIds": [
+        "17919468375428389"
+      ],
+      "postedAt": "2026-09-04T00:59:50.775Z",
+      "hook": "これ、洗えない日の味方すぎる。\n置きっぱなしでも気にならない薄さで、出した瞬間にちゃんと使いたくなる。\n金曜の夜、もう頭を休ませたいって時にこれがあるとだいぶ楽。\n水がなくてもベタつき感を流した気分になれて、気持ちがそのまま寝るモードに行ける。\n防災っぽいのに、日常でも普通に出番あるのがずるい。",
+      "reply": "袋から出したときの軽さがまずいい。かさばらないのに、ちゃんと“今日使う”感じがある。置き場所を選ばないから、洗面まわりにそのままいても邪魔じゃないのが好き。使い終わったあとも後味が重くなくて、思ったより気軽に手が伸びる。これ、1つあるだけで家の安心感がちょっと上がるやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%B0%B4%E3%81%AA%E3%81%97+%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%88+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "袋から出したときの軽さがまずいい。かさばらないのに、ちゃんと“今日使う”感じがある。置き場所を選ばないから、洗面まわりにそのままいても邪魔じゃないのが好き。使い終わったあとも後味が重くなくて、思ったより気軽に手が伸びる。これ、1つあるだけで家の安心感がちょっと上がるやつ",
+      "topicTag": "防災",
+      "productId": "trend-97fc097c9a",
+      "productName": "水なし洗髪シャンプーシート",
+      "itemName": "水なし洗髪シャンプーシート",
+      "category": "other",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%B0%B4%E3%81%AA%E3%81%97+%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%88+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/greenpacks/cabinet/hb03/4935137806552_06.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "水なし シャンプーシート 防災",
+        "amazon": "水なし シャンプーシート 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18080100767345208",
       "replyIds": [
         "18122811209311390"
