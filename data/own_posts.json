@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18622982293035858",
+      "replyIds": [
+        "18164437327413851"
+      ],
+      "postedAt": "2026-09-05T00:58:46.147Z",
+      "hook": "土曜の玄関に、これ置いとくと強い。\n見た目がちゃんとしてるから、出しっぱなしでも生活感が散らからない。\nいつものバッグに入れても邪魔にならないし、いざって時の安心がひとつ増える。\n防災っぽすぎないのに、ちゃんと備えになるのがずるい。",
+      "reply": "これ、触ったときの「ちゃんとしてる感」がまずいい。ごちゃっとせず、玄関や棚に置いても浮かないから、しまい込まずに済むのが好き。普段は持ち歩きやすくて、荷物に足してもいやな重さが増えた感じがない。こういうのって、見える場所にあるだけで気持ちが少しラクになる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC+%E9%98%B2%E7%81%BD%E3%83%9D%E3%83%BC%E3%83%81&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、触ったときの「ちゃんとしてる感」がまずいい。ごちゃっとせず、玄関や棚に置いても浮かないから、しまい込まずに済むのが好き。普段は持ち歩きやすくて、荷物に足してもいやな重さが増えた感じがない。こういうのって、見える場所にあるだけで気持ちが少しラクになる",
+      "topicTag": "防災",
+      "productId": "trend-4cc677953d",
+      "productName": "モバイル給電できる防災ポーチ",
+      "itemName": "モバイル給電できる防災ポーチ",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC+%E9%98%B2%E7%81%BD%E3%83%9D%E3%83%BC%E3%83%81&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bp-shop/cabinet/12357311/20251106-poti-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "モバイルバッテリー 防災ポーチ",
+        "amazon": "モバイルバッテリー 防災ポーチ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18111827396024878",
       "replyIds": [
         "18128462932682574"
