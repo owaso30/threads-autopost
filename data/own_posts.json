@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17870842545637865",
+      "replyIds": [
+        "18163519336467746"
+      ],
+      "postedAt": "2026-09-05T06:56:56.781Z",
+      "hook": "これ、土曜の片づけが一気に軽くなる。\n見た目すっきりなのに、出したい服がサッと取れるのが気持ちいい。\n普段はクローゼットの中で静か、いざという時はそのまま衣類の置き場になるのが地味に強い。\n「しまう」と「避難させる」が同じ形でできるから、置きっぱなしでも気にならない。",
+      "reply": "思ったより圧迫感がなくて、部屋に置いても“収納置いてます”感が強すぎないのが好き。ぱっと見が整うから、生活感を消したい場所にも入れやすいです。上に重ねた時の安定感もあって、動かすのも気が重くない。これ、見るたびに買ってよかったってなるやつです\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00uuyqo.4qw3j390.g00uuyqo.4qw3k608/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkotohaji-shop%2Fyxy127-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkotohaji-shop%2Fi%2F10000534%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "思ったより圧迫感がなくて、部屋に置いても“収納置いてます”感が強すぎないのが好き。ぱっと見が整うから、生活感を消したい場所にも入れやすいです。上に重ねた時の安定感もあって、動かすのも気が重くない。これ、見るたびに買ってよかったってなるやつです",
+      "topicTag": "暮らし",
+      "productId": "trend-7bf01a768b",
+      "productName": "折りたたみ衣装ケース",
+      "itemName": "楽天スーパーSALE！一週間限定10％OFF 積み重ね 折りたたみ 衣装ケース スライド可能 クローゼット 洋服収納 大容量 収納棚 整理棚 バスルーム 脱衣所",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uuyqo.4qw3j390.g00uuyqo.4qw3k608/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkotohaji-shop%2Fyxy127-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkotohaji-shop%2Fi%2F10000534%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kotohaji-shop/cabinet/12995118/13005682/yxy127-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 衣装ケース スライド",
+        "amazon": "折りたたみ 衣装ケース スライド"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18622982293035858",
       "replyIds": [
         "18164437327413851"
