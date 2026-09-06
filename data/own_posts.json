@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17907375945494682",
+      "replyIds": [
+        "18122438060310912"
+      ],
+      "postedAt": "2026-09-06T12:09:38.250Z",
+      "hook": "これ、日曜の水回りが急に強くなる。\n置いておくだけで見た目がごちゃつかず、いざという時はすぐ使えるのがいい。\n普段はそのへんに馴染むのに、必要な瞬間だけ頼もしさが出る。\n「なんかあると安心」って、こういうやつ。",
+      "reply": "見た目が想像よりスッキリしてて、部屋に置いても浮きにくいのが好き。持ったときも変にかさばる感じが少なくて、出し入れが気楽だった。水まわりの近くに置いておくと、気持ちが少し軽くなる。友達に見せても「これいいじゃん」って言われそうな、生活になじむ感じ。つい出しっぱなしにしたくなる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E7%B5%A6%E6%B0%B4%E8%9B%87%E5%8F%A3%E4%BB%98%E3%81%8D%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%B0&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目が想像よりスッキリしてて、部屋に置いても浮きにくいのが好き。持ったときも変にかさばる感じが少なくて、出し入れが気楽だった。水まわりの近くに置いておくと、気持ちが少し軽くなる。友達に見せても「これいいじゃん」って言われそうな、生活になじむ感じ。つい出しっぱなしにしたくなる",
+      "topicTag": "防災",
+      "productId": "trend-399e7f6e97",
+      "productName": "ポータブル給水蛇口付きウォーターバッグ",
+      "itemName": "ポータブル給水蛇口付きウォーターバッグ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E7%B5%A6%E6%B0%B4%E8%9B%87%E5%8F%A3%E4%BB%98%E3%81%8D%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%B0&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/colorfulbox/cabinet/maker_iwatani1/381254cb.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "給水蛇口付きウォーターバッグ",
+        "amazon": "給水蛇口付きウォーターバッグ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17879758887528601",
       "replyIds": [
         "17969902158153866"
