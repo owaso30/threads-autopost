@@ -27,12 +27,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 0,
+        "views": 5,
         "likes": 0,
-        "replies": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "pending",
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17879758887528601",
@@ -61,12 +65,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 0,
+        "views": 22,
         "likes": 0,
-        "replies": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "lose",
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18095321606352388",
@@ -103,8 +111,8 @@
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "verdict": "lose",
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17870842545637865",
@@ -142,7 +150,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18622982293035858",
@@ -180,7 +188,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18111827396024878",
@@ -218,7 +226,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18118052707732098",
@@ -256,7 +264,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18080100767345208",
@@ -294,7 +302,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18148484902526758",
@@ -323,7 +331,7 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 21,
+        "views": 23,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
@@ -332,7 +340,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17905082376519657",
@@ -370,7 +378,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17984143854060360",
@@ -408,7 +416,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17905731123542762",
@@ -446,7 +454,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18124539656498493",
@@ -484,7 +492,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18121424005870005",
@@ -522,7 +530,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18205090627367110",
@@ -560,7 +568,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17924469549416378",
@@ -598,7 +606,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "18122392132852166",
@@ -635,7 +643,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     },
     {
       "id": "17884883973654611",
@@ -672,7 +680,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-09-05T23:28:25.793Z"
+      "metricsAt": "2026-09-06T23:22:01.606Z"
     }
   ]
 }
