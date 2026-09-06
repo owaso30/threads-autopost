@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17879758887528601",
+      "replyIds": [
+        "17969902158153866"
+      ],
+      "postedAt": "2026-09-06T00:59:51.510Z",
+      "hook": "これ、置いとくだけで気が楽。\n畳めるから、普段の景色を邪魔しないのにちゃんと頼れる。\n日曜のうちに見つけておくと、あとで「買っといてよかった」ってなるやつ。\n水まわりの不安がある日ほど、こういうのが一番効く。",
+      "reply": "まず見た目がごつすぎなくて、家に置いても浮かないのがいい。使わない日は薄くしまえるから、置き場所に悩まないのも助かる。いざという時のためのものなのに、触るとちょっと気分が上がる感じ。こういうのが1個あると、家の安心感がじわっと増える。🌿\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E7%B5%A6%E6%B0%B4%E3%83%90%E3%83%83%E3%82%B0+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "まず見た目がごつすぎなくて、家に置いても浮かないのがいい。使わない日は薄くしまえるから、置き場所に悩まないのも助かる。いざという時のためのものなのに、触るとちょっと気分が上がる感じ。こういうのが1個あると、家の安心感がじわっと増える。🌿",
+      "topicTag": "防災",
+      "productId": "trend-00574d5240",
+      "productName": "折りたたみ給水バッグ",
+      "itemName": "折りたたみ給水バッグ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E7%B5%A6%E6%B0%B4%E3%83%90%E3%83%83%E3%82%B0+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/quokka-shop/cabinet/imgrc0110582534.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 給水バッグ 防災",
+        "amazon": "折りたたみ 給水バッグ 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18095321606352388",
       "replyIds": [
         "18109980904841930"
