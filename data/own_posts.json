@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17930593383142289",
+      "replyIds": [
+        "17892643503607935"
+      ],
+      "postedAt": "2026-09-07T14:16:05.479Z",
+      "hook": "洗ったあと、置き場で詰まるやつ。\nこれがあると、シンク周りの“あと一歩”が急にラクになる。\n見た目もゴチャつかないから、出しっぱなしでも気にならないのがいい。\n水回りが整うと、平日の気分までちょっと軽くなる。",
+      "reply": "これ、触るとちゃんとしっかりしてて安っぽさがないのが好き。使わない時も変に存在感が強くなくて、キッチンにそのまま置いておける感じ。洗ったものをサッと分けられるから、片づけの途中で止まらないのが地味に快適。日常の手間が減るのに、いざという時の安心感まで一緒についてくるのが買い\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%A3%9F%E6%B4%97%E6%A9%9F+%E6%B4%97%E6%B5%84%E3%82%AB%E3%82%B4&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、触るとちゃんとしっかりしてて安っぽさがないのが好き。使わない時も変に存在感が強くなくて、キッチンにそのまま置いておける感じ。洗ったものをサッと分けられるから、片づけの途中で止まらないのが地味に快適。日常の手間が減るのに、いざという時の安心感まで一緒についてくるのが買い",
+      "topicTag": "暮らし",
+      "productId": "trend-9d853669c5",
+      "productName": "ポータブル食洗機用洗浄カゴ",
+      "itemName": "ポータブル食洗機用洗浄カゴ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%A3%9F%E6%B4%97%E6%A9%9F+%E6%B4%97%E6%B5%84%E3%82%AB%E3%82%B4&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bsmarket77/cabinet/13584035/13584041/imgrc0104588162.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 食洗機 洗浄カゴ",
+        "amazon": "折りたたみ 食洗機 洗浄カゴ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17901401589572200",
       "replyIds": [
         "18129757384679669"
