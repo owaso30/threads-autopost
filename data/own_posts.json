@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17901401589572200",
+      "replyIds": [
+        "18129757384679669"
+      ],
+      "postedAt": "2026-09-07T01:02:23.538Z",
+      "hook": "これ、月曜の寝不足を減らすやつ。\n来客用の顔して、ふだんの居場所も食う。出しっぱなしにしたくなる軽さと見た目で、かなりずるい。\n広げた瞬間の安心感がちゃんとあるし、しまうときも面倒じゃない。\n「防災っぽさ」より、まず暮らしがラクになる感じ。",
+      "reply": "想像よりずっと“置きやすい”のが良かった。いかにも備え、って感じが強すぎないから、部屋に出してあっても浮きにくい。使うときの空気もやわらかくて、寝転ぶとちゃんと落ち着く。来客があっても、これなら慌てて別のものを引っ張り出さなくていい。ひとつあるだけで、家の安心感がじわっと増える感じ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%82%A8%E3%82%A2%E3%83%9E%E3%83%83%E3%83%88+%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB&tag=growfolio-22\n#PR #防災",
+      "productPitch": "想像よりずっと“置きやすい”のが良かった。いかにも備え、って感じが強すぎないから、部屋に出してあっても浮きにくい。使うときの空気もやわらかくて、寝転ぶとちゃんと落ち着く。来客があっても、これなら慌てて別のものを引っ張り出さなくていい。ひとつあるだけで、家の安心感がじわっと増える感じ",
+      "topicTag": "防災",
+      "productId": "trend-6f3b2c965b",
+      "productName": "防災兼用エアマット",
+      "itemName": "防災兼用エアマット",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%82%A8%E3%82%A2%E3%83%9E%E3%83%83%E3%83%88+%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/delishop/cabinet/supersale/202609ss/b24cqd_09ss.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災 エアマット シングル",
+        "amazon": "防災 エアマット シングル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17907375945494682",
       "replyIds": [
         "18122438060310912"
