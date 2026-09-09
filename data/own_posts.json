@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18040758224639811",
+      "replyIds": [
+        "18147872869551215"
+      ],
+      "postedAt": "2026-09-09T12:58:56.911Z",
+      "hook": "これ、置いとくだけで家が強い。\nでも見た目がごつすぎないから、普段の部屋にそのまま馴染む。\n充電したスマホをちょい置きして、夜の安心をひとつ増やす感じ。\n暑い日も、急な停電っぽい空気のときも、あるだけで気持ちが落ち着く。",
+      "reply": "黒っぽくて締まった見た目だから、出しっぱなしでも生活感が崩れにくいのが好き。思ったより持ち出しやすい形で、使わない日は部屋の隅にいても邪魔じゃない。こういうのって“備え”っぽさが強いとしまい込みがちだけど、これはちょっと違う。家でも外でも、なんか頼れる置き物って感じ。🙂\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00s4jfo.4qw3j6f9.g00s4jfo.4qw3k6db/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fc-c-s%2Fcitaeb-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fc-c-s%2Fi%2F10000131%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "黒っぽくて締まった見た目だから、出しっぱなしでも生活感が崩れにくいのが好き。思ったより持ち出しやすい形で、使わない日は部屋の隅にいても邪魔じゃない。こういうのって“備え”っぽさが強いとしまい込みがちだけど、これはちょっと違う。家でも外でも、なんか頼れる置き物って感じ。🙂",
+      "topicTag": "防災",
+      "productId": "trend-bb065b46d5",
+      "productName": "ポータブル電源",
+      "itemName": "【最大50%OFF 楽天スーパーSALE】ポータブル電源 大容量 車中泊 正弦波 エナーボックス 444Wh 120000mAh 400W |ポータブル バッテ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s4jfo.4qw3j6f9.g00s4jfo.4qw3k6db/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fc-c-s%2Fcitaeb-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fc-c-s%2Fi%2F10000131%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/c-c-s/citaeb01_top_SS_saidai50off.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 防災",
+        "amazon": "ポータブル電源 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18021068924875066",
       "replyIds": [
         "18063612959771119"
