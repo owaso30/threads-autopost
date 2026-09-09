@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18021068924875066",
+      "replyIds": [
+        "18063612959771119"
+      ],
+      "postedAt": "2026-09-09T01:15:35.946Z",
+      "hook": "暑い日、これがあると家の空気が変わる。\n置きっぱなしでも気にならない見た目で、サッと手に取れるのがいい。\n水曜日のだるい夕方でも、座る場所がちょっと快適になる。\n停電とか大げさな話じゃなくても、普通に毎日使いたくなるやつ。",
+      "reply": "持った瞬間に「軽っ」ってなるのがまずいいです。\n見た目もゴツくなくて、部屋に置いといても浮かない。\n使わない日はそのまま充電しておける感じで、片づける手間が少ないのが好き。\n暑い日の定位置に置いておくと、出すのが面倒じゃないので結局毎日触ります。\nこれ、夏の満足度かなり上がるやつです\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00tyy9o.4qw3j297.g00tyy9o.4qw3kaac/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fazusa%2F0302%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fazusa%2Fi%2F10000130%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "持った瞬間に「軽っ」ってなるのがまずいいです。\n見た目もゴツくなくて、部屋に置いといても浮かない。\n使わない日はそのまま充電しておける感じで、片づける手間が少ないのが好き。\n暑い日の定位置に置いておくと、出すのが面倒じゃないので結局毎日触ります。\nこれ、夏の満足度かなり上がるやつです",
+      "topicTag": "暮らし",
+      "productId": "trend-84b3af4b8e",
+      "productName": "充電式腰掛けファン",
+      "itemName": "楽天1位★テレビ紹介【クーポンで950円〜SS限定】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラー 冷却プレー",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tyy9o.4qw3j297.g00tyy9o.4qw3kaac/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fazusa%2F0302%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fazusa%2Fi%2F10000130%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/azusa/cabinet/supersale/202609ss/0302_09ss-2.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "腰掛け扇風機 充電式",
+        "amazon": "腰掛け扇風機 充電式"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18105674392926615",
       "replyIds": [
         "18116338870972061"
