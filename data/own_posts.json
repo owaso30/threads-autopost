@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18204979387368495",
+      "replyIds": [
+        "17981027013095754"
+      ],
+      "postedAt": "2026-09-10T01:05:24.730Z",
+      "hook": "これ、置いとくだけで家が強い。\n見た目は普通なのに、ちゃんと座れてちゃんとしまえるのがずるい。\n普段はオットマンみたいに自然にそこにいて、いざという時は中身ごと頼れるのが好き。\n“防災のため”って感じが強すぎないから、出しっぱなしにしても生活感が荒れない。\nこういうの、買ってからじわじわ効いてくるやつ。",
+      "reply": "触った感じが思ったよりしっかりしてて、安っぽさがないのがよかった。\n部屋に置いても浮かないから、毎日ちゃんと使う気になる。\n中にまとめて入れておける安心感があるのに、見た目はいつも通りなのがかなり好き。\n“備えるもの”というより、暮らしにそのまま馴染む家具って感じで、これは欲しくなる。 ☕\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB+%E5%8F%8E%E7%B4%8D+%E3%82%AA%E3%83%83%E3%83%88%E3%83%9E%E3%83%B3&tag=growfolio-22\n#PR #防災",
+      "productPitch": "触った感じが思ったよりしっかりしてて、安っぽさがないのがよかった。\n部屋に置いても浮かないから、毎日ちゃんと使う気になる。\n中にまとめて入れておける安心感があるのに、見た目はいつも通りなのがかなり好き。\n“備えるもの”というより、暮らしにそのまま馴染む家具って感じで、これは欲しくなる。 ☕",
+      "topicTag": "防災",
+      "productId": "trend-aeb6e95bf1",
+      "productName": "防災兼用オットマンになる収納スツール",
+      "itemName": "防災兼用オットマンになる収納スツール",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB+%E5%8F%8E%E7%B4%8D+%E3%82%AA%E3%83%83%E3%83%88%E3%83%9E%E3%83%B3&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ra-kurasi/cabinet/03681892/03730549/30017tmb.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災 スツール 収納 オットマン",
+        "amazon": "防災 スツール 収納 オットマン"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18040758224639811",
       "replyIds": [
         "18147872869551215"
