@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18426074473196502",
+      "replyIds": [
+        "18072607829732846"
+      ],
+      "postedAt": "2026-09-12T12:11:30.680Z",
+      "hook": "これ、土曜に買っとくやつ。\n見た目が地味なのに、あると家の空気がちょっと落ち着く。\n非常時のためだけじゃなくて、断水しそうな日に「今日はこれがある」って思えるのがいい。\n場所を食わないから、棚のすき間にすっと入る。\nこういうの、使う日が来ないのがいちばんだけど、持ってる安心はかなり大きい。",
+      "reply": "手に取ったときの軽さがちょうどよくて、置き場所に困らないのが好き。\nパッと見が生活感強すぎないから、しまい込まずに置いておける感じがある。\nいざという時のためのものなのに、日常の邪魔をしないのがかなりいい。\n見つけた時にサッと使える位置に置けるの、地味だけど大事。これ買い\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%9D%9E%E5%B8%B8%E7%94%A8%E3%83%88%E3%82%A4%E3%83%AC+%E5%87%9D%E5%9B%BA%E5%89%A4+%E3%82%BB%E3%83%83%E3%83%88&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に取ったときの軽さがちょうどよくて、置き場所に困らないのが好き。\nパッと見が生活感強すぎないから、しまい込まずに置いておける感じがある。\nいざという時のためのものなのに、日常の邪魔をしないのがかなりいい。\n見つけた時にサッと使える位置に置けるの、地味だけど大事。これ買い",
+      "topicTag": "防災",
+      "productId": "trend-de22bfd22e",
+      "productName": "非常用トイレ凝固セット",
+      "itemName": "非常用トイレ凝固セット",
+      "category": "kit",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%9D%9E%E5%B8%B8%E7%94%A8%E3%83%88%E3%82%A4%E3%83%AC+%E5%87%9D%E5%9B%BA%E5%89%A4+%E3%82%BB%E3%83%83%E3%83%88&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/pykespeak/cabinet/event/marasonre/p0244_top_0228-7r-3.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "非常用トイレ 凝固剤 セット",
+        "amazon": "非常用トイレ 凝固剤 セット"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18103397447189893",
       "replyIds": [
         "18375872266239797"
