@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17995719959823605",
+      "replyIds": [
+        "18125879827834885"
+      ],
+      "postedAt": "2026-09-13T01:02:13.653Z",
+      "hook": "これ、瓶が急に便利になるやつ。\n見た目は地味なのに、置いとくと“なんか安心”がちゃんと残る。\n空き瓶ってそのままだと持て余すけど、これがあると一気に気分が変わる。\n日曜にまとめて触ると、家の中の小さなモヤモヤまで片づく感じ。",
+      "reply": "最初は「こんなの使う日ある？」って思ったのに、触った瞬間にちょっと楽しかったです。見た目がごつすぎないから、作業道具っぽさが強すぎず、棚に置いても浮きません。出すのも戻すのも手間が少なくて、思い立ったときに手が伸びる感じ。空き瓶をただ捨てる以外の選択肢があると、家の気分が少し上がります\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9C%E3%83%88%E3%83%AB%E3%82%AB%E3%83%83%E3%82%BF%E3%83%BC+%E5%85%85%E9%9B%BB%E5%BC%8F&tag=growfolio-22\n#PR #防災",
+      "productPitch": "最初は「こんなの使う日ある？」って思ったのに、触った瞬間にちょっと楽しかったです。見た目がごつすぎないから、作業道具っぽさが強すぎず、棚に置いても浮きません。出すのも戻すのも手間が少なくて、思い立ったときに手が伸びる感じ。空き瓶をただ捨てる以外の選択肢があると、家の気分が少し上がります",
+      "topicTag": "暮らし",
+      "productId": "trend-a5176f23ae",
+      "productName": "USB充電式ボトルカッター",
+      "itemName": "USB充電式ボトルカッター",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9C%E3%83%88%E3%83%AB%E3%82%AB%E3%83%83%E3%82%BF%E3%83%BC+%E5%85%85%E9%9B%BB%E5%BC%8F&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/okaliving/cabinet/g/18/e9rjrfnwd8-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ボトルカッター 充電式",
+        "amazon": "ボトルカッター 充電式"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18426074473196502",
       "replyIds": [
         "18072607829732846"
