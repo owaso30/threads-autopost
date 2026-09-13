@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18626356747036502",
+      "replyIds": [
+        "18117533581983174"
+      ],
+      "postedAt": "2026-09-13T13:19:23.187Z",
+      "hook": "家の空気、1本で変わる。\n折りたためるから、玄関でもバッグでも邪魔しないのがずるい。\n日曜にこれ見つけると、買い物の優先順位ちょっと変わる。\n普段は気にならないのに、ある日「持っててよかった」って思うやつ。",
+      "reply": "見た目がまずゴツすぎなくて、普通に置いておけるのがよかった。\n折りたたみの気楽さがあって、出し入れのハードルが低い。\n「使わない日も邪魔じゃない」って、地味にかなり大事。\n暮らしの道具として持っておくと、気持ちに余白ができる感じ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E6%9D%96+%E8%BB%BD%E9%87%8F+%E5%8F%8E%E7%B4%8D&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がまずゴツすぎなくて、普通に置いておけるのがよかった。\n折りたたみの気楽さがあって、出し入れのハードルが低い。\n「使わない日も邪魔じゃない」って、地味にかなり大事。\n暮らしの道具として持っておくと、気持ちに余白ができる感じ",
+      "topicTag": "防災",
+      "productId": "trend-710a7e404a",
+      "productName": "携帯折りたたみ杖",
+      "itemName": "携帯折りたたみ杖",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E6%9D%96+%E8%BB%BD%E9%87%8F+%E5%8F%8E%E7%B4%8D&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/honmachi-store/cabinet/image/imgrc0170215821.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ杖 軽量 収納",
+        "amazon": "折りたたみ杖 軽量 収納"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17995719959823605",
       "replyIds": [
         "18125879827834885"
