@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17945424702322134",
+      "replyIds": [
+        "18141981433604286"
+      ],
+      "postedAt": "2026-09-15T13:34:56.163Z",
+      "hook": "これ、置き場に困る不便を消した。\nなのに必要なときだけすぐ出るの、かなり好き。\n普段は隅っこで静か。なのに急に“座れる”が増える。\n玄関にも車にも入る、この軽さがずるい。\n火曜に一個あると、地味に気持ちがラク。",
+      "reply": "これ、見た目がまず「じゃましない」のがいい。出すのも戻すのも軽くて、思ったより気軽に手が伸びる。座ったときの“とりあえず感”がちょうどよくて、家でも外でも使いたくなる。いざという時用っぽさが強すぎないから、普段の延長で置いておけるのが好き。🪑\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E6%90%BA%E5%B8%AF%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、見た目がまず「じゃましない」のがいい。出すのも戻すのも軽くて、思ったより気軽に手が伸びる。座ったときの“とりあえず感”がちょうどよくて、家でも外でも使いたくなる。いざという時用っぽさが強すぎないから、普段の延長で置いておけるのが好き。🪑",
+      "topicTag": "防災",
+      "productId": "trend-f5f9bac4a9",
+      "productName": "折りたたみポータブルスツール",
+      "itemName": "折りたたみポータブルスツール",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E6%90%BA%E5%B8%AF%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/smile-net001/cabinet/thum//stool-03.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 携帯スツール",
+        "amazon": "折りたたみ 携帯スツール"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18087901013422596",
       "replyIds": [
         "18124428502883413"
