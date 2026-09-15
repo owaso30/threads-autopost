@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18087901013422596",
+      "replyIds": [
+        "18124428502883413"
+      ],
+      "postedAt": "2026-09-15T01:29:45.726Z",
+      "hook": "これ、洗濯のめんどさ消える。\n場所を食わないのに、いざって時の安心感がちゃんとある。\n断水とか関係なく、普段から「今日ちょっと洗いたい」に強い。\n出しっぱなしでも邪魔になりにくくて、しまう場所に迷わない。\n火曜日に買っとくと、あとで地味に助かるやつ。",
+      "reply": "これ、想像よりずっと扱いやすい。くしゃっとならずに置ける感じがあって、見た目もちゃんと生活に馴染む。\n使わない日は端に寄せておけるのがいいし、必要なときにサッと出せるのが気持ちいい。\n「洗濯のために大げさな準備したくない」人ほど、こういうのが刺さると思う。\n友達に見せても、あ、それ欲しいって言われそうなやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E6%BF%AF%E3%83%90%E3%83%83%E3%82%B0&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、想像よりずっと扱いやすい。くしゃっとならずに置ける感じがあって、見た目もちゃんと生活に馴染む。\n使わない日は端に寄せておけるのがいいし、必要なときにサッと出せるのが気持ちいい。\n「洗濯のために大げさな準備したくない」人ほど、こういうのが刺さると思う。\n友達に見せても、あ、それ欲しいって言われそうなやつ",
+      "topicTag": "防災",
+      "productId": "trend-40b937b292",
+      "productName": "ポータブル洗濯バッグ",
+      "itemName": "ポータブル洗濯バッグ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E6%BF%AF%E3%83%90%E3%83%83%E3%82%B0&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/pixiepocket/cabinet/default5/us02-bk135-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災 ポータブル洗濯バッグ",
+        "amazon": "防災 ポータブル洗濯バッグ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18112609637107166",
       "replyIds": [
         "18390893377160530"
