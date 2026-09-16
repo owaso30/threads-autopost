@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17888558649457467",
+      "replyIds": [
+        "18015814574947140"
+      ],
+      "postedAt": "2026-09-16T13:31:21.339Z",
+      "hook": "これ、昼のうちに電気ためとけるの強い。\n見た目もゴツすぎなくて、部屋のすみに置いても邪魔しない。\n晴れた日に広げるだけで、なんかちゃんとしてる感がある。\nいざって時のために、日常の延長で持っておけるのがいい。",
+      "reply": "思ったより扱いが軽くて、出し入れのハードルが低いのが好き。置いたときの見た目も変に主張しなくて、家にそのままなじむ感じ。使わない日はただ置いておけるのに、あるだけで気持ちがかなり落ち着く。こういうの、買ってからじわじわ効いてくるタイプ。☀️\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00tgroo.4qw3j962.g00tgroo.4qw3kb74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2Fn-p-240200-bkor-jk2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000004%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "思ったより扱いが軽くて、出し入れのハードルが低いのが好き。置いたときの見た目も変に主張しなくて、家にそのままなじむ感じ。使わない日はただ置いておけるのに、あるだけで気持ちがかなり落ち着く。こういうの、買ってからじわじわ効いてくるタイプ。☀️",
+      "topicTag": "防災",
+      "productId": "trend-1ed9f489b9",
+      "productName": "ポータブル電源用ソーラーパネル",
+      "itemName": "【クーポン利用で27,880円 9/18 00:00から】Jackery ポータブル電源 240 New 256Wh リン酸鉄 長寿命 定格300W コンパクト",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tgroo.4qw3j962.g00tgroo.4qw3kb74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2Fn-p-240200-bkor-jk2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000004%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119193061.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 ソーラーパネル",
+        "amazon": "ポータブル電源 ソーラーパネル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18016373753740564",
       "replyIds": [
         "18590044801070839"
