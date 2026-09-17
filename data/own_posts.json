@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18038768198835684",
+      "replyIds": [
+        "17966589821965683"
+      ],
+      "postedAt": "2026-09-17T13:29:40.520Z",
+      "hook": "これ、家の水回りがちょっと賢くなる。\n折りたためるから、見た目も置き場も気楽。いざという時だけじゃなく、普段の「水ちょい移動」にも使えるのがずるい。\nベランダ、洗面所、キッチンの行ったり来たりがラク。\n使わない日は薄くしまえるのに、必要な時はちゃんと頼れる感じ。\n木曜の今、ひとつあると気分がかなり違う。",
+      "reply": "持った瞬間に「これで十分じゃん」ってなる軽さ。いかにも防災用品っぽすぎない見た目で、部屋に置いても浮きにくいのがいい。折りたたんでしまえるから、普段は邪魔にならないし、出す時も面倒くさくない。水を運ぶ用として考えると、日常でもかなり出番がありそうで、地味にほしくなるやつ\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00u8ono.4qw3j0ad.g00u8ono.4qw3k8a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffukuuriyasan%2Fdzdx805894%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffukuuriyasan%2Fi%2F10004134%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "持った瞬間に「これで十分じゃん」ってなる軽さ。いかにも防災用品っぽすぎない見た目で、部屋に置いても浮きにくいのがいい。折りたたんでしまえるから、普段は邪魔にならないし、出す時も面倒くさくない。水を運ぶ用として考えると、日常でもかなり出番がありそうで、地味にほしくなるやつ",
+      "topicTag": "防災",
+      "productId": "trend-4f5cbc0e63",
+      "productName": "給水バッグ付きウォータージャグ",
+      "itemName": "10L 旅行 ウォーターバッグ 非常用給水バッグ 折りたたみ 6個入り！ウォータータンク 給水袋 折り畳み 避難 防災グッズ 災害用 ウォータータンク 食品等級",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u8ono.4qw3j0ad.g00u8ono.4qw3k8a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffukuuriyasan%2Fdzdx805894%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffukuuriyasan%2Fi%2F10004134%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fukuuriyasan/cabinet/image10/dzdx805894.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "給水バッグ ウォータージャグ 10L",
+        "amazon": "給水バッグ ウォータージャグ 10L"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18097929056386438",
       "replyIds": [
         "18018913493928641"
