@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18097929056386438",
+      "replyIds": [
+        "18018913493928641"
+      ],
+      "postedAt": "2026-09-17T01:26:57.504Z",
+      "hook": "これ、床に直寝する夜を消せる。\n見た目もごろ寝感もちゃんとあって、出した瞬間ちょっと生活が整う。\n来客のときもサッと出せるし、普段はしまえるのが地味に強い。\n非常時だけじゃなく、昼寝にも使いたくなるやつ。\n木曜の夜にあると、かなり心強い。",
+      "reply": "これ、触った感じが「ちゃんとしてる」のに、出すのは重たすぎないのがいい。\n部屋に置いてもいかにも防災っぽくなくて、ちゃんと暮らしの中に混ざる見た目。\n来客用に置いておいても気まずさがないし、普段のごろ寝にもそのまま使いたくなる。\n片づけられる安心感があるから、買って終わりじゃなくてちゃんと使う気になる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%82%A8%E3%82%A2%E3%83%BC%E3%83%99%E3%83%83%E3%83%89+%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、触った感じが「ちゃんとしてる」のに、出すのは重たすぎないのがいい。\n部屋に置いてもいかにも防災っぽくなくて、ちゃんと暮らしの中に混ざる見た目。\n来客用に置いておいても気まずさがないし、普段のごろ寝にもそのまま使いたくなる。\n片づけられる安心感があるから、買って終わりじゃなくてちゃんと使う気になる",
+      "topicTag": "暮らし",
+      "productId": "trend-c2d7fd8d2a",
+      "productName": "折りたたみエアーベッド",
+      "itemName": "折りたたみエアーベッド",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%82%A8%E3%82%A2%E3%83%BC%E3%83%99%E3%83%83%E3%83%89+%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/yckaden/cabinet/11368605/imgrc0107142059.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ エアーベッド シングル",
+        "amazon": "折りたたみ エアーベッド シングル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17888558649457467",
       "replyIds": [
         "18015814574947140"
