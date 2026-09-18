@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18104251697211861",
+      "replyIds": [
+        "18128655877743679"
+      ],
+      "postedAt": "2026-09-18T12:58:45.075Z",
+      "hook": "これ、金曜の安心を買えるやつ。\n出しっぱなしでも浮かないサイズ感で、部屋に置いてもゴツく見えないのがいい。\n普段はちょい充電、いざという時はそのまま持っていける。\nなんとなく不安を先に減らせる感じが、地味に強い。",
+      "reply": "見た目がいかにも備え、じゃないのがまず好き。角ばりすぎず、部屋のすみに置いても変に主張しないから、気持ちが楽です。持った時の安心感があって、出し入れも苦じゃない。普段から目に入る場所に置いておきたくなるやつでした。暮らしの延長で持てる防災って、こういうのだなと思う\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E5%B0%8F%E5%9E%8B+%E3%83%AA%E3%83%B3%E9%85%B8%E9%89%84&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がいかにも備え、じゃないのがまず好き。角ばりすぎず、部屋のすみに置いても変に主張しないから、気持ちが楽です。持った時の安心感があって、出し入れも苦じゃない。普段から目に入る場所に置いておきたくなるやつでした。暮らしの延長で持てる防災って、こういうのだなと思う",
+      "topicTag": "防災",
+      "productId": "trend-9587599cfc",
+      "productName": "ポータブル電源（小型リン酸鉄）",
+      "itemName": "ポータブル電源（小型リン酸鉄）",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E5%B0%8F%E5%9E%8B+%E3%83%AA%E3%83%B3%E9%85%B8%E9%89%84&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119193068.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 小型 リン酸鉄",
+        "amazon": "ポータブル電源 小型 リン酸鉄"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18484521037107851",
       "replyIds": [
         "18113925356032839"
