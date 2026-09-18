@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18484521037107851",
+      "replyIds": [
+        "18113925356032839"
+      ],
+      "postedAt": "2026-09-18T01:17:40.901Z",
+      "hook": "これ、トイレ不安を先に消せる。\n見た目ふつうで置き場を食わないから、買ったあとも邪魔になりにくい。\n金曜のうちにひとつ入れておくと、週末の安心感がちがう。\n水が止まった時に慌てる前に、家にあるだけでかなりラク。🧻",
+      "reply": "箱っぽさが強すぎないから、押し入れでも棚でも置きやすいのがまず好き。\nいかにも防災用品、って感じが薄くて、日用品の延長で持てるのがいい。\n中身を見たときもゴチャついた印象がなくて、出すのが面倒に感じにくい。\nこういうのって使う日が来ないのが一番なんだけど、あるだけで気持ちが全然ちがう\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00tivgo.4qw3jc24.g00tivgo.4qw3kda4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupplement-life%2F100pol1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupplement-life%2Fi%2F10000035%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "箱っぽさが強すぎないから、押し入れでも棚でも置きやすいのがまず好き。\nいかにも防災用品、って感じが薄くて、日用品の延長で持てるのがいい。\n中身を見たときもゴチャついた印象がなくて、出すのが面倒に感じにくい。\nこういうのって使う日が来ないのが一番なんだけど、あるだけで気持ちが全然ちがう",
+      "topicTag": "防災",
+      "productId": "trend-b422c627de",
+      "productName": "携帯トイレ凝固剤付きセット",
+      "itemName": "【楽天1位】【最新の半永久保存】 100回分 非常用トイレ 防災 トイレ 防災用トイレ 防災用品 防災セット 防災グッズ 災害用トイレ 災害トイレ 非常トイレ ",
+      "category": "kit",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tivgo.4qw3jc24.g00tivgo.4qw3kda4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupplement-life%2F100pol1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupplement-life%2Fi%2F10000035%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/supplement-life/cabinet/plm1/a100.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "携帯トイレ 凝固剤 セット",
+        "amazon": "携帯トイレ 凝固剤 セット"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18038768198835684",
       "replyIds": [
         "17966589821965683"
