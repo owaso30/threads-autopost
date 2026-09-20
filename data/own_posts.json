@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17955071889231458",
+      "replyIds": [
+        "17959471719228984"
+      ],
+      "postedAt": "2026-09-20T13:03:48.033Z",
+      "hook": "これ、置いとくだけで勝ち。\n見た目がふわっとしてて、片づける前提じゃなくても邪魔しない。\n昼に窓辺に置いて、夜にふっと使う感じがちょうどいい。\nコードごちゃつかないの、かなり好き。\n日曜のうちにこういうの1個あると、部屋の安心感が変わる。",
+      "reply": "最初、ただ軽いだけかと思ったけど、出してみるとかなり気分がいい。折りたたまれてる時はすっきり、広げるとやわらかい光で部屋になじむ。棚に置いても浮かないから、ふだんからそのまま置きっぱなしにしてる。友達が来た時に見せると、だいたい「それいいね」ってなるやつ。🔆\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00r4jvo.4qw3j02c.g00r4jvo.4qw3kca9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcanpanera%2Fs16001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcanpanera%2Fi%2F10002457%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "最初、ただ軽いだけかと思ったけど、出してみるとかなり気分がいい。折りたたまれてる時はすっきり、広げるとやわらかい光で部屋になじむ。棚に置いても浮かないから、ふだんからそのまま置きっぱなしにしてる。友達が来た時に見せると、だいたい「それいいね」ってなるやつ。🔆",
+      "topicTag": "防災",
+      "productId": "trend-613099adb1",
+      "productName": "ソーラー充電LEDランタン",
+      "itemName": "キャリー・ザ・サン ミディアム CARRY THE SUN Medium 折り畳み LED ランタン 太陽光パネル ソーラー充電 軽量 防水 防災 非常用 イン",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r4jvo.4qw3j02c.g00r4jvo.4qw3kca9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcanpanera%2Fs16001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcanpanera%2Fi%2F10002457%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/canpanera/cabinet/item55/item_c39001_0.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラー充電 LEDランタン 防災",
+        "amazon": "ソーラー充電 LEDランタン 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18118264223318879",
       "replyIds": [
         "18123457174904982"
