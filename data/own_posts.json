@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18428745592151654",
+      "replyIds": [
+        "18135627133725659"
+      ],
+      "postedAt": "2026-09-21T01:07:47.084Z",
+      "hook": "洗濯まわり、これでだいぶラク。\n出しっぱなしでも邪魔っぽくないのが、かなりいい。\n月曜の「洗って干して」の気合いが、ちょっと軽くなる。\n雨の日も、旅行前も、これあると気持ちがバタつかない。\n暮らしの中でそのまま使えて、地味に助かるやつ。",
+      "reply": "袋っぽいのに、ちゃんと頼れる見た目が好き。使わない日は薄くまとめておけるから、置き場所に困らないのもいい。広げたときの形が素直で、出してすぐ使う気になる。普段の洗濯でも、いざという時でも、ひとつあると気分が落ち着く感じ\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00u4k1o.4qw3j702.g00u4k1o.4qw3kafd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flaforest%2Fzak-22312-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flaforest%2Fi%2F10052182%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "袋っぽいのに、ちゃんと頼れる見た目が好き。使わない日は薄くまとめておけるから、置き場所に困らないのもいい。広げたときの形が素直で、出してすぐ使う気になる。普段の洗濯でも、いざという時でも、ひとつあると気分が落ち着く感じ",
+      "topicTag": "暮らし",
+      "productId": "trend-9bd7ea77a9",
+      "productName": "ポータブル洗濯乾燥バッグ",
+      "itemName": "送料無料 衣類乾燥袋 上下セット 長袖タイプ ドライヤーで速乾 スピード乾燥 乾燥バッグ 軽量 コンパクト 下着 Tシャツ 携帯 旅行 トラベル 出張 持ち運び",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u4k1o.4qw3j702.g00u4k1o.4qw3kafd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flaforest%2Fzak-22312-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flaforest%2Fi%2F10052182%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/laforest/cabinet/itempic2160/zak-22312-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル洗濯乾燥バッグ",
+        "amazon": "ポータブル洗濯乾燥バッグ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17955071889231458",
       "replyIds": [
         "17959471719228984"
