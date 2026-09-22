@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18095853290411619",
+      "replyIds": [
+        "18350436247301814"
+      ],
+      "postedAt": "2026-09-22T13:25:52.981Z",
+      "hook": "これ、断水前から欲しかった。\n折りたためるのに、出した瞬間ちゃんと頼れる感じがいい。\n置き場所を食わないのに、いざって時は両手が空くのが強い。\n水を運ぶのって地味にしんどいけど、これなら日常の中に置いておける。\n火曜日に見つけたら、ちょっと得した気分。🚰",
+      "reply": "見た目が思ったよりすっきりで、出しっぱなしにしても浮きにくいのが好き。折りたたみだから、しまう時にじゃま感が少なくて気楽。持つときも変にかさばらないから、家の中での移動がラクでした。こういうのって、あるだけで安心感がじわっと上がるやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E7%B5%A6%E6%B0%B4%E3%83%AA%E3%83%A5%E3%83%83%E3%82%AF+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目が思ったよりすっきりで、出しっぱなしにしても浮きにくいのが好き。折りたたみだから、しまう時にじゃま感が少なくて気楽。持つときも変にかさばらないから、家の中での移動がラクでした。こういうのって、あるだけで安心感がじわっと上がるやつ",
+      "topicTag": "防災",
+      "productId": "trend-bfcd66161f",
+      "productName": "折りたたみ給水リュック",
+      "itemName": "折りたたみ給水リュック",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E7%B5%A6%E6%B0%B4%E3%83%AA%E3%83%A5%E3%83%83%E3%82%AF+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/beautyann/cabinet/09842817/bekp403-002_1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 給水リュック 防災",
+        "amazon": "折りたたみ 給水リュック 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17917655154465815",
       "replyIds": [
         "17863906605677832"
