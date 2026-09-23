@@ -7,41 +7,61 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 // 本文末尾に必ず付けるハッシュタグ
 const FIXED_HASHTAGS = ["楽天ROOM", "フォロバ100%"];
 
-// 許可ジャンルのみ。その日のニュースから熱いものを選ぶ
+// 許可ジャンルのみ。日付で「.NET / Blazor」と「従来」を半々にし、その群の中から熱いニュースを選ぶ
 const GENRES = [
+  {
+    id: "dotnet",
+    name: ".NET",
+    group: "dotnet",
+    query: '.NET OR "ASP.NET" OR "C#" OR ドットネット -Blazor',
+    seedTags: ["dotnet", "CSharp"],
+  },
+  {
+    id: "blazor",
+    name: "Blazor",
+    group: "dotnet",
+    query: 'Blazor OR "Blazor WebAssembly" OR "ASP.NET Core Blazor"',
+    seedTags: ["Blazor", "dotnet"],
+  },
   {
     id: "fx",
     name: "FX自動売買",
+    group: "classic",
     query: "FX 自動売買 OR EA トレーディング",
     seedTags: ["FX", "自動売買"],
   },
   {
     id: "ai",
     name: "AI開発",
+    group: "classic",
     query: "AI開発 OR 生成AI OR ChatGPT OR LLM",
     seedTags: ["AI", "AI開発"],
   },
   {
     id: "bitradex",
     name: "BitradeX",
+    group: "classic",
     query: "BitradeX OR BitTrade OR ビットトレード",
     seedTags: ["BitradeX", "仮想通貨"],
   },
   {
     id: "crypto",
     name: "仮想通貨とエアドロップ",
+    group: "classic",
     query: "仮想通貨 エアドロップ OR 暗号資産 OR Bitcoin OR Ethereum",
     seedTags: ["仮想通貨", "エアドロップ"],
   },
   {
     id: "nft",
     name: "NFTゲーム",
+    group: "classic",
     query: "NFTゲーム OR GameFi OR ブロックチェーンゲーム",
     seedTags: ["NFT", "NFTゲーム"],
   },
   {
     id: "automation",
     name: "業務自動化",
+    group: "classic",
     query: "業務自動化 OR RPA OR ノーコード 自動化",
     seedTags: ["業務自動化", "RPA"],
   },
@@ -253,22 +273,53 @@ function scoreArticle(article, now = Date.now()) {
   // 新しいほど高得点。48時間超は大きく減点
   const freshness = Math.max(0, 48 - ageHours);
   const heatKeywords =
-    /急騰|急落|上場|提携|規制|破綻|爆益|アップデート|リリース|承認|停止|ハッキング|エアドロ|AI|自動/i;
+    /急騰|急落|上場|提携|規制|破綻|爆益|アップデート|リリース|承認|停止|ハッキング|エアドロ|AI|自動|Blazor|\.NET|C#|プレビュー|LTS/i;
   const heatBonus = heatKeywords.test(article.title + article.description) ? 12 : 0;
   return freshness + heatBonus;
 }
 
-async function pickHottestStory() {
-  const results = await Promise.allSettled(GENRES.map((g) => fetchGenreNews(g)));
+function genresInGroup(group) {
+  return GENRES.filter((g) => g.group === group);
+}
+
+function pickGenreGroup(date = new Date()) {
+  const { year, month, day } = getJstDateParts(date);
+  const dayIndex = Math.floor(Date.UTC(year, month, day) / 86400000);
+  // JSTの暦日ごとに交互。.NET / Blazor と従来ジャンルがおよそ半分ずつになる
+  return dayIndex % 2 === 0 ? "dotnet" : "classic";
+}
+
+function genreGroupLabel(group) {
+  return group === "dotnet" ? ".NET / Blazor" : "従来";
+}
+
+async function collectGenreArticles(genres) {
+  const results = await Promise.allSettled(genres.map((g) => fetchGenreNews(g)));
   const articles = [];
 
   results.forEach((result, i) => {
     if (result.status === "fulfilled") {
       articles.push(...result.value.slice(0, 8));
     } else {
-      console.warn(`ジャンル取得スキップ (${GENRES[i].name}):`, result.reason?.message || result.reason);
+      console.warn(`ジャンル取得スキップ (${genres[i].name}):`, result.reason?.message || result.reason);
     }
   });
+
+  return articles;
+}
+
+async function pickHottestStory() {
+  const preferred = pickGenreGroup();
+  const other = preferred === "dotnet" ? "classic" : "dotnet";
+  console.log(`今日のジャンル群: ${genreGroupLabel(preferred)}（.NET / Blazor と従来を半々）`);
+
+  let articles = await collectGenreArticles(genresInGroup(preferred));
+  if (articles.length === 0) {
+    console.warn(
+      `${genreGroupLabel(preferred)} のニュースが無いため、${genreGroupLabel(other)} に切り替えます`
+    );
+    articles = await collectGenreArticles(genresInGroup(other));
+  }
 
   if (articles.length === 0) {
     throw new Error("全ジャンルでニュースを取得できませんでした");
@@ -350,7 +401,7 @@ async function generatePost(story) {
       {
         role: "system",
         content:
-          "あなたはFX・仮想通貨・AI・業務自動化に詳しい実務寄りのThreads発信者。ありきたりなまとめは禁止。背景→考察→見通しの3段構成で、読みやすく書く。",
+          "あなたはFX・仮想通貨・AI・業務自動化、および .NET / Blazor に詳しい実務寄りのThreads発信者。ありきたりなまとめは禁止。背景→考察→見通しの3段構成で、読みやすく書く。素材のジャンルに合わせて専門性を切り替える。",
       },
       {
         role: "user",
@@ -385,7 +436,7 @@ async function generatePost(story) {
 - ハッシュタグは body に入れない（topic_tag / hashtags 配列のみ）
 
 【topic_tagルール】
-- この投稿の主題を一言で表す語（例: エアドロップ, GameFi, 生成AI, FX自動売買）
+- この投稿の主題を一言で表す語（例: エアドロップ, GameFi, 生成AI, FX自動売買, Blazor, dotnet, CSharp）
 - 記事・ジャンルに最適化する。汎用語（ニュース, 話題, 今日）は禁止
 - 楽天ROOM や フォロバ100% は使わない
 - ピリオド(.)と&は使わない。50文字以内
