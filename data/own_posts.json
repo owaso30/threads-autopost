@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18118273841283931",
+      "replyIds": [
+        "18423097996147088"
+      ],
+      "postedAt": "2026-09-23T13:39:50.503Z",
+      "hook": "これ、洗面所がちょっと整う。\n出しっぱなしでも違和感なくて、置いた瞬間に気分がラク。\n水まわりのバタつきが減ると、朝の小さなストレスが消える。\n断水の日のため、っていうより普段から使いたくなるやつ。",
+      "reply": "見た目がごちゃつかないのがまず好き。必要なときにサッと出せて、終わったらすぐ戻せる感じもいいです。洗面所の一角に置いても浮きにくくて、生活感をやわらげてくれるのがうれしい。こういうのって、備え用なのに毎日目に入るとちゃんと買ってよかったってなる。🚰\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E9%9D%A2%E5%8F%B0+%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がごちゃつかないのがまず好き。必要なときにサッと出せて、終わったらすぐ戻せる感じもいいです。洗面所の一角に置いても浮きにくくて、生活感をやわらげてくれるのがうれしい。こういうのって、備え用なのに毎日目に入るとちゃんと買ってよかったってなる。🚰",
+      "topicTag": "暮らし",
+      "productId": "trend-4604471f95",
+      "productName": "ポータブル洗面台",
+      "itemName": "ポータブル洗面台",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E9%9D%A2%E5%8F%B0+%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nana666/cabinet/11991817/p215147824d30_1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル洗面台 折りたたみ",
+        "amazon": "ポータブル洗面台 折りたたみ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18107672621599922",
       "replyIds": [
         "17965782768190756"
