@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17912632725469665",
+      "replyIds": [
+        "18012004949953975"
+      ],
+      "postedAt": "2026-09-24T01:25:53.890Z",
+      "hook": "これ、家の空気がちょっと軽くなる。\n置き場所に困らないのに、いざって時の頼もしさが強い。\n普段は邪魔しないのに、あると急に安心感が増すやつ。\n木曜の夜に見直すと、なんか気持ちまで整う。",
+      "reply": "想像よりずっと「生活に置ける」感じでした。見た目がごつすぎなくて、部屋の端に置いても浮きにくいのがいい。必要なときだけサッと出して、終わったらまたしまえるのがかなり楽。防災っぽさが前に出すぎないから、気持ちのハードルも低い。こういうの、あるだけで家の落ち着き方が変わる。😊\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E7%B0%A1%E6%98%93%E3%83%88%E3%82%A4%E3%83%AC+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "想像よりずっと「生活に置ける」感じでした。見た目がごつすぎなくて、部屋の端に置いても浮きにくいのがいい。必要なときだけサッと出して、終わったらまたしまえるのがかなり楽。防災っぽさが前に出すぎないから、気持ちのハードルも低い。こういうの、あるだけで家の落ち着き方が変わる。😊",
+      "topicTag": "防災",
+      "productId": "trend-f07376767f",
+      "productName": "折りたたみ簡易トイレ",
+      "itemName": "折りたたみ簡易トイレ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E7%B0%A1%E6%98%93%E3%83%88%E3%82%A4%E3%83%AC+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0114884020.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 簡易トイレ 防災",
+        "amazon": "折りたたみ 簡易トイレ 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18118273841283931",
       "replyIds": [
         "18423097996147088"
