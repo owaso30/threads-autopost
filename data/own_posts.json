@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18137119573651123",
+      "replyIds": [
+        "17886591195479924"
+      ],
+      "postedAt": "2026-09-25T01:32:21.079Z",
+      "hook": "断水きても、洗面所がちゃんとする。\nこれ、見た目が思ったより生活に馴染むから出しっぱなしでいい。\n水が使えない日にいちばんしんどいのって、清潔感が落ちる感じなんだよね。\nそれをふっと軽くしてくれるやつ。\n金曜のうちに一個あると、気持ちがラク。",
+      "reply": "これ、思ったより「使う前から嫌じゃない」のが強い。見た目がごつすぎなくて、洗面所に置いても浮きにくいのがよかった。必要なときにサッと手に取れて、終わったあとも片づけが重くない感じ。こういうの、あるだけで家の空気が少し落ち着く。暮らし寄りだけど、ちゃんと防災の安心もついてくるのが好き\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%B0%B4%E3%81%AA%E3%81%97%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC%E5%B8%BD%E5%AD%90&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、思ったより「使う前から嫌じゃない」のが強い。見た目がごつすぎなくて、洗面所に置いても浮きにくいのがよかった。必要なときにサッと手に取れて、終わったあとも片づけが重くない感じ。こういうの、あるだけで家の空気が少し落ち着く。暮らし寄りだけど、ちゃんと防災の安心もついてくるのが好き",
+      "topicTag": "防災",
+      "productId": "trend-29fdf168cf",
+      "productName": "水なしシャンプー帽子",
+      "itemName": "水なしシャンプー帽子",
+      "category": "other",
+      "network": "amazon",
+      "preferredNetwork": "rakuten",
+      "fallback": true,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%B0%B4%E3%81%AA%E3%81%97%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC%E5%B8%BD%E5%AD%90&tag=growfolio-22",
+      "imageUrl": "",
+      "keywords": {
+        "rakuten": "水なしシャンプー帽子",
+        "amazon": "水なしシャンプー帽子"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18115590760802900",
       "replyIds": [
         "17917526058446633"
