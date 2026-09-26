@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18591079603070199",
+      "replyIds": [
+        "17862111348694020"
+      ],
+      "postedAt": "2026-09-26T01:35:48.812Z",
+      "hook": "置いとくだけで、家の安心が増えるやつ。\nでかいのに、意外と“出しっぱなしでも気にならない”のがずるい。\n土曜に届くと、ちょっと得した気分になる。\n普段の充電用として置いておくと、いざって時に気持ちがラク。\nこれ、暮らし側の満足度が高い。",
+      "reply": "見た目がゴツいのに、思ったより部屋になじむのがよかった。置き場所を決めると、そこにあるだけでちょっと頼もしい。普段から手に取りやすくて、気づくと使いたくなる感じ。いざという時の安心感もあるのに、日常の景色を邪魔しないのが好き。これ、買ってよかった寄りです\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E5%B0%8F%E5%9E%8B&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツいのに、思ったより部屋になじむのがよかった。置き場所を決めると、そこにあるだけでちょっと頼もしい。普段から手に取りやすくて、気づくと使いたくなる感じ。いざという時の安心感もあるのに、日常の景色を邪魔しないのが好き。これ、買ってよかった寄りです",
+      "topicTag": "暮らし",
+      "productId": "trend-bb065b46d5",
+      "productName": "ポータブル電源",
+      "itemName": "ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E5%B0%8F%E5%9E%8B&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kashima-tokeiten/cabinet/thumnail/ac592410.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 小型",
+        "amazon": "ポータブル電源 小型"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17938363746366280",
       "replyIds": [
         "18071883866758103"
