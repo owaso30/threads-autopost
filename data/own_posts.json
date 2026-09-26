@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18127553333496244",
+      "replyIds": [
+        "17903697828574463"
+      ],
+      "postedAt": "2026-09-26T13:07:41.406Z",
+      "hook": "これ、停電用で終わらない。\n部屋に置いても“ちゃんと好き”な見た目だから、出しっぱなしが苦じゃない。\n昼に光をためて、夜にふわっと灯る感じが気持ちいい。\n土曜の買い物で入れたくなるの、こういうの。",
+      "reply": "最初、非常用って聞くとしまい込む前提で見ちゃうけど、これは違った。薄くて軽くて、棚のすみに置いても圧がないのがいい。夜にぽつんと灯すだけで、部屋の空気がやわらぐ。いざって時のため、というより、普段からそこにあって嬉しいやつ。🌙\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00r4jvo.4qw3j02c.g00r4jvo.4qw3kca9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcanpanera%2Fs16001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcanpanera%2Fi%2F10002457%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "最初、非常用って聞くとしまい込む前提で見ちゃうけど、これは違った。薄くて軽くて、棚のすみに置いても圧がないのがいい。夜にぽつんと灯すだけで、部屋の空気がやわらぐ。いざって時のため、というより、普段からそこにあって嬉しいやつ。🌙",
+      "topicTag": "防災",
+      "productId": "trend-3d6e82b28f",
+      "productName": "非常用ソーラーランタン",
+      "itemName": "キャリー・ザ・サン ミディアム CARRY THE SUN Medium 折り畳み LED ランタン 太陽光パネル ソーラー充電 軽量 防水 防災 非常用 イン",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r4jvo.4qw3j02c.g00r4jvo.4qw3kca9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcanpanera%2Fs16001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcanpanera%2Fi%2F10002457%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/canpanera/cabinet/item55/item_c39001_0.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラー充電 ランタン 防災",
+        "amazon": "ソーラー充電 ランタン 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18591079603070199",
       "replyIds": [
         "17862111348694020"
