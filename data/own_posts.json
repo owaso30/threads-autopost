@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18059140868538349",
+      "replyIds": [
+        "18064918016610089"
+      ],
+      "postedAt": "2026-09-30T02:08:29.975Z",
+      "hook": "これ、暖房の前に置くやつじゃない。\n手のひらがあったまるのに、机に出してても生活感が散らないのがいい。\n寒い日の通勤にも、家での作業にもそのまま使える感じ。\nしかも「もしも」の時に充電の心配が少し減るの、地味に強い。\nこれ、冬の定番に入れたくなる。",
+      "reply": "見た目がゴツすぎなくて、普通に持ち歩きたくなる。ポケットに入れても邪魔感が少ないのがうれしいです。家では机の端に置いておいても浮かないから、毎日ちゃんと手が伸びる。こういうのって、使うたびに「買ってよかった」がじわじわ来ます。🫶\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F%E3%82%AB%E3%82%A4%E3%83%AD+%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツすぎなくて、普通に持ち歩きたくなる。ポケットに入れても邪魔感が少ないのがうれしいです。家では机の端に置いておいても浮かないから、毎日ちゃんと手が伸びる。こういうのって、使うたびに「買ってよかった」がじわじわ来ます。🫶",
+      "topicTag": "防災",
+      "productId": "trend-8fc8d00183",
+      "productName": "充電式カイロ兼モバイルバッテリー",
+      "itemName": "充電式カイロ兼モバイルバッテリー",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F%E3%82%AB%E3%82%A4%E3%83%AD+%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/seimina/cabinet/07885692/12564009/12564013/zhutu9.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式カイロ モバイルバッテリー",
+        "amazon": "充電式カイロ モバイルバッテリー"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17950709322294383",
       "replyIds": [
         "18145144999601046"
