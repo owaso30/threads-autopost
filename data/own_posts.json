@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18096860117642240",
+      "replyIds": [
+        "18025942802699655"
+      ],
+      "postedAt": "2026-10-01T02:10:47.312Z",
+      "hook": "これ、台所に出しっぱなしで正解。\n見た目がごつくないのに、使う瞬間だけちゃんと頼れる。\nいつもの汁物が、ちょっと丁寧になる感じ。\n木曜の夜にこれがあると、なんか安心感が違う。\n暮らしに置いとく防災、こういうのでいい。🌿",
+      "reply": "手に取ったときの「思ったよりちゃんとしてる」がまず強い。派手じゃないのに、台所に置いたままでも浮かないのがいい。出し入れが面倒じゃないから、平日も普通に使いたくなる。いざという日のため、じゃなくて、今日のごはんをちょっと気持ちよくする感じが好き。こういうのが一個あると、家の空気が落ち着く\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00pwv1o.4qw3jc18.g00pwv1o.4qw3k730/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffirst23%2Febm-4940300%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffirst23%2Fi%2F16896057%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手に取ったときの「思ったよりちゃんとしてる」がまず強い。派手じゃないのに、台所に置いたままでも浮かないのがいい。出し入れが面倒じゃないから、平日も普通に使いたくなる。いざという日のため、じゃなくて、今日のごはんをちょっと気持ちよくする感じが好き。こういうのが一個あると、家の空気が落ち着く",
+      "topicTag": "暮らし",
+      "productId": "trend-c4145ae41b",
+      "productName": "多機能保温フードジャー",
+      "itemName": "江部松商事 保温食缶用 ツユトリスポンジ・吸水紙 炊飯器/スープジャー No.4940300",
+      "category": "other",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwv1o.4qw3jc18.g00pwv1o.4qw3k730/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffirst23%2Febm-4940300%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffirst23%2Fi%2F16896057%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/first23/cabinet/ebm/14/ebm-4940300.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "保温フードジャー 防災",
+        "amazon": "保温フードジャー 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18059140868538349",
       "replyIds": [
         "18064918016610089"
