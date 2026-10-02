@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18124438361490837",
+      "replyIds": [
+        "17894264994655507"
+      ],
+      "postedAt": "2026-10-02T02:17:20.092Z",
+      "hook": "これ、水の置き場所が変わる。\n見えるとこに置いても生活感が出にくくて、手に取るまでが妙にスムーズ。\n金曜のうちに1本あると、なんか気持ちが落ち着く。\n普段の水分補給でも使いたくなる見た目で、出しっぱなしが正解だった。",
+      "reply": "最初、ただの防災っぽい道具かと思ったけど、思ったよりすっと暮らしに馴染んだ。置いたままでもゴチャつかないし、手に持った感じも妙に安心する。いざという時のために買ったのに、ふつうの日でも机の近くに置きたくなるやつ。友達に見せても「え、これいいじゃん」って反応になりそう\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&tag=growfolio-22\n#PR #防災",
+      "productPitch": "最初、ただの防災っぽい道具かと思ったけど、思ったよりすっと暮らしに馴染んだ。置いたままでもゴチャつかないし、手に持った感じも妙に安心する。いざという時のために買ったのに、ふつうの日でも机の近くに置きたくなるやつ。友達に見せても「え、これいいじゃん」って反応になりそう",
+      "topicTag": "防災",
+      "productId": "trend-87e9fddd03",
+      "productName": "給水ポータブル浄水ボトル",
+      "itemName": "給水ポータブル浄水ボトル",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsukageya/cabinet/root_sniper_folder/sniper_folder_00002/imgrc0119604332.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災 浄水ボトル 折りたたみ",
+        "amazon": "防災 浄水ボトル 折りたたみ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18096860117642240",
       "replyIds": [
         "18025942802699655"
