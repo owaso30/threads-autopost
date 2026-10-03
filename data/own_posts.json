@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18126209570308563",
+      "replyIds": [
+        "18092769224184375"
+      ],
+      "postedAt": "2026-10-03T01:59:53.483Z",
+      "hook": "これ、トイレの安心感がちがう。\n棚のすき間に置けて、見た目も“いかにも”じゃない。\n土曜日に片づけついでに入れたら、家の中の落ち着きが増えた。\n使う日が来ないのがいちばんだけど、あるだけで気持ちがラク。\n水まわりの不安、これでひとつ減る。",
+      "reply": "思ったより生活感が強すぎなくて、普通に置けるのが好き。箱の主張が強くないから、クローゼットでも洗面まわりでも浮きにくい。いざという時のためのものなのに、出しっぱなしのハードルが低いのがいい。家にあるだけで、断水のストレスを少し先回りできた感じ。買っておくと地味に効くやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E7%B7%8A%E6%80%A5%E7%B0%A1%E6%98%93%E3%83%88%E3%82%A4%E3%83%AC&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったより生活感が強すぎなくて、普通に置けるのが好き。箱の主張が強くないから、クローゼットでも洗面まわりでも浮きにくい。いざという時のためのものなのに、出しっぱなしのハードルが低いのがいい。家にあるだけで、断水のストレスを少し先回りできた感じ。買っておくと地味に効くやつ",
+      "topicTag": "防災",
+      "productId": "trend-663355923f",
+      "productName": "緊急簡易トイレ",
+      "itemName": "緊急簡易トイレ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E7%B7%8A%E6%80%A5%E7%B0%A1%E6%98%93%E3%83%88%E3%82%A4%E3%83%AC&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/excitech/cabinet/excitech/portabletoilet/emergencytoilet-th.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "緊急簡易トイレ",
+        "amazon": "緊急簡易トイレ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18124438361490837",
       "replyIds": [
         "17894264994655507"
