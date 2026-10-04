@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18084499487704140",
+      "replyIds": [
+        "18115831703588919"
+      ],
+      "postedAt": "2026-10-04T02:41:31.792Z",
+      "hook": "断水でも洗濯が止まらない。\n見た目がごつすぎなくて、部屋のすみに置きっぱなしでいけるのがいい。\n日曜のうちに回しておくと、月曜のバタバタがかなり軽い。",
+      "reply": "手で回すだけなのに、思ったよりちゃんと“家事やった感”があるのが好き。\n電気いらないから、置き場所に縛られないし、見た目も意外と生活感が出にくい。\n水まわりが止まるかも…って時のために買ったけど、普通に普段のちょこっと洗いでも使いたくなる。\n出しっぱなしにしても邪魔っぽさが少なくて、災害用品っぽすぎないのがちょうどいい\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00urvao.4qw3j46d.g00urvao.4qw3k022/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmileterrace%2Fr22021828bf54%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmileterrace%2Fi%2F10001095%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手で回すだけなのに、思ったよりちゃんと“家事やった感”があるのが好き。\n電気いらないから、置き場所に縛られないし、見た目も意外と生活感が出にくい。\n水まわりが止まるかも…って時のために買ったけど、普通に普段のちょこっと洗いでも使いたくなる。\n出しっぱなしにしても邪魔っぽさが少なくて、災害用品っぽすぎないのがちょうどいい",
+      "topicTag": "暮らし",
+      "productId": "trend-9730d2d3a8",
+      "productName": "ポータブル洗濯機",
+      "itemName": "手動洗濯機 全手動ウォッシャー 手回しポータブル洗濯機 手動 手動式パワフル洗濯 洗浄 電気がなくても 非常用 防災グッズ 停電グッズ　防災商品 電気不要",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00urvao.4qw3j46d.g00urvao.4qw3k022/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmileterrace%2Fr22021828bf54%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmileterrace%2Fi%2F10001095%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/smileterrace/cabinet/092203/r22021828bf54_1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル洗濯機 防災",
+        "amazon": "ポータブル洗濯機 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17999685812813923",
       "replyIds": [
         "18097212410101096"
