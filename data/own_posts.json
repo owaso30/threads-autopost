@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17907428052327019",
+      "replyIds": [
+        "18117120532992959"
+      ],
+      "postedAt": "2026-10-05T02:02:07.539Z",
+      "hook": "これ、置いとくと家の空気変わる。\n見た目がゴツすぎないから、出しっぱなしでも邪魔に見えないのが強い。\n普段は充電まわりの居場所として使って、いざって時に頼れるの、かなりいい。\n月曜の「めんどい」を減らす系、こういうのが一個あると助かる。",
+      "reply": "思ったより生活に馴染む見た目で、棚の下とか部屋の隅にそのまま置きやすい。持ち出す時も重すぎる感じがしにくくて、扱いがラクだった。ごちゃっとした充電まわりが少し整うだけで、気分がかなり違う。普段から触ってると、もしもの時も焦らず使えそうで安心感ある。⚡\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB+%E3%82%BB%E3%83%83%E3%83%88&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったより生活に馴染む見た目で、棚の下とか部屋の隅にそのまま置きやすい。持ち出す時も重すぎる感じがしにくくて、扱いがラクだった。ごちゃっとした充電まわりが少し整うだけで、気分がかなり違う。普段から触ってると、もしもの時も焦らず使えそうで安心感ある。⚡",
+      "topicTag": "暮らし",
+      "productId": "trend-9aa8d97160",
+      "productName": "ソーラー充電ポータブル電源",
+      "itemName": "ソーラー充電ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB+%E3%82%BB%E3%83%83%E3%83%88&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ecoflow/cabinet/13934395/13934404/d3c160.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 ソーラーパネル セット",
+        "amazon": "ポータブル電源 ソーラーパネル セット"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18084499487704140",
       "replyIds": [
         "18115831703588919"
