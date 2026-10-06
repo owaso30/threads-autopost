@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18106325479952211",
+      "replyIds": [
+        "18128997520754492"
+      ],
+      "postedAt": "2026-10-06T12:02:45.829Z",
+      "hook": "これ、トイレの不安がかなり減る。\n見た目がふつうで、置きっぱなしでも気にならないのがいい。\n断水とか、普段は考えたくない日ほど効くやつ。\nいざという時のために、日常の棚にそのまま混ぜとける感じ。",
+      "reply": "袋っぽさが強すぎないから、備え感が前に出なくていい。箱や棚にスッと入るし、見つけた時に「ある」って思える安心がある。使う場面を想像するとちょっと気が重いのに、持ってるだけで家の落ち着きが増す感じ。こういうの、派手じゃないけど買ってからじわじわ効く。暮らしの中にそのまま置けるのが好き\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%83%88%E3%82%A4%E3%83%AC%E5%87%9D%E5%9B%BA+%E6%B6%88%E8%87%AD%E8%A2%8B&tag=growfolio-22\n#PR #防災",
+      "productPitch": "袋っぽさが強すぎないから、備え感が前に出なくていい。箱や棚にスッと入るし、見つけた時に「ある」って思える安心がある。使う場面を想像するとちょっと気が重いのに、持ってるだけで家の落ち着きが増す感じ。こういうの、派手じゃないけど買ってからじわじわ効く。暮らしの中にそのまま置けるのが好き",
+      "topicTag": "防災",
+      "productId": "trend-ddde330271",
+      "productName": "トイレ凝固・消臭袋",
+      "itemName": "トイレ凝固・消臭袋",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E3%83%88%E3%82%A4%E3%83%AC%E5%87%9D%E5%9B%BA+%E6%B6%88%E8%87%AD%E8%A2%8B&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ashop/cabinet/n2/ny613.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災 トイレ凝固 消臭袋",
+        "amazon": "防災 トイレ凝固 消臭袋"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17907428052327019",
       "replyIds": [
         "18117120532992959"
