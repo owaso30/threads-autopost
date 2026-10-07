@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18115027100018750",
+      "replyIds": [
+        "18113057540519811"
+      ],
+      "postedAt": "2026-10-07T11:48:23.803Z",
+      "hook": "椅子っぽいのに、ちゃんと防災。\nこれ、見た目が普通だから部屋に置きっぱなしでも気にならない。\nいざって時だけ主役になる感じ、かなり好き。\n使わない日も「まあこれでいいか」って思えるのが強い。",
+      "reply": "見た目がごつくないから、部屋に馴染むのがまず良いです。出しておいても生活感が変に出ないし、しまい込まなくていいのがラク。軽くて持ち運びもしやすいから、普段の椅子としても雑に使いたくなる感じ。こういうの1つあると、暮らしの安心感がじわっと上がります。😊\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%98%B2%E7%81%BD+%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がごつくないから、部屋に馴染むのがまず良いです。出しておいても生活感が変に出ないし、しまい込まなくていいのがラク。軽くて持ち運びもしやすいから、普段の椅子としても雑に使いたくなる感じ。こういうの1つあると、暮らしの安心感がじわっと上がります。😊",
+      "topicTag": "防災",
+      "productId": "trend-c75877e8dd",
+      "productName": "折りたたみ防災スツール",
+      "itemName": "折りたたみ防災スツール",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%98%B2%E7%81%BD+%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/reiwa-cosme/cabinet/11323297/11323298/table-top.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 防災 スツール",
+        "amazon": "折りたたみ 防災 スツール"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18157750780457587",
       "replyIds": [
         "18140427874614010"
