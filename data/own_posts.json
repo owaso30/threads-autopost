@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18157750780457587",
+      "replyIds": [
+        "18140427874614010"
+      ],
+      "postedAt": "2026-10-07T02:24:36.898Z",
+      "hook": "これ、家に1個あると安心が別物。\n見た目がごつくないから、洗面まわりにそのまま置けるのがいい。\n水が止まるかも…って時のために買ったのに、普通の日のほうが出番ある。\n使ったあと、なんか暮らしがちょっと整った感じする。",
+      "reply": "これ、思ったより生活になじむやつだった。置きっぱなしでも浮かない見た目で、洗面所に出してても気にならない。手に取った感じもかたすぎなくて、出すのが面倒にならないのが地味に大きい。ちゃんと日常で使いながら、いざという時の安心も一緒に置いておける感じ。友達にも「それいいね」って言われそうなタイプ\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00trtdo.4qw3jccf.g00trtdo.4qw3k998/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmeilulan%2Fr2-sb9515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmeilulan%2Fi%2F10000281%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "これ、思ったより生活になじむやつだった。置きっぱなしでも浮かない見た目で、洗面所に出してても気にならない。手に取った感じもかたすぎなくて、出すのが面倒にならないのが地味に大きい。ちゃんと日常で使いながら、いざという時の安心も一緒に置いておける感じ。友達にも「それいいね」って言われそうなタイプ",
+      "topicTag": "防災",
+      "productId": "trend-071d5e427f",
+      "productName": "携帯洗浄シャワー",
+      "itemName": "【先着樣最大600円クーポン】Umimile おしり洗浄器 充電式 携帯洗浄器 洗浄シャワー ホワイト トイレ ポータブルシャワー 旅行グッズ （USBケーブル",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trtdo.4qw3jccf.g00trtdo.4qw3k998/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmeilulan%2Fr2-sb9515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmeilulan%2Fi%2F10000281%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/meilulan/cabinet/10994074/imgrc01021594411.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "携帯洗浄シャワー 充電式",
+        "amazon": "携帯洗浄シャワー 充電式"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18106325479952211",
       "replyIds": [
         "18128997520754492"
