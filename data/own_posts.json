@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18134936227654892",
+      "replyIds": [
+        "17904339519356588"
+      ],
+      "postedAt": "2026-10-08T12:03:22.669Z",
+      "hook": "これ、置いとくと水回りの不安が軽い。\n使う時だけサッと出せて、しまう時はほんと省スペース。\n断水って聞くと身構えるけど、これは「ある」だけで気持ちが違う。\nしかも見た目が生活感に寄りすぎなくて、家に置いても嫌じゃない。\n地味なのに、いざの時の頼もしさがちゃんとある。",
+      "reply": "思ってたより“道具感”が強すぎなくて、部屋に置いても浮かないのが好き。必要な時だけ取り出せる感じがラクで、準備してる感が前に出すぎないのもいい。サイズ感が重たくないから、置き場所で悩まないのが助かる。こういうの、使わない日ほどありがたさが分かるやつ。見つけたら早めに確保したくなる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E6%BF%AF%E3%83%90%E3%83%83%E3%82%B0&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ってたより“道具感”が強すぎなくて、部屋に置いても浮かないのが好き。必要な時だけ取り出せる感じがラクで、準備してる感が前に出すぎないのもいい。サイズ感が重たくないから、置き場所で悩まないのが助かる。こういうの、使わない日ほどありがたさが分かるやつ。見つけたら早めに確保したくなる",
+      "topicTag": "防災",
+      "productId": "trend-6d74e12d15",
+      "productName": "モバイル水洗い袋",
+      "itemName": "モバイル水洗い袋",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E6%BF%AF%E3%83%90%E3%83%83%E3%82%B0&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/laonschoise/cabinet/12641055/tb7866148_7.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル洗濯バッグ",
+        "amazon": "ポータブル洗濯バッグ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18098780825561068",
       "replyIds": [
         "18227951134331128"
