@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18098780825561068",
+      "replyIds": [
+        "18227951134331128"
+      ],
+      "postedAt": "2026-10-08T02:42:24.429Z",
+      "hook": "これ、夜の家がちょっと好きになる。\n出しっぱなしでも浮かないから、置く場所に迷わない。\nふだんは玄関や棚にちょこん、いざという時もそのまま手に取れる。\n“しまう防災”じゃなくて、“置いとける安心”って感じ。",
+      "reply": "見た目がゴツすぎなくて、部屋にそのまま置けるのがかなり好き。暗くなった時にパッとあると、気持ちまで少し落ち着く。持ち上げた時の軽さも邪魔しなくていい。防災グッズっぽさを前に出しすぎないから、普段の空間になじむのが強い。🌙\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3+%E5%85%85%E9%9B%BB%E5%BC%8F&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツすぎなくて、部屋にそのまま置けるのがかなり好き。暗くなった時にパッとあると、気持ちまで少し落ち着く。持ち上げた時の軽さも邪魔しなくていい。防災グッズっぽさを前に出しすぎないから、普段の空間になじむのが強い。🌙",
+      "topicTag": "防災",
+      "productId": "trend-7d414b593d",
+      "productName": "発電ソーラーランタン",
+      "itemName": "発電ソーラーランタン",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3+%E5%85%85%E9%9B%BB%E5%BC%8F&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/justrich/cabinet/11585584/imgrc0144576444.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラーランタン 充電式",
+        "amazon": "ソーラーランタン 充電式"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18115027100018750",
       "replyIds": [
         "18113057540519811"
