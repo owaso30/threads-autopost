@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18067770251788706",
+      "replyIds": [
+        "18119430632287300"
+      ],
+      "postedAt": "2026-10-09T02:57:00.244Z",
+      "hook": "これ、家の置き場所が1つ空く。\nライトと充電がひとまとめで、金曜の夜にちょうどいいやつ。\n普段は机まわりに置いておいて、必要なときだけサッと持つ。\nごちゃつかないのがまず気持ちいいし、いざという時の心細さも減る。\n見た目もちゃんとしてるから、しまい込まないで済むのが強い。",
+      "reply": "これ、手に取った瞬間に「あ、好き」ってなるやつでした。見た目がすっきりしてるから、部屋にそのまま置いても浮かない。充電まわりと明かりがひとつでまとまるの、思った以上に快適です。夜に探し回らなくていい感じが地味に最高。家の中でずっと出番があるのがいい\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC+LED%E3%83%A9%E3%82%A4%E3%83%88+%E4%B8%80%E4%BD%93%E5%9E%8B&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、手に取った瞬間に「あ、好き」ってなるやつでした。見た目がすっきりしてるから、部屋にそのまま置いても浮かない。充電まわりと明かりがひとつでまとまるの、思った以上に快適です。夜に探し回らなくていい感じが地味に最高。家の中でずっと出番があるのがいい",
+      "topicTag": "暮らし",
+      "productId": "trend-e8215ef7c8",
+      "productName": "モバイルバッテリー一体型LEDライト",
+      "itemName": "モバイルバッテリー一体型LEDライト",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC+LED%E3%83%A9%E3%82%A4%E3%83%88+%E4%B8%80%E4%BD%93%E5%9E%8B&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/la-ma/cabinet/c/c100739/c100739-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "モバイルバッテリー LEDライト 一体型",
+        "amazon": "モバイルバッテリー LEDライト 一体型"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18134936227654892",
       "replyIds": [
         "17904339519356588"
