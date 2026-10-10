@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17933953815409886",
+      "replyIds": [
+        "18144324007574857"
+      ],
+      "postedAt": "2026-10-10T02:21:25.303Z",
+      "hook": "これ、土曜の昼に欲しくなるやつ。\n座れるのに、しまわなくていい。部屋の景色がちょっと整う。\n普段は“そこにあるだけ”で、夜は頼もしさが出る。\n防災っぽさが強すぎないのに、ちゃんと備えになるのがずるい。\nしかも見た目がごつくなくて、置きっぱなしにしやすい。",
+      "reply": "まず、普通にクッションとしてなじむ見た目がいい。使わない日はそのまま置いておけるから、わざわざ片づける気にならないのが助かる。触った感じも生活感が強すぎなくて、部屋に置いてあっても浮きにくい。こういうの、気合いを入れて備える感じじゃなくて、日常に混ぜられるのがいちばん強い。友達が来ても「え、それ何？」ってなるやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E8%93%84%E9%9B%BB%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3&tag=growfolio-22\n#PR #防災",
+      "productPitch": "まず、普通にクッションとしてなじむ見た目がいい。使わない日はそのまま置いておけるから、わざわざ片づける気にならないのが助かる。触った感じも生活感が強すぎなくて、部屋に置いてあっても浮きにくい。こういうの、気合いを入れて備える感じじゃなくて、日常に混ぜられるのがいちばん強い。友達が来ても「え、それ何？」ってなるやつ",
+      "topicTag": "暮らし",
+      "productId": "trend-7778baad1a",
+      "productName": "折りたたみ蓄電クッション",
+      "itemName": "折りたたみ蓄電クッション",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E8%93%84%E9%9B%BB%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/soshina/cabinet/4289/a25su386709-1-l.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ蓄電クッション",
+        "amazon": "折りたたみ蓄電クッション"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18131000545684698",
       "replyIds": [
         "18476755903118071"
