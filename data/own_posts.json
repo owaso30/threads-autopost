@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18125613352908358",
+      "replyIds": [
+        "17997662178033044"
+      ],
+      "postedAt": "2026-10-12T02:25:49.538Z",
+      "hook": "これ、台所に置いとくと強い。\n水の不安が、見た目よりずっと軽くなるやつ。\n普段はいつもの水筒っぽく使えて、いざという時だけ顔つき変わるの好き。\n場所を取らないのに、なんか頼れる。\n月曜の買い足し候補、これ。",
+      "reply": "手に取ったときの「軽っ」て感じがまず好印象だった。見た目がゴツすぎないから、棚に出しっぱなしでも気にならない。いかにも備蓄って感じじゃなくて、普段の延長で置けるのがちょうどいい。友達にも「それいいじゃん」って言われそうな、地味に欲しくなるタイプ。🙂\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00r6boo.4qw3jcaa.g00r6boo.4qw3k790/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsun-wa%2F4562216250526%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsun-wa%2Fi%2F10074934%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手に取ったときの「軽っ」て感じがまず好印象だった。見た目がゴツすぎないから、棚に出しっぱなしでも気にならない。いかにも備蓄って感じじゃなくて、普段の延長で置けるのがちょうどいい。友達にも「それいいじゃん」って言われそうな、地味に欲しくなるタイプ。🙂",
+      "topicTag": "防災",
+      "productId": "trend-f227de7b95",
+      "productName": "携帯浄水ボトル",
+      "itemName": "Seychell セイシェルサバイバルプロ 携帯浄水ボトル ポータブル スポーツ アウトドア 浄水 サバイバル 防災 登山 フィッシング 非常時 4562216",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r6boo.4qw3jcaa.g00r6boo.4qw3k790/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsun-wa%2F4562216250526%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsun-wa%2Fi%2F10074934%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sun-wa/cabinet/bousai/4562216250526.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "携帯浄水ボトル 防災",
+        "amazon": "携帯浄水ボトル 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17985555036083340",
       "replyIds": [
         "18570167482079287"
