@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17905131288665091",
+      "replyIds": [
+        "18095689334424988"
+      ],
+      "postedAt": "2026-10-13T12:43:57.914Z",
+      "hook": "これ、台所に置いとくと強い。\n見た目ふつうなのに、夜の飲みもの時間がちょっと贅沢になるやつ。\n朝のバタバタでも、デスクでも、寝る前でも、ずっと手元にいたくなる。\n冷めるたびに立つのやめたくて、ついこれを選ぶ。\n秋冬の“あったかい”が、地味に気分を持ち上げる。",
+      "reply": "触った感じも見た目もちゃんと今っぽくて、出しっぱなしでも生活感が出すぎないのが好き。机の上に置いておくと、なんかちゃんとして見えるのもいい。持ち上げたときの軽さも気楽で、毎日つい手が伸びる。これあるだけで、夜のひと息がかなり好きになる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=USB%E4%BF%9D%E6%B8%A9%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97&tag=growfolio-22\n#PR #防災",
+      "productPitch": "触った感じも見た目もちゃんと今っぽくて、出しっぱなしでも生活感が出すぎないのが好き。机の上に置いておくと、なんかちゃんとして見えるのもいい。持ち上げたときの軽さも気楽で、毎日つい手が伸びる。これあるだけで、夜のひと息がかなり好きになる",
+      "topicTag": "暮らし",
+      "productId": "trend-4ed3ccada0",
+      "productName": "コードレス保温マグカップ",
+      "itemName": "コードレス保温マグカップ",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=USB%E4%BF%9D%E6%B8%A9%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/itlabo-net-shop/cabinet/202511/cf054_zt.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "USB保温マグカップ",
+        "amazon": "USB保温マグカップ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18122663306483802",
       "replyIds": [
         "18037681952901895"
