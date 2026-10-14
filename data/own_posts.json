@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18113867222602262",
+      "replyIds": [
+        "18570597160072535"
+      ],
+      "postedAt": "2026-10-14T01:55:03.571Z",
+      "hook": "停電対策、これ1台でだいぶ気が楽。\n見た目がごつすぎなくて、普段の部屋にそのまま置けるのがいい。\n水曜の夜、スマホの充電先を探さない感じが地味に最高。\nいざという時の安心って、こういう「いつもそこにある」が強い。",
+      "reply": "触ると安心感のある重さで、ちゃんと頼れる雰囲気があるのに、部屋で浮かない見た目が好き。\n思ったより出しっぱなしにしやすくて、いちいち片づけなくていいのがラク。\n充電まわりをひとまとめにできるから、毎日の延長で持っておける感じ。\n防災用っていうより、暮らしのストレスを減らす道具として欲しくなるやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E5%B0%8F%E5%9E%8B+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "触ると安心感のある重さで、ちゃんと頼れる雰囲気があるのに、部屋で浮かない見た目が好き。\n思ったより出しっぱなしにしやすくて、いちいち片づけなくていいのがラク。\n充電まわりをひとまとめにできるから、毎日の延長で持っておける感じ。\n防災用っていうより、暮らしのストレスを減らす道具として欲しくなるやつ",
+      "topicTag": "防災",
+      "productId": "trend-bb065b46d5",
+      "productName": "ポータブル電源",
+      "itemName": "ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E5%B0%8F%E5%9E%8B+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/c-c-s/citaeb01_top_40off_kikan.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 小型 防災",
+        "amazon": "ポータブル電源 小型 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17905131288665091",
       "replyIds": [
         "18095689334424988"
