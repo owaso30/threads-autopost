@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18022676657716119",
+      "replyIds": [
+        "18125490280911267"
+      ],
+      "postedAt": "2026-10-15T01:29:52.322Z",
+      "hook": "これ、置きっぱなしでいいのずるい。\n見た目がごつすぎなくて、玄関でも棚でもそのまま馴染む。\nラジオもライトも充電も、ひとつにまとまってるのが地味に強い。\n木曜の今、こういうのあるだけで家の空気がちょっと落ち着く。",
+      "reply": "手に取ると、思ったよりちゃんと“道具”感があって安心するやつ。ゴチャつかずに置けるから、しまい込まずに出しておけるのがいい。いざという時用なのに、日常の景色を邪魔しないのが好き。これが1台あると、なんか買ってよかったって気分になる。📻\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00t1tto.4qw3j644.g00t1tto.4qw3k11b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwake%2Fradio-md-090%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwake%2Fi%2F10000026%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手に取ると、思ったよりちゃんと“道具”感があって安心するやつ。ゴチャつかずに置けるから、しまい込まずに出しておけるのがいい。いざという時用なのに、日常の景色を邪魔しないのが好き。これが1台あると、なんか買ってよかったって気分になる。📻",
+      "topicTag": "防災",
+      "productId": "trend-cb97eef525",
+      "productName": "防災ラジオ付きモバイルバッテリー",
+      "itemName": "防災ラジオ 日本語マニュアル付 多機能 充電器 USB充電 モバイルバッテリー 4000mAh ソーラー発電 手回し充電 LEDライト テーブルライト 人感セン",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1tto.4qw3j644.g00t1tto.4qw3k11b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwake%2Fradio-md-090%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwake%2Fi%2F10000026%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/wake/radio-md-090-p/f01.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災ラジオ モバイルバッテリー",
+        "amazon": "防災ラジオ モバイルバッテリー"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18115368686586066",
       "replyIds": [
         "18098916419451954"
