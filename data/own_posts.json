@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18028122854884468",
+      "replyIds": [
+        "18117815293962438"
+      ],
+      "postedAt": "2026-10-15T13:27:28.796Z",
+      "hook": "これ、電池切れの心配が減るやつ。\n置きっぱなしでも邪魔じゃないから、1個あるだけで気持ちが軽い。\n見た目がごつすぎないのがまずいい。\n普段の部屋にそのまま置いても浮きにくいし、いざって時に探さなくていいのが強い。\n木曜の夜、こういうのがあると安心がじわっと来る。",
+      "reply": "手に取った時の軽さがちょうどよくて、置いておいても圧がないのが好き。\n見た目がシンプルだから、棚にも玄関にもなじむ感じでした。\n「しまう場所を考えなくていい」のがかなり楽で、出しっぱなしにしやすいです。\nいざ必要な時に見つからない、が起きにくそうなのが地味にうれしい。\nこういうの、買った瞬間より置いてある日常でじわじわ効いてくる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%B0%B4%E9%9B%BB%E6%B1%A0+%E3%83%A9%E3%82%A4%E3%83%88+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に取った時の軽さがちょうどよくて、置いておいても圧がないのが好き。\n見た目がシンプルだから、棚にも玄関にもなじむ感じでした。\n「しまう場所を考えなくていい」のがかなり楽で、出しっぱなしにしやすいです。\nいざ必要な時に見つからない、が起きにくそうなのが地味にうれしい。\nこういうの、買った瞬間より置いてある日常でじわじわ効いてくる",
+      "topicTag": "防災",
+      "productId": "trend-48fba44d2e",
+      "productName": "水電池ライト",
+      "itemName": "水電池ライト",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%B0%B4%E9%9B%BB%E6%B1%A0+%E3%83%A9%E3%82%A4%E3%83%88+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/j-preshoop/cabinet/12786829/zhu-3.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "水電池 ライト 防災",
+        "amazon": "水電池 ライト 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18022676657716119",
       "replyIds": [
         "18125490280911267"
