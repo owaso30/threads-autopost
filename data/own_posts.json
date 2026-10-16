@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18104679089369060",
+      "replyIds": [
+        "18497874475111787"
+      ],
+      "postedAt": "2026-10-16T13:16:29.548Z",
+      "hook": "これ、置きっぱなしでいいのずるい。\n見える場所にあるのに、生活感が荒れないのが助かる。\n水がない日でも、なんかちゃんと整ってる感じ。\n金曜のうちに1つあると、心の余白が増えるやつ。",
+      "reply": "手に取った瞬間から、なんか使いやすい。ごわごわしすぎず、でも頼りなさもなくて、出しておきたくなる感じでした。白っぽい見た目で置き場に困らないし、いざという時のためにしまい込まなくていいのが好き。普段の「今日はもういいか」を減らしてくれる、地味に気分が上がるやつです。これ買い\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%B0%B4%E3%81%AA%E3%81%97%E5%85%A8%E8%BA%AB%E6%B4%97%E6%B5%84%E3%82%B7%E3%83%BC%E3%83%88&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に取った瞬間から、なんか使いやすい。ごわごわしすぎず、でも頼りなさもなくて、出しておきたくなる感じでした。白っぽい見た目で置き場に困らないし、いざという時のためにしまい込まなくていいのが好き。普段の「今日はもういいか」を減らしてくれる、地味に気分が上がるやつです。これ買い",
+      "topicTag": "防災",
+      "productId": "trend-c10b1057d2",
+      "productName": "水を使わない全身洗浄シート",
+      "itemName": "水を使わない全身洗浄シート",
+      "category": "other",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%B0%B4%E3%81%AA%E3%81%97%E5%85%A8%E8%BA%AB%E6%B4%97%E6%B5%84%E3%82%B7%E3%83%BC%E3%83%88&tag=growfolio-22",
+      "imageUrl": "",
+      "keywords": {
+        "rakuten": "水なし全身洗浄シート",
+        "amazon": "水なし全身洗浄シート"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17899800597671865",
       "replyIds": [
         "17916783141264813"
