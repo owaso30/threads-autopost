@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18118368823989102",
+      "replyIds": [
+        "18117895732811818"
+      ],
+      "postedAt": "2026-10-17T01:19:58.229Z",
+      "hook": "これ、朝も夜もそのまま置ける。\n食べるまでずっとあったかいの、地味に革命。\nお弁当の延長みたいな顔して、\n帰ってきた時の「まだ食べられる」がうれしい。\n土曜日のゆるいごはんにも合うし、いざって時の安心感もちゃんとある。",
+      "reply": "見た目がすっきりしてて、テーブルに出しっぱなしでも全然気にならないのがいい。手に持った時の質感もよくて、なんかちゃんとして見える。ふだんのスープやごはんを入れたくなるし、置き場所も取りにくいから使うハードルが低い。こういうの、1個あるだけで暮らしの温度が上がる感じする。🙂\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E7%9C%9F%E7%A9%BA%E6%96%AD%E7%86%B1+%E3%83%95%E3%83%BC%E3%83%89%E3%82%B8%E3%83%A3%E3%83%BC+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がすっきりしてて、テーブルに出しっぱなしでも全然気にならないのがいい。手に持った時の質感もよくて、なんかちゃんとして見える。ふだんのスープやごはんを入れたくなるし、置き場所も取りにくいから使うハードルが低い。こういうの、1個あるだけで暮らしの温度が上がる感じする。🙂",
+      "topicTag": "暮らし",
+      "productId": "trend-db1e9802ce",
+      "productName": "真空断熱フードジャー",
+      "itemName": "真空断熱フードジャー",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E7%9C%9F%E7%A9%BA%E6%96%AD%E7%86%B1+%E3%83%95%E3%83%BC%E3%83%89%E3%82%B8%E3%83%A3%E3%83%BC+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "",
+      "keywords": {
+        "rakuten": "真空断熱 フードジャー 防災",
+        "amazon": "真空断熱 フードジャー 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18104679089369060",
       "replyIds": [
         "18497874475111787"
