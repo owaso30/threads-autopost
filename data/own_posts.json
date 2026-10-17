@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17871033366645749",
+      "replyIds": [
+        "18153468766528286"
+      ],
+      "postedAt": "2026-10-17T06:58:45.894Z",
+      "hook": "これ、夜の安心を1枚で持てる。\n見た目もふつうで、出しておいて邪魔じゃないのがずるい。\n土曜の夜にまず広げたら、もうそのまま定位置。\n寒い日に肩から包むと、部屋の空気までやわらぐ感じ。\n電気がある日もない日も、つい手が伸びるやつ。",
+      "reply": "思ったより生活感が出なくて、ソファに置きっぱなしでも気にならないのが好き。触るとやわらかくて、広げた瞬間に「今日はこれだな」ってなる。夜の冷えが気になる日に出すと、気持ちまで落ち着く。買ってからは、寒さを我慢する前にこれを取るようになった。🛋️\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E8%93%84%E9%9B%BB%E5%BC%8F+%E9%9B%BB%E6%B0%97%E6%AF%9B%E5%B8%83&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったより生活感が出なくて、ソファに置きっぱなしでも気にならないのが好き。触るとやわらかくて、広げた瞬間に「今日はこれだな」ってなる。夜の冷えが気になる日に出すと、気持ちまで落ち着く。買ってからは、寒さを我慢する前にこれを取るようになった。🛋️",
+      "topicTag": "防災",
+      "productId": "trend-81b568974f",
+      "productName": "携帯蓄電式電気毛布",
+      "itemName": "携帯蓄電式電気毛布",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "rakuten",
+      "fallback": true,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E8%93%84%E9%9B%BB%E5%BC%8F+%E9%9B%BB%E6%B0%97%E6%AF%9B%E5%B8%83&tag=growfolio-22",
+      "imageUrl": "",
+      "keywords": {
+        "rakuten": "携帯蓄電式 電気毛布",
+        "amazon": "携帯蓄電式 電気毛布"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18118368823989102",
       "replyIds": [
         "18117895732811818"
