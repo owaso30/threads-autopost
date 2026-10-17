@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18422941255157864",
+      "replyIds": [
+        "18115604249027253"
+      ],
+      "postedAt": "2026-10-17T12:12:54.845Z",
+      "hook": "これ、置いとくだけでちょっと強い。\n夜の空気がふっと落ち着くし、出しっぱなしでも気にならない見た目。\n普段は玄関の近くに置いて、ふつうに使ってる。\nいざって時だけじゃなくて、日常の景色に混ざる感じがいい。\n10月の買い足し、こういうのがいちばん後回しにしにくい。",
+      "reply": "見た目がゴツすぎなくて、部屋に置いても浮かないのが好き。\n思ったより軽くて、手に取る回数が増えるタイプだった。\n普段はちょい置きで済むから、しまい込まずに済むのがいい。\n夜のちょっとした灯りとしても使いたくなるし、あるだけで安心感が違う。\nこういうの、あとで欲しくなる前に買っておくやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E5%85%85%E9%9B%BB%E5%BC%8F+%E9%98%B2%E7%81%BD%E3%83%A9%E3%82%A4%E3%83%88&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツすぎなくて、部屋に置いても浮かないのが好き。\n思ったより軽くて、手に取る回数が増えるタイプだった。\n普段はちょい置きで済むから、しまい込まずに済むのがいい。\n夜のちょっとした灯りとしても使いたくなるし、あるだけで安心感が違う。\nこういうの、あとで欲しくなる前に買っておくやつ",
+      "topicTag": "防災",
+      "productId": "trend-48071ff2aa",
+      "productName": "ソーラー充電式防災ライト",
+      "itemName": "ソーラー充電式防災ライト",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E5%85%85%E9%9B%BB%E5%BC%8F+%E9%98%B2%E7%81%BD%E3%83%A9%E3%82%A4%E3%83%88&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/worldshop01/cabinet/2501/er0130-1a-10.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラー充電式 防災ライト",
+        "amazon": "ソーラー充電式 防災ライト"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17871033366645749",
       "replyIds": [
         "18153468766528286"
