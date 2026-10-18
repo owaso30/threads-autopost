@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18022610291921341",
+      "replyIds": [
+        "18153956435052877"
+      ],
+      "postedAt": "2026-10-18T12:37:23.256Z",
+      "hook": "これ、家に1個あると地味に強い。\n普段は“そこにあるだけ”で、必要なときだけちゃんと役立つのがずるい。\nスツールっぽい顔してるのに、座れるし、しまえるし、いざという時の動きも早い。\n日曜のうちに置いとくと、暮らしがちょっと軽くなるやつ。",
+      "reply": "見た目がちゃんと家具っぽいから、出しっぱなしでも気にならないのがよかったです。使わない日はそのまま置いておけるし、必要なときだけサッと出せる軽さも気持ちいい。座る場所が増えるのに、物が増えた感じがしないのが好き。これ、買ってから「ひとつで済む」ってこういうことかと思いました。🙂\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E5%8F%8E%E7%B4%8D%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がちゃんと家具っぽいから、出しっぱなしでも気にならないのがよかったです。使わない日はそのまま置いておけるし、必要なときだけサッと出せる軽さも気持ちいい。座る場所が増えるのに、物が増えた感じがしないのが好き。これ、買ってから「ひとつで済む」ってこういうことかと思いました。🙂",
+      "topicTag": "暮らし",
+      "productId": "trend-ad5817cfb3",
+      "productName": "折りたたみ踏み台兼収納スツール",
+      "itemName": "折りたたみ踏み台兼収納スツール",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E5%8F%8E%E7%B4%8D%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/inskagu/cabinet/jishahin40/529384-2.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 収納スツール 防災",
+        "amazon": "折りたたみ 収納スツール 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18077082404450377",
       "replyIds": [
         "18112647545589251"
