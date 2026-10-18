@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18077082404450377",
+      "replyIds": [
+        "18112647545589251"
+      ],
+      "postedAt": "2026-10-18T01:04:24.489Z",
+      "hook": "これ、日曜のうちに見とくやつ。\n置きっぱなしで気にならないのに、いざという時の安心感がちゃんとある。\n箱っぽさが強すぎなくて、部屋の隅にいても生活感を邪魔しない。\nしかも“普段から使ってるもの”っぽく置けるのがいい。\n暮らしの延長で持てる防災、かなり好き。",
+      "reply": "見た目がごつすぎなくて、部屋に置いても浮きにくいのがまず好き。持ち運ぶときも変に気をつかわないし、出し入れがスムーズでストレスが少ない。こういうのって使う日が来る前から“あるだけで落ち着く”のが大きい。日常の家電まわりにそっと混ぜておける感じが、かなり頼もしい\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00tgroo.4qw3j962.g00tgroo.4qw3kb74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2Fn-p1000-s100-jk2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000033%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "見た目がごつすぎなくて、部屋に置いても浮きにくいのがまず好き。持ち運ぶときも変に気をつかわないし、出し入れがスムーズでストレスが少ない。こういうのって使う日が来る前から“あるだけで落ち着く”のが大きい。日常の家電まわりにそっと混ぜておける感じが、かなり頼もしい",
+      "topicTag": "防災",
+      "productId": "trend-bb065b46d5",
+      "productName": "ポータブル電源",
+      "itemName": "【10/20 23:59まで】Jackery Solar Generator 1000 New 1070Wh 100W ポータブル電源 ソーラーパネル セット ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tgroo.4qw3j962.g00tgroo.4qw3kb74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2Fn-p1000-s100-jk2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000033%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13934099/13934159/imgrc0120314280.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 防災",
+        "amazon": "ポータブル電源 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18422941255157864",
       "replyIds": [
         "18115604249027253"
