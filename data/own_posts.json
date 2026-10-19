@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18427893343199588",
+      "replyIds": [
+        "18168596221475541"
+      ],
+      "postedAt": "2026-10-19T01:18:10.503Z",
+      "hook": "これ、見た目よりずっと頼れる。\n置きっぱなしでも生活感が出にくくて、思い立ったときすぐ手に取れるのがいい。\n水まわりに1本あるだけで、気持ちがちょっと軽くなる。\n普段の外出にも、そのまま連れていきたくなるやつ。",
+      "reply": "手に持った感じがまず軽くて、バッグに入れてもそこまで邪魔じゃないのが好印象でした。見た目もゴツすぎなくて、洗面所やキッチンに置いても浮きにくいです。こういうのってしまい込むと忘れるけど、これは出しっぱなしでも気にならないから手が伸びやすい。日常の水分補給の延長で、いざという時の安心も一緒に置ける感じが好きです\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E6%90%BA%E5%B8%AF&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に持った感じがまず軽くて、バッグに入れてもそこまで邪魔じゃないのが好印象でした。見た目もゴツすぎなくて、洗面所やキッチンに置いても浮きにくいです。こういうのってしまい込むと忘れるけど、これは出しっぱなしでも気にならないから手が伸びやすい。日常の水分補給の延長で、いざという時の安心も一緒に置ける感じが好きです",
+      "topicTag": "暮らし",
+      "productId": "trend-7603a3f30a",
+      "productName": "携帯型浄水ボトル",
+      "itemName": "携帯型浄水ボトル",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E9%98%B2%E7%81%BD+%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E6%90%BA%E5%B8%AF&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/trianon-health-shop/cabinet/05577537/lightbottle_sumnail.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "防災 浄水ボトル 携帯",
+        "amazon": "防災 浄水ボトル 携帯"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18022610291921341",
       "replyIds": [
         "18153956435052877"
