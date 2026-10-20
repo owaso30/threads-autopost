@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18118011151971261",
+      "replyIds": [
+        "17962622235221678"
+      ],
+      "postedAt": "2026-10-20T01:51:11.853Z",
+      "hook": "停電用って、正直ちょいダサいと思ってた。\nでもこれ、普段の電球っぽい顔したまま置けるのが強い。\nいざという時だけじゃなくて、ふだんの部屋にもそのまま馴染む。\n「買っとくか」が、わりと自然に出るやつ。",
+      "reply": "つけた見た目が普通寄りで、部屋の空気を変えすぎないのがいい。出しっぱなしでも違和感が少ないから、こういうのって結局いちばん続く。手に取るたびに「これでいいじゃん」って思うタイプ。停電対策なのに、ふだんの満足感がちゃんとあるのが好き。🕯️\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00uoqbo.4qw3jb88.g00uoqbo.4qw3k524/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyaruki-light%2Fora0030%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyaruki-light%2Fi%2F10000037%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "つけた見た目が普通寄りで、部屋の空気を変えすぎないのがいい。出しっぱなしでも違和感が少ないから、こういうのって結局いちばん続く。手に取るたびに「これでいいじゃん」って思うタイプ。停電対策なのに、ふだんの満足感がちゃんとあるのが好き。🕯️",
+      "topicTag": "防災",
+      "productId": "trend-fd7c6c14d6",
+      "productName": "停電時も使える充電式LED電球",
+      "itemName": "ORALUCE 防災電球 蓄電型LED電球 E26口金 2個入 4個入 800lm 60W形相当 約4.5時間点灯可能 電球色 昼光色 調光不可 停電時自動点灯",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uoqbo.4qw3jb88.g00uoqbo.4qw3k524/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyaruki-light%2Fora0030%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyaruki-light%2Fi%2F10000037%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/yaruki-light/cabinet/11568312/11594791/11796326/imgrc0114746740.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式 LED電球 停電対策",
+        "amazon": "充電式 LED電球 停電対策"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18427893343199588",
       "replyIds": [
         "18168596221475541"
