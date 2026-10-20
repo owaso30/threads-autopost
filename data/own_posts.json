@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18640629658056829",
+      "replyIds": [
+        "18014717438959257"
+      ],
+      "postedAt": "2026-10-20T13:34:07.960Z",
+      "hook": "これ、家の空気変わった。\nドアノブにちょんと貼るだけで、夜の迷いが減る感じ。\n地味なのに、あるとないで安心感が全然ちがう。\n火曜日のうちに見とくやつ。",
+      "reply": "暗い廊下でドアノブがすぐ目に入るの、思った以上にラクだった。小さいのにちゃんと存在感があって、変に主張しない見た目なのも好き。貼ったあともごちゃつかず、いつもの景色にすっとなじむ。こういうの、普段は忘れてるのにある日じわっと効くんだよね\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00uu0no.4qw3j0b2.g00uu0no.4qw3kac2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkougurakuichi%2F3322328%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkougurakuichi%2Fi%2F10485604%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "暗い廊下でドアノブがすぐ目に入るの、思った以上にラクだった。小さいのにちゃんと存在感があって、変に主張しない見た目なのも好き。貼ったあともごちゃつかず、いつもの景色にすっとなじむ。こういうの、普段は忘れてるのにある日じわっと効くんだよね",
+      "topicTag": "防災",
+      "productId": "trend-e27b823379",
+      "productName": "蓄光ドアノブサイン",
+      "itemName": "グリーンクロス 蓄光ドアノブステッカー小 60x60「押」3枚セット 1150411007",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uu0no.4qw3j0b2.g00uu0no.4qw3kac2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkougurakuichi%2F3322328%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkougurakuichi%2Fi%2F10485604%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kougurakuichi/cabinet/2026/08/18-00005/3322328.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "蓄光 ドアノブ サイン",
+        "amazon": "蓄光 ドアノブ サイン"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18118011151971261",
       "replyIds": [
         "17962622235221678"
