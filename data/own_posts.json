@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18185292808422543",
+      "replyIds": [
+        "18118847930287089"
+      ],
+      "postedAt": "2026-10-21T01:36:51.401Z",
+      "hook": "これ、平日こそ欲しくなるやつ。\nキッチンに置いてもごちゃつかないのに、いざという時にかなり心強い。\n朝の一杯がめんどくさい日も、これがあるとちょっと気分が上がる。\n“普段使いの顔”してるのが、いちばん買いだった。",
+      "reply": "見た目がちゃんとしてるから、出しっぱなしでも気まずくないのが好き。ごつい非常用感が強すぎないので、家の景色にすっとなじむ。手に取るたびに、思ったよりちゃんとしてるな…ってなる質感。こういうの、あるだけで安心の温度が変わる感じがする。☕\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E8%93%84%E9%9B%BB%E5%BC%8F+%E6%B9%AF%E6%B2%B8%E3%81%8B%E3%81%97+%E3%83%9C%E3%83%88%E3%83%AB&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がちゃんとしてるから、出しっぱなしでも気まずくないのが好き。ごつい非常用感が強すぎないので、家の景色にすっとなじむ。手に取るたびに、思ったよりちゃんとしてるな…ってなる質感。こういうの、あるだけで安心の温度が変わる感じがする。☕",
+      "topicTag": "暮らし",
+      "productId": "trend-66618eb7df",
+      "productName": "携帯蓄電式湯沸かしボトル",
+      "itemName": "携帯蓄電式湯沸かしボトル",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "rakuten",
+      "fallback": true,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E8%93%84%E9%9B%BB%E5%BC%8F+%E6%B9%AF%E6%B2%B8%E3%81%8B%E3%81%97+%E3%83%9C%E3%83%88%E3%83%AB&tag=growfolio-22",
+      "imageUrl": "",
+      "keywords": {
+        "rakuten": "携帯蓄電式 湯沸かし ボトル",
+        "amazon": "携帯蓄電式 湯沸かし ボトル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18640629658056829",
       "replyIds": [
         "18014717438959257"
