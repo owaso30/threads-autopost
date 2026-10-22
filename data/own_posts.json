@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18169703449478316",
+      "replyIds": [
+        "18396803155203123"
+      ],
+      "postedAt": "2026-10-22T01:32:40.255Z",
+      "hook": "これ、置いとくだけでちょっと勝ち。\n広げるまでのハードルが低くて、平日にもちゃんと使いたくなる。\n来客のときも、急にもうひと場所ほしいときも、空気が散らからないのがいい。\n見た目が“いかにも”じゃないから、しまい込まずに済む。\nこういうのが家にあると、暮らしの余白が増える。",
+      "reply": "ふわっとしてるのに、頼りない感じがしないのが好き。片づけたときにかさばりすぎないから、置き場所のストレスが少ないです。普段は来客用っぽく使って、ちょい非日常の日も気分が上がる。いざという時のために買ったのに、普通の日のほうが出番あるかも。🙂\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00uwseo.4qw3jd9d.g00uwseo.4qw3k7a7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk2-shop%2Frprp2239575%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fk2-shop%2Fi%2F10007101%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "ふわっとしてるのに、頼りない感じがしないのが好き。片づけたときにかさばりすぎないから、置き場所のストレスが少ないです。普段は来客用っぽく使って、ちょい非日常の日も気分が上がる。いざという時のために買ったのに、普通の日のほうが出番あるかも。🙂",
+      "topicTag": "暮らし",
+      "productId": "trend-22244566fd",
+      "productName": "ポータブルエアーベッド",
+      "itemName": "持ち運び便利 【2個セット】 折りたたみ コンパクト 軽量 【2個セット】 ポータブル エアーベッド ビーチソファー キャンプ フロート 水陸両用 エアソファー",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uwseo.4qw3jd9d.g00uwseo.4qw3k7a7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk2-shop%2Frprp2239575%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fk2-shop%2Fi%2F10007101%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/k2-shop/cabinet//13689131/rprp2239575.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブルエアーベッド",
+        "amazon": "ポータブルエアーベッド"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18109521716100251",
       "replyIds": [
         "18139566034628093"
