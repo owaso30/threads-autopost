@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T00:20:39.379Z",
+  "updatedAt": "2026-10-23T00:16:50.296Z",
   "theme": "暮らしと防災",
   "viral": {
     "sampleSize": 21,
@@ -81,11 +81,11 @@
       "amazon": 0,
       "rakuten": 0,
       "byCategory": {
-        "gear": {
+        "electronics": {
           "amazon": 0,
           "rakuten": 0
         },
-        "electronics": {
+        "gear": {
           "amazon": 0,
           "rakuten": 0
         },
