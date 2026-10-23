@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18114155717613320",
+      "replyIds": [
+        "18113349875333526"
+      ],
+      "postedAt": "2026-10-23T13:28:18.703Z",
+      "hook": "停電用が、いちばん普段使いだった。",
+      "reply": "見た目が普通の電球っぽいのに、置いてあるだけでちょっと安心するやつ。\nわざわざ防災グッズ感が強くないから、部屋の空気を邪魔しないのがいい。\nしかも普段の照明としてそのまま馴染むから、しまい込む感じがない。\nこれ、家のどこか1個だけでも入ってると気持ちがラク\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00td38o.4qw3j615.g00td38o.4qw3k0cc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoose%2F0535-006919%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgoose%2Fi%2F10002898%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "見た目が普通の電球っぽいのに、置いてあるだけでちょっと安心するやつ。\nわざわざ防災グッズ感が強くないから、部屋の空気を邪魔しないのがいい。\nしかも普段の照明としてそのまま馴染むから、しまい込む感じがない。\nこれ、家のどこか1個だけでも入ってると気持ちがラク",
+      "topicTag": "暮らし",
+      "productId": "trend-e818cea8bf",
+      "productName": "停電時自動点灯LED電球",
+      "itemName": "NEWGALE 充電式LED電球 PJG-9WE 3個パック 電球E26 60W 810lm 昼白色 停電時自動点灯 緊急ライト 非常灯 停電 防災 コストコ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00td38o.4qw3j615.g00td38o.4qw3k0cc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoose%2F0535-006919%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgoose%2Fi%2F10002898%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/goose/cabinet/amayahoo/06604551/0535-006919.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "停電時自動点灯 LED電球",
+        "amazon": "停電時自動点灯 LED電球"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17869375776660263",
       "replyIds": [
         "18654827221015174"
