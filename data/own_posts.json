@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18159345385536019",
+      "replyIds": [
+        "18063256637554721"
+      ],
+      "postedAt": "2026-10-24T12:41:38.147Z",
+      "hook": "これ、土曜に買っとくやつ。\n見た目がゴツいのに、部屋に置くと意外と馴染む。出すのも片づけるのも、思ったよりずっとラク。\n普段は充電ステーションみたいに使って、もしもの時はそのまま頼れるのがいい。\n「備え」って感じより、暮らしがひとつ増える感覚。地味に満足度高い。",
+      "reply": "届いたとき、まず「思ったよりちゃんとしてる…」ってなるやつ。無骨すぎない見た目で、リビングに置いても変に浮かないのがいい。持ち手の感じも扱いやすくて、出し入れでストレスが少ない。\nふだんは充電まわりの定位置みたいに置いておけるから、なんとなく安心感がある。いざという時だけじゃなく、日常で触る機会があるのが好き。これ、買ってから「ない生活に戻るの面倒」枠になった\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%AA%E3%83%B3%E9%85%B8%E9%89%84+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+256Wh&tag=growfolio-22\n#PR #防災",
+      "productPitch": "届いたとき、まず「思ったよりちゃんとしてる…」ってなるやつ。無骨すぎない見た目で、リビングに置いても変に浮かないのがいい。持ち手の感じも扱いやすくて、出し入れでストレスが少ない。\nふだんは充電まわりの定位置みたいに置いておけるから、なんとなく安心感がある。いざという時だけじゃなく、日常で触る機会があるのが好き。これ、買ってから「ない生活に戻るの面倒」枠になった",
+      "topicTag": "暮らし",
+      "productId": "trend-bb065b46d5",
+      "productName": "ポータブル電源",
+      "itemName": "ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%AA%E3%83%B3%E9%85%B8%E9%89%84+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+256Wh&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119193068.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "リン酸鉄 ポータブル電源 256Wh",
+        "amazon": "リン酸鉄 ポータブル電源 256Wh"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17905912683598915",
       "replyIds": [
         "18168587026471063"
