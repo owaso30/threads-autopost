@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18098536088543244",
+      "replyIds": [
+        "18170296624475199"
+      ],
+      "postedAt": "2026-10-27T14:33:06.141Z",
+      "hook": "これ、火曜に買っとくやつ。\n水回りの棚に置いても、妙に生活感が薄いのがいい。\n普段は外遊びの相棒っぽい顔してて、\nいざって時は「ある」だけで気持ちがラク。\n部屋に置いて邪魔じゃない防災、かなり好き。",
+      "reply": "見た目がごつすぎなくて、出しっぱなしでも気にならないのがまず好き。思ったより軽くて、バッグに入れても「あ、これなら持っていける」ってなる。キャンプっぽい日だけじゃなくて、家で水を意識したい時にも手が伸びる感じ。防災グッズってしまい込みがちだけど、これは生活に混ざるのが上手い\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がごつすぎなくて、出しっぱなしでも気にならないのがまず好き。思ったより軽くて、バッグに入れても「あ、これなら持っていける」ってなる。キャンプっぽい日だけじゃなくて、家で水を意識したい時にも手が伸びる感じ。防災グッズってしまい込みがちだけど、これは生活に混ざるのが上手い",
+      "topicTag": "防災",
+      "productId": "trend-f227de7b95",
+      "productName": "携帯浄水ボトル",
+      "itemName": "携帯浄水ボトル",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/naturum-outdoor/cabinet/goods/026591/22_1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "携帯浄水ボトル 防災",
+        "amazon": "携帯浄水ボトル 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17938610043128078",
       "replyIds": [
         "18001881419810552"
