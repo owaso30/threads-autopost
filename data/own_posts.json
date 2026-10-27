@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17938610043128078",
+      "replyIds": [
+        "18001881419810552"
+      ],
+      "postedAt": "2026-10-27T02:06:02.625Z",
+      "hook": "停電用が、いちばん部屋に似合う。\n付けっぱなしでいい見た目なのに、もしもの時だけちゃんと仕事するのがずるい。\n普通の電球みたいに置けるから、家の景色を変えずに気分だけ静かに上がる。\n“備える”って感じが前に出ないのに、ちゃんと安心が増えるのが好き。",
+      "reply": "これ、見た目がふつうの照明のままなのがかなり良い。だから変に主張せず、部屋の雰囲気を壊さないのに、いざという時は頼もしそうで安心感がある。交換したあとも「防災グッズ置いてます」感がなくて、出しっぱなしにしておきたくなる。毎日使うものがそのまま備えになる感じ、かなり好き。💡\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%81%9C%E9%9B%BB%E6%99%82%E8%87%AA%E5%8B%95%E7%82%B9%E7%81%AF+LED%E9%9B%BB%E7%90%83&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、見た目がふつうの照明のままなのがかなり良い。だから変に主張せず、部屋の雰囲気を壊さないのに、いざという時は頼もしそうで安心感がある。交換したあとも「防災グッズ置いてます」感がなくて、出しっぱなしにしておきたくなる。毎日使うものがそのまま備えになる感じ、かなり好き。💡",
+      "topicTag": "暮らし",
+      "productId": "trend-e818cea8bf",
+      "productName": "停電時自動点灯LED電球",
+      "itemName": "停電時自動点灯LED電球",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%81%9C%E9%9B%BB%E6%99%82%E8%87%AA%E5%8B%95%E7%82%B9%E7%81%AF+LED%E9%9B%BB%E7%90%83&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/goose/cabinet/amayahoo/06604551/0535-006919.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "停電時自動点灯 LED電球",
+        "amazon": "停電時自動点灯 LED電球"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17912221662493143",
       "replyIds": [
         "17991236250026854"
