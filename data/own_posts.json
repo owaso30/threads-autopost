@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18036867260851663",
+      "replyIds": [
+        "18013377866768404"
+      ],
+      "postedAt": "2026-10-28T02:17:34.477Z",
+      "hook": "家の空気、これで変わる。\n普段は部屋になじむのに、いざという時の寝床が一瞬で出てくるの、かなり好き。\n来客があっても置き場所に困りにくいし、ちゃんと“使う日がある”感じがいい。\n防災っぽすぎないのに、ちゃんと役目があるのが強い。",
+      "reply": "これ、触ると「ちゃんと寝るやつ」感があって思ったより頼れる。見た目もいかにも非常用じゃなくて、部屋に置いても浮きにくいのがいい。出して広げる時の手軽さがあって、来客用としてもかなり使いやすそう。普段はしまっておけるのに、必要な時はすぐ居場所になる感じ。これは買っとくと安心感が残るタイプ\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00ry0ho.4qw3j335.g00ry0ho.4qw3k757/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyoshin-fiber%2F20000330%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyoshin-fiber%2Fi%2F10000728%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "これ、触ると「ちゃんと寝るやつ」感があって思ったより頼れる。見た目もいかにも非常用じゃなくて、部屋に置いても浮きにくいのがいい。出して広げる時の手軽さがあって、来客用としてもかなり使いやすそう。普段はしまっておけるのに、必要な時はすぐ居場所になる感じ。これは買っとくと安心感が残るタイプ",
+      "topicTag": "防災",
+      "productId": "trend-87f1ac96e4",
+      "productName": "エアーベッド",
+      "itemName": "【新商品】INTEX 正規販売店 ピローレスト ミッドライズ エアーベッド シングル 64115 屋内用 高さ 30cm インテックス エアーベット エア エア",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ry0ho.4qw3j335.g00ry0ho.4qw3k757/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyoshin-fiber%2F20000330%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyoshin-fiber%2Fi%2F10000728%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyoshin-fiber/cabinet/thumb/lp_s/thum_02_25.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "INTEX ピローレスト ミッドライズ エアーベッド",
+        "amazon": "INTEX ピローレスト ミッドライズ エアーベッド"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18098536088543244",
       "replyIds": [
         "18170296624475199"
