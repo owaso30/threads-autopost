@@ -30,9 +30,13 @@
         "views": 0,
         "likes": 0,
         "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18036867260851663",
@@ -61,16 +65,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 32,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18098536088543244",
@@ -99,16 +103,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 19,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17938610043128078",
@@ -137,16 +141,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 52,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17912221662493143",
@@ -175,16 +179,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 69,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18131739274768437",
@@ -213,16 +217,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 66,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18349095025269850",
@@ -251,16 +255,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 11,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18159345385536019",
@@ -289,16 +293,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 8,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17905912683598915",
@@ -327,16 +331,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 19,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18114155717613320",
@@ -365,16 +369,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 35,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17869375776660263",
@@ -403,16 +407,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 31,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17951995515318621",
@@ -441,16 +445,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 26,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18169703449478316",
@@ -479,16 +483,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 16,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18109521716100251",
@@ -517,16 +521,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 42,
-        "likes": 1,
-        "replies": 1,
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18185292808422543",
@@ -555,16 +559,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 51,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18640629658056829",
@@ -593,16 +597,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 8,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18118011151971261",
@@ -631,16 +635,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 26,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18427893343199588",
@@ -669,16 +673,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 15,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18022610291921341",
@@ -707,16 +711,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 27,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18077082404450377",
@@ -745,16 +749,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 23,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18422941255157864",
@@ -783,16 +787,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 8,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17871033366645749",
@@ -821,16 +825,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 13,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18118368823989102",
@@ -859,16 +863,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 2,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18104679089369060",
@@ -897,16 +901,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 12,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17899800597671865",
@@ -935,16 +939,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 15,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18028122854884468",
@@ -973,16 +977,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 15,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18022676657716119",
@@ -1011,16 +1015,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 8,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18115368686586066",
@@ -1049,16 +1053,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 21,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18113867222602262",
@@ -1087,16 +1091,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 20,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17905131288665091",
@@ -1125,16 +1129,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 18,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18122663306483802",
@@ -1163,16 +1167,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 16,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18125613352908358",
@@ -1201,16 +1205,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 32,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17985555036083340",
@@ -1239,16 +1243,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 28,
-        "likes": 1,
-        "replies": 1,
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17933953815409886",
@@ -1277,16 +1281,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 11,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18131000545684698",
@@ -1315,16 +1319,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 11,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18067770251788706",
@@ -1353,16 +1357,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 14,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18134936227654892",
@@ -1391,16 +1395,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 18,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18098780825561068",
@@ -1429,16 +1433,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 14,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18115027100018750",
@@ -1467,16 +1471,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 11,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18157750780457587",
@@ -1505,16 +1509,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 9,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18106325479952211",
@@ -1543,16 +1547,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 5,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17907428052327019",
@@ -1581,16 +1585,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 13,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18084499487704140",
@@ -1619,16 +1623,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 43,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17999685812813923",
@@ -1657,16 +1661,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 22,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18126209570308563",
@@ -1695,16 +1699,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 15,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18124438361490837",
@@ -1733,16 +1737,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 12,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18096860117642240",
@@ -1771,16 +1775,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 28,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18059140868538349",
@@ -1809,16 +1813,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 13,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17950709322294383",
@@ -1847,16 +1851,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 76,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18011499935974791",
@@ -1885,16 +1889,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 25,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17943949197344714",
@@ -1923,16 +1927,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 21,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18125117297310589",
@@ -1961,16 +1965,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 12,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18127553333496244",
@@ -1999,16 +2003,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 15,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18591079603070199",
@@ -2037,16 +2041,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 19,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17938363746366280",
@@ -2075,16 +2079,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 7,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18137119573651123",
@@ -2113,16 +2117,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 50,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18115590760802900",
@@ -2151,16 +2155,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 13,
-        "likes": 1,
-        "replies": 1,
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17912632725469665",
@@ -2189,16 +2193,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 4,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18118273841283931",
@@ -2227,16 +2231,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 34,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18107672621599922",
@@ -2265,16 +2269,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 20,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18095853290411619",
@@ -2303,16 +2307,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 17,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17917655154465815",
@@ -2341,16 +2345,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 18,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18428745592151654",
@@ -2379,16 +2383,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 15,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17955071889231458",
@@ -2417,16 +2421,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 21,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18118264223318879",
@@ -2455,16 +2459,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 36,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18233048239320902",
@@ -2493,16 +2497,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 20,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18069646082742374",
@@ -2531,16 +2535,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 9,
-        "likes": 1,
-        "replies": 1,
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18104251697211861",
@@ -2569,16 +2573,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 10,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18484521037107851",
@@ -2607,16 +2611,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 12,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18038768198835684",
@@ -2645,16 +2649,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 16,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18097929056386438",
@@ -2683,16 +2687,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 16,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17888558649457467",
@@ -2721,16 +2725,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 13,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18016373753740564",
@@ -2759,16 +2763,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 56,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17945424702322134",
@@ -2797,16 +2801,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 62,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18087901013422596",
@@ -2835,16 +2839,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 38,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18112609637107166",
@@ -2873,16 +2877,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 32,
-        "likes": 1,
-        "replies": 1,
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18626356747036502",
@@ -2911,16 +2915,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 69,
-        "likes": 1,
-        "replies": 1,
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
-      "verdict": "pending",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "verdict": "lose",
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17995719959823605",
@@ -2949,16 +2953,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 40,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18426074473196502",
@@ -2987,16 +2991,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 33,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18103397447189893",
@@ -3025,16 +3029,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 42,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18112928699008246",
@@ -3063,16 +3067,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 10,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18127275451704617",
@@ -3101,16 +3105,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 21,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18116204278979549",
@@ -3139,16 +3143,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 20,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18204979387368495",
@@ -3177,16 +3181,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 23,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18040758224639811",
@@ -3215,16 +3219,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 29,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18021068924875066",
@@ -3253,16 +3257,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 12,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18105674392926615",
@@ -3291,16 +3295,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 4,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18094213676541355",
@@ -3329,16 +3333,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 17,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17930593383142289",
@@ -3367,16 +3371,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 23,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17901401589572200",
@@ -3405,16 +3409,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 12,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17907375945494682",
@@ -3443,16 +3447,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 7,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17879758887528601",
@@ -3481,16 +3485,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 23,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18095321606352388",
@@ -3519,16 +3523,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 9,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17870842545637865",
@@ -3557,16 +3561,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 52,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18622982293035858",
@@ -3595,16 +3599,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 13,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18111827396024878",
@@ -3633,16 +3637,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 2,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18118052707732098",
@@ -3671,16 +3675,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 6,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18080100767345208",
@@ -3709,16 +3713,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 7,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18148484902526758",
@@ -3747,16 +3751,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 24,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17905082376519657",
@@ -3785,16 +3789,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 5,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17984143854060360",
@@ -3823,16 +3827,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 8,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17905731123542762",
@@ -3861,16 +3865,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 6,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18124539656498493",
@@ -3899,16 +3903,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 11,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18121424005870005",
@@ -3937,16 +3941,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 18,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18205090627367110",
@@ -3975,16 +3979,16 @@
       "reuseFrom": null,
       "generation": 1,
       "metrics": {
-        "views": 37,
+        "views": 0,
         "likes": 0,
-        "replies": 1,
+        "replies": 0,
         "reposts": 0,
         "quotes": 0,
         "shares": 0,
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17924469549416378",
@@ -4022,7 +4026,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "18122392132852166",
@@ -4059,7 +4063,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     },
     {
       "id": "17884883973654611",
@@ -4096,7 +4100,7 @@
         "clicks": 0
       },
       "verdict": "lose",
-      "metricsAt": "2026-10-29T01:25:51.020Z"
+      "metricsAt": "2026-10-30T01:27:33.773Z"
     }
   ]
 }
