@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17929400952422804",
+      "replyIds": [
+        "18133565005689528"
+      ],
+      "postedAt": "2026-11-01T02:14:32.305Z",
+      "hook": "これ、日曜に置いとくやつ。\n普段は普通に使えて、いざという時もそのまま出せるのが強い。\n折りたたみ防災チェアって、ただの“椅子”顔して部屋にいるのに、\n座るとちゃんと気分がラクになる。\n玄関脇でも隅っこでも邪魔しないの、かなり買い。",
+      "reply": "見た目がごつすぎないから、出しっぱなしでも浮かないのが好き。折りたたみの動きも軽くて、思ったより手に取りやすい感じ。ちょっと座りたい時にすぐ使えて、家の中の“なんとなく不便”が減る。友達が来ても普通に置けるし、これなら一個持ってて損ないやつ。🪑\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00sk3qo.4qw3j1d5.g00sk3qo.4qw3kd5b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Ffoldingchair001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fh2brothers%2Fi%2F10001664%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "見た目がごつすぎないから、出しっぱなしでも浮かないのが好き。折りたたみの動きも軽くて、思ったより手に取りやすい感じ。ちょっと座りたい時にすぐ使えて、家の中の“なんとなく不便”が減る。友達が来ても普通に置けるし、これなら一個持ってて損ないやつ。🪑",
+      "topicTag": "暮らし",
+      "productId": "trend-ebaaf797b2",
+      "productName": "折りたたみ防災チェア",
+      "itemName": "【11/1 P11倍&1,000円OFFcp！】【クッション付き★意匠権取得済】折りたたみ椅子 アウトドア コンパクト 軽量 折りたたみチェア クッション付き ",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sk3qo.4qw3j1d5.g00sk3qo.4qw3kd5b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Ffoldingchair001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fh2brothers%2Fi%2F10001664%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/outdoor/foldingchair002_0_1r.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 防災 チェア",
+        "amazon": "折りたたみ 防災 チェア"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18115373645600762",
       "replyIds": [
         "18110624963147394"
