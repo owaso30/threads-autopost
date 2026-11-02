@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18142388509621475",
+      "replyIds": [
+        "18142327105623906"
+      ],
+      "postedAt": "2026-11-02T13:31:51.455Z",
+      "hook": "これ、月曜の置き買い。\n見た目がちゃんとしてるから、部屋に出しっぱなしでも浮かない。🕯️\n夜の間接照明として置くと、急に空気がやわらぐ。\nいざという時のためにしまい込む感じじゃなくて、ふつうに使いたくなるのがいい。\nだから防災のやつってより、暮らしをちょっと上げるやつ。",
+      "reply": "思ったより“道具感”が少なくて、部屋に置いた時のなじみ方が好き。光がやさしくて、夜にこれだけ点けると落ち着く。持ち運びも気楽で、必要な場所にサッと連れていけるのがいい。ちゃんと使う日常があるから、しまいっぱなしにならないのが助かる。これ、普通に買ってよかったやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F+LED+%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったより“道具感”が少なくて、部屋に置いた時のなじみ方が好き。光がやさしくて、夜にこれだけ点けると落ち着く。持ち運びも気楽で、必要な場所にサッと連れていけるのがいい。ちゃんと使う日常があるから、しまいっぱなしにならないのが助かる。これ、普通に買ってよかったやつ",
+      "topicTag": "暮らし",
+      "productId": "trend-96748c9bfc",
+      "productName": "充電式LEDランタン",
+      "itemName": "充電式LEDランタン",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F+LED+%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/latuna/cabinet/items/bedsidelamp/10000020.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式 LED ランタン 防災",
+        "amazon": "充電式 LED ランタン 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18115269005152962",
       "replyIds": [
         "18095671250660396"
