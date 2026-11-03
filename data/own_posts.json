@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17948789739360242",
+      "replyIds": [
+        "17883999864629249"
+      ],
+      "postedAt": "2026-11-03T12:49:15.183Z",
+      "hook": "これ、火曜に買っとくやつ。\n薄くしまえるのに、いざという時の“置き場所”がちゃんとある感じがいい。\n普段は邪魔しないのに、出すと一気に頼もしさが出る。\nキッチンの隅でも玄関脇でも、見た目がごちゃつかないのが好き。\n11月の空気に入る前に、ひとつあると気持ちが落ち着く。",
+      "reply": "最初、こういうのって使う日まで場所を取りそう…と思ってたんだけど、畳んだ姿がかなり静かでよかった。出してみると“いかにも備え”感が強すぎなくて、部屋に置いても浮かない。普段の暮らしの延長で持っておける感じがちょうどいい。いざという時に慌てて探さなくていいの、かなり気持ちがラク\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E7%B5%A6%E6%B0%B4%E3%82%BF%E3%83%B3%E3%82%AF+%E8%9B%87%E5%8F%A3%E4%BB%98%E3%81%8D&tag=growfolio-22\n#PR #防災",
+      "productPitch": "最初、こういうのって使う日まで場所を取りそう…と思ってたんだけど、畳んだ姿がかなり静かでよかった。出してみると“いかにも備え”感が強すぎなくて、部屋に置いても浮かない。普段の暮らしの延長で持っておける感じがちょうどいい。いざという時に慌てて探さなくていいの、かなり気持ちがラク",
+      "topicTag": "防災",
+      "productId": "trend-6f309429ba",
+      "productName": "折りたたみ給水タンク",
+      "itemName": "折りたたみ給水タンク",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E7%B5%A6%E6%B0%B4%E3%82%BF%E3%83%B3%E3%82%AF+%E8%9B%87%E5%8F%A3%E4%BB%98%E3%81%8D&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nishikiyaweb/cabinet/image1018/pdd8532.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ給水タンク 蛇口付き",
+        "amazon": "折りたたみ給水タンク 蛇口付き"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18142388509621475",
       "replyIds": [
         "18142327105623906"
