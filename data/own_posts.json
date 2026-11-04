@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18135055024790152",
+      "replyIds": [
+        "18119015512802930"
+      ],
+      "postedAt": "2026-11-04T13:00:08.943Z",
+      "hook": "これ、置いとくと家が静かに強い。\nデカいのにゴツすぎなくて、部屋の隅にそのまま置けるのがいい。\nスマホ周りの充電が面倒な日も、これがあると気持ちがラク。\n冬の停電を考える前に、まず日常で「持っててよかった」が来るやつ。",
+      "reply": "見た目がいかにも防災グッズ、じゃないのがまず好き。角がやさしくて、棚の下に置いても浮かない感じがある。出しっぱなしでも邪魔っぽく見えないから、思ったより生活に馴染む。いざという時のために買ったのに、普段から触りたくなる存在感だった。🙂\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00rr09o.4qw3je47.g00rr09o.4qw3kcb8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa17225z1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fanker%2Fi%2F10002036%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "見た目がいかにも防災グッズ、じゃないのがまず好き。角がやさしくて、棚の下に置いても浮かない感じがある。出しっぱなしでも邪魔っぽく見えないから、思ったより生活に馴染む。いざという時のために買ったのに、普段から触りたくなる存在感だった。🙂",
+      "topicTag": "防災",
+      "productId": "trend-1e4e16ed1f",
+      "productName": "ポータブル電源（小型・高出力）",
+      "itemName": "【19,000円OFFクーポン 11/11まで】Anker Solix C300 Portable Power Station ポータブル電源 288Wh スト",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rr09o.4qw3je47.g00rr09o.4qw3kcb8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa17225z1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fanker%2Fi%2F10002036%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a1/a17225z1_normal.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 小型 高出力",
+        "amazon": "ポータブル電源 小型 高出力"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17948789739360242",
       "replyIds": [
         "17883999864629249"
