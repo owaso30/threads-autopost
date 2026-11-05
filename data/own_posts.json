@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18121569845064752",
+      "replyIds": [
+        "17996117049056085"
+      ],
+      "postedAt": "2026-11-05T13:13:23.362Z",
+      "hook": "これ、電球の顔して置いとくやつ。\n見た目が普通だから、リビングにそのまま馴染むのがずるい。\n普段はいつもの灯りっぽくて、急に「もしも」の席も空いてる感じ。\n停電の話って重くなりがちだけど、これは暮らしの延長で持てるのがいい。\n引き出しじゃなくて、ちゃんと見える場所に置きたくなる。",
+      "reply": "最初、ただの電球っぽいのにちゃんとランタン感もあって、置いた瞬間にちょっと気分上がった。\n生活感のある部屋でも浮かないから、しまい込まずに出しておけるのが好き。\nいざという時だけじゃなく、普段の灯りとしても「これでいい」がちゃんと続く感じ。\nこういうの、あるだけで家の安心感が静かに増える。Amazonで見つけて、これは買いだった\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%81%9C%E9%9B%BB+%E5%85%85%E9%9B%BB%E5%BC%8F+LED%E9%9B%BB%E7%90%83&tag=growfolio-22\n#PR #防災",
+      "productPitch": "最初、ただの電球っぽいのにちゃんとランタン感もあって、置いた瞬間にちょっと気分上がった。\n生活感のある部屋でも浮かないから、しまい込まずに出しておけるのが好き。\nいざという時だけじゃなく、普段の灯りとしても「これでいい」がちゃんと続く感じ。\nこういうの、あるだけで家の安心感が静かに増える。Amazonで見つけて、これは買いだった",
+      "topicTag": "暮らし",
+      "productId": "trend-5e512f157b",
+      "productName": "停電対応のLED電球ランタン",
+      "itemName": "停電対応のLED電球ランタン",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%81%9C%E9%9B%BB+%E5%85%85%E9%9B%BB%E5%BC%8F+LED%E9%9B%BB%E7%90%83&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shopavail/cabinet/07943905/compass1721793576.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "停電 充電式 LED電球",
+        "amazon": "停電 充電式 LED電球"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18135055024790152",
       "replyIds": [
         "18119015512802930"
