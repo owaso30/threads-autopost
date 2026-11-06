@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18183952567389355",
+      "replyIds": [
+        "18121060321759177"
+      ],
+      "postedAt": "2026-11-06T12:58:04.209Z",
+      "hook": "これ、見た目よりずっと頼れる。\n棚に置いても浮かないのに、あると安心感がちゃんとある。\n外に持っていく日も、家で水が気になる日も、これひとつでいい感じ。\nいかにも防災っぽくないから、出しっぱなしでも気まずくない。\n冬前に置いとくと、ちょっと家が強くなる感じする。",
+      "reply": "見た目がゴツすぎないのがまず好き。キッチンに置いても変に主張しないから、ふつうに生活の中に馴染む。持ったときも意外と扱いやすくて、思ったより気軽に手が伸びる感じ。防災用品ってしまい込みがちだけど、これは出しとけるのがいい。水まわりの安心を、ちゃんと日常側に置けるやつ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツすぎないのがまず好き。キッチンに置いても変に主張しないから、ふつうに生活の中に馴染む。持ったときも意外と扱いやすくて、思ったより気軽に手が伸びる感じ。防災用品ってしまい込みがちだけど、これは出しとけるのがいい。水まわりの安心を、ちゃんと日常側に置けるやつ",
+      "topicTag": "防災",
+      "productId": "trend-f227de7b95",
+      "productName": "携帯浄水ボトル",
+      "itemName": "携帯浄水ボトル",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%90%BA%E5%B8%AF%E6%B5%84%E6%B0%B4%E3%83%9C%E3%83%88%E3%83%AB+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/toclas-water/cabinet/item/toclas_a0007_pfas.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "携帯浄水ボトル 防災",
+        "amazon": "携帯浄水ボトル 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18121569845064752",
       "replyIds": [
         "17996117049056085"
