@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17902280034608235",
+      "replyIds": [
+        "18108366248251343"
+      ],
+      "postedAt": "2026-11-08T02:30:05.094Z",
+      "hook": "これ、家の空気が静かに変わる。\n出しっぱなしでも浮かないのに、いざという時はちゃんと頼れる。\n日曜日のうちに、棚のすみへ置いとくだけで気持ちが軽い。\n普段は“置きもの”っぽい顔してるのに、持っておくと安心感がじわっと増す。\n暮らしを邪魔しない防災って、こういうやつ。",
+      "reply": "見た目がゴツすぎなくて、部屋にそのまま置けるのがかなり好き。しまい込まずに済むから、思い立った時にすぐ手が伸びる感じがある。コード周りがごちゃつかないのも地味にうれしい。日常の延長で置いておけるのに、ちゃんと備えの顔もしてるのがいい。買ってから、家の“安心の置き場所”がひとつ増えた\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツすぎなくて、部屋にそのまま置けるのがかなり好き。しまい込まずに済むから、思い立った時にすぐ手が伸びる感じがある。コード周りがごちゃつかないのも地味にうれしい。日常の延長で置いておけるのに、ちゃんと備えの顔もしてるのがいい。買ってから、家の“安心の置き場所”がひとつ増えた",
+      "topicTag": "防災",
+      "productId": "trend-1fe4ea3a15",
+      "productName": "ソーラーパネル一体モバイル電源",
+      "itemName": "ソーラーパネル一体モバイル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB+%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/c-c-s/citaeb01_top_40off_kikan.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラーパネル ポータブル電源",
+        "amazon": "ソーラーパネル ポータブル電源"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18176412772456157",
       "replyIds": [
         "17940493017393551"
