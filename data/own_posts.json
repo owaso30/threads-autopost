@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18429492922153146",
+      "replyIds": [
+        "17996270654889414"
+      ],
+      "postedAt": "2026-11-08T11:57:02.937Z",
+      "hook": "冬の「ちょい寒い」を消すやつ。\n出しっぱなしでも生活感が出にくいの、かなり強い。\nソファでもデスクでも、座った瞬間にもう抜け出しにくい。\nしかも軽くて、思ったより気軽に持っていける。\n11月の置き買い、かなり正解。",
+      "reply": "これ、見た目が思ったよりすっきりしてて好き。\n部屋に置いてもゴツく見えないから、出しっぱなしのハードルが低い。\n使うとじんわり包まれる感じで、足元の冷えが気になる日にかなり手が伸びる。😊\nふつうの毛布より「ここに座りたくなる」感じがあるのがいい。\n友達に見せたら、地味なのに欲しいやつって言われそう\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00u9oqo.4qw3j03e.g00u9oqo.4qw3k429/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyshopnagomi%2Fdy001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeautyshopnagomi%2Fi%2F10000551%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "これ、見た目が思ったよりすっきりしてて好き。\n部屋に置いてもゴツく見えないから、出しっぱなしのハードルが低い。\n使うとじんわり包まれる感じで、足元の冷えが気になる日にかなり手が伸びる。😊\nふつうの毛布より「ここに座りたくなる」感じがあるのがいい。\n友達に見せたら、地味なのに欲しいやつって言われそう",
+      "topicTag": "暮らし",
+      "productId": "trend-cbabce5142",
+      "productName": "ポータブル電気毛布",
+      "itemName": "10%OFFクーポン付【楽天1位】【最新進化版2.0】【防災グッズ 1台8役 SNS大人気】ホットマット 一人用 椅子 洗える 足元 持ち運び 45cm ミニマ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u9oqo.4qw3j03e.g00u9oqo.4qw3k429/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyshopnagomi%2Fdy001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeautyshopnagomi%2Fi%2F10000551%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/beautyshopnagomi/cabinet/11201224/dy2.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電気毛布 防災",
+        "amazon": "ポータブル電気毛布 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17902280034608235",
       "replyIds": [
         "18108366248251343"
