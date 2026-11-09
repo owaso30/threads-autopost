@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18112723472245606",
+      "replyIds": [
+        "18353603815282043"
+      ],
+      "postedAt": "2026-11-09T13:55:44.174Z",
+      "hook": "これ、置いとくだけで安心が増える。\n折りたためるから、家でも車でも邪魔にならない。\n月曜の朝に見て「あとで買う」って思ったやつ。\nいざという時のため、っていうより、普段の暮らしを軽くしてくれる感じ。",
+      "reply": "思ってたよりずっと薄くて、しまい方がきれい。見える場所に置いても生活感が出にくいから、出しっぱなしでも気にならなかった。車に入れてもかさばらないし、家のすみっこにスッと収まるのがいい。防災用品っていうより、なんか「持ってると落ち着く道具」って感じ。🚗\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%83%88%E3%82%A4%E3%83%AC+%E3%82%B7%E3%83%BC%E3%83%88+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ってたよりずっと薄くて、しまい方がきれい。見える場所に置いても生活感が出にくいから、出しっぱなしでも気にならなかった。車に入れてもかさばらないし、家のすみっこにスッと収まるのがいい。防災用品っていうより、なんか「持ってると落ち着く道具」って感じ。🚗",
+      "topicTag": "暮らし",
+      "productId": "trend-c37c501068",
+      "productName": "折りたたみトイレシート",
+      "itemName": "折りたたみトイレシート",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E3%83%88%E3%82%A4%E3%83%AC+%E3%82%B7%E3%83%BC%E3%83%88+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/four-piece/cabinet/06593210/06607099/08184517/imgrc0117640075.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ トイレ シート 防災",
+        "amazon": "折りたたみ トイレ シート 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18033010532683969",
       "replyIds": [
         "18646451734005343"
