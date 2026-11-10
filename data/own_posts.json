@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18600140719069011",
+      "replyIds": [
+        "17979978276153628"
+      ],
+      "postedAt": "2026-11-10T04:38:10.605Z",
+      "hook": "これ、毎日出しっぱなしで正解。\n見た目がちゃんとしてるから、台所でもデスクでも浮かない。\n朝はあったかいの入れて、昼は冷たいの入れて、気分で使い分けるだけ。\n停電とか考える前に、もう日常のほうで手放せなくなるやつ。\n火曜日の買い物で、かなり満足度高い。",
+      "reply": "手に持ったときのひんやり/あたたかさがちゃんと抑えられてて、地味に気分がいい。置いてある見た目もすっきりしてて、生活感が出すぎないのが好き。洗ったあともまたすぐ使いたくなる感じで、つい手に取る回数が増えた。これ、1個あると普段の満足度がかなり上がる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%96%AD%E7%86%B1%E3%82%BF%E3%83%B3%E3%83%96%E3%83%A9%E3%83%BC+%E8%93%8B%E4%BB%98%E3%81%8D+%E4%BF%9D%E6%B8%A9%E4%BF%9D%E5%86%B7&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に持ったときのひんやり/あたたかさがちゃんと抑えられてて、地味に気分がいい。置いてある見た目もすっきりしてて、生活感が出すぎないのが好き。洗ったあともまたすぐ使いたくなる感じで、つい手に取る回数が増えた。これ、1個あると普段の満足度がかなり上がる",
+      "topicTag": "暮らし",
+      "productId": "trend-c4b75a231c",
+      "productName": "保温・保冷できる断熱タンブラー",
+      "itemName": "保温・保冷できる断熱タンブラー",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%96%AD%E7%86%B1%E3%82%BF%E3%83%B3%E3%83%96%E3%83%A9%E3%83%BC+%E8%93%8B%E4%BB%98%E3%81%8D+%E4%BF%9D%E6%B8%A9%E4%BF%9D%E5%86%B7&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kizamu/cabinet/12257669/set-beermug-031_0_u.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "断熱タンブラー 蓋付き 保温保冷",
+        "amazon": "断熱タンブラー 蓋付き 保温保冷"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18112723472245606",
       "replyIds": [
         "18353603815282043"
