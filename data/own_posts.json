@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18002248650008479",
+      "replyIds": [
+        "18169313911479142"
+      ],
+      "postedAt": "2026-11-10T13:29:17.190Z",
+      "hook": "これ、廊下の空気が変わる。\n暗い場所がある家ほど、ひとつ置くと「ちょっと安心」が増えるやつ。\n夜にトイレ行くときの眩しさも、帰宅した瞬間のモタつきも減る。\n普段は静かに馴染むのに、いざという時だけ頼もしさ出してくる。\nこういうの、結局いちばん使う。✨",
+      "reply": "見た目がごつくなくて、家にそのまま置けるのが好き。必要なときだけふわっと光って、普段は存在感ひかえめなのに、ちゃんと仕事してくれる感じ。コンセント周りや棚の端に置いてもじゃまにならなくて、気づくと毎日見てるやつ。正直、これある家はちょっと安心感の出方が違う\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F%E4%BA%BA%E6%84%9F%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がごつくなくて、家にそのまま置けるのが好き。必要なときだけふわっと光って、普段は存在感ひかえめなのに、ちゃんと仕事してくれる感じ。コンセント周りや棚の端に置いてもじゃまにならなくて、気づくと毎日見てるやつ。正直、これある家はちょっと安心感の出方が違う",
+      "topicTag": "暮らし",
+      "productId": "trend-deb761963f",
+      "productName": "充電式センサーライト",
+      "itemName": "充電式センサーライト",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F%E4%BA%BA%E6%84%9F%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/creaswing/cabinet/topimge/hom-0005.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式人感センサーライト",
+        "amazon": "充電式人感センサーライト"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18600140719069011",
       "replyIds": [
         "17979978276153628"
