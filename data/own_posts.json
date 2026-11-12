@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17991955077116055",
+      "replyIds": [
+        "18070783499610925"
+      ],
+      "postedAt": "2026-11-12T13:47:11.713Z",
+      "hook": "これ、充電の置き場が決まる。\nケーブル探す手間が減るだけで、朝も夜もかなりラク。\nしかも置いたまま使えるから、机の上がごちゃつかない。\n家でも外でも、そのまま持っていけるのが地味に強い。\n木曜日の疲れがある日に、こういうの助かる。",
+      "reply": "手に取った瞬間、思ったよりすっきりしてて好きでした。\n変に主張しない見た目だから、机に置きっぱなしでも気にならないです。\n充電しながら触れる感じがラクで、ちょこちょこ使いたくなる。\nバッグに入れてもそこまでかさばる感じがなくて、持ち歩きのハードルが低い。\n家でも外でも、これ1つあると気持ちが落ち着くやつでした\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB+%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に取った瞬間、思ったよりすっきりしてて好きでした。\n変に主張しない見た目だから、机に置きっぱなしでも気にならないです。\n充電しながら触れる感じがラクで、ちょこちょこ使いたくなる。\nバッグに入れてもそこまでかさばる感じがなくて、持ち歩きのハードルが低い。\n家でも外でも、これ1つあると気持ちが落ち着くやつでした",
+      "topicTag": "暮らし",
+      "productId": "trend-4c2f67361a",
+      "productName": "ワイヤレス充電対応モバイルバッテリー",
+      "itemName": "ワイヤレス充電対応モバイルバッテリー",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB+%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dasimon/cabinet/meta-product/13251912/20261008-114320.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ワイヤレス充電 モバイルバッテリー",
+        "amazon": "ワイヤレス充電 モバイルバッテリー"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18084426161524345",
       "replyIds": [
         "17968097918979601"
