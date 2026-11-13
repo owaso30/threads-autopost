@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18400963534167266",
+      "replyIds": [
+        "17999349599834912"
+      ],
+      "postedAt": "2026-11-13T13:08:11.290Z",
+      "hook": "これ、夜の電気がちょっと賢い。\n見た目は普通なのに、出しっぱなしで邪魔しないのがいい。\n玄関でも廊下でも、ふだんの景色にすっと馴染む。\nなのに、あれ欲しい時にちゃんといてくれる感じがある。\n金曜の夜、こういう小さな安心が効く。",
+      "reply": "これ、見た目が思ったよりすっきりしてて好き。\n「置いとく」感がなくて、部屋の空気を崩さないのがかなり良いです。✨\n普段は何も気にせず使えて、いざという時のことも頭の片すみに置けるのがちょうどいい。\nこういうの、1個あるだけで気持ちがだいぶラクになる。\nAmazonで見つけて、これは買いだなってなりました\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F+%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E4%BB%98%E3%81%8D+%E9%9B%BB%E7%90%83+%E9%98%B2%E7%81%BD&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、見た目が思ったよりすっきりしてて好き。\n「置いとく」感がなくて、部屋の空気を崩さないのがかなり良いです。✨\n普段は何も気にせず使えて、いざという時のことも頭の片すみに置けるのがちょうどいい。\nこういうの、1個あるだけで気持ちがだいぶラクになる。\nAmazonで見つけて、これは買いだなってなりました",
+      "topicTag": "防災",
+      "productId": "trend-9e7db7924e",
+      "productName": "充電式センサー付き電球",
+      "itemName": "充電式センサー付き電球",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F+%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E4%BB%98%E3%81%8D+%E9%9B%BB%E7%90%83+%E9%98%B2%E7%81%BD&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/pa-select/cabinet//13753246/pasel2300270.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式 センサー付き 電球 防災",
+        "amazon": "充電式 センサー付き 電球 防災"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17991955077116055",
       "replyIds": [
         "18070783499610925"
