@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18389546143237629",
+      "replyIds": [
+        "17964064619996772"
+      ],
+      "postedAt": "2026-11-14T12:13:12.152Z",
+      "hook": "これ、土曜のうちに置いときたい。\n思ったより見た目がすっきりで、出しっぱなしでも気にならない。\n夜の充電まわりが落ち着くと、家の空気まで静かになる。\nいざという時のために、って気負わなくてもいいのがちょうどいい。\n普段の安心が、そのまま増える感じ。",
+      "reply": "手に取ったときのずっしり感が、ちゃんと頼れる感じで好きでした。\n見た目がゴツすぎなくて、部屋に置いても浮きにくいのがいい。\nしまい込まずに、すぐ使える場所に置いておきたくなるやつです。\n夜のうちに充電しておくと、朝の安心感がちょっと違う。\n暮らしに混ざる防災って、こういうのだなと思いました\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB&tag=growfolio-22\n#PR #防災",
+      "productPitch": "手に取ったときのずっしり感が、ちゃんと頼れる感じで好きでした。\n見た目がゴツすぎなくて、部屋に置いても浮きにくいのがいい。\nしまい込まずに、すぐ使える場所に置いておきたくなるやつです。\n夜のうちに充電しておくと、朝の安心感がちょっと違う。\n暮らしに混ざる防災って、こういうのだなと思いました",
+      "topicTag": "防災",
+      "productId": "trend-bb065b46d5",
+      "productName": "ポータブル電源",
+      "itemName": "ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119193061.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 ソーラーパネル",
+        "amazon": "ポータブル電源 ソーラーパネル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18400963534167266",
       "replyIds": [
         "17999349599834912"
