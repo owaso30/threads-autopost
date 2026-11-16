@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17990869182082700",
+      "replyIds": [
+        "18149589676658273"
+      ],
+      "postedAt": "2026-11-16T13:40:55.497Z",
+      "hook": "これ、月曜の寒さに効く。\n机に置いても浮かないし、持った瞬間ちょっと安心するやつ。\n朝の白湯も、昼のコーヒーも、帰ってきてからの一杯もこれでいい。\n「いつもの水筒」で終わらない感じがある。\n寒い日ほど、こういうのが地味に強い。",
+      "reply": "手に取ったときのひんやりしない感じがまず好き。見た目がちゃんとしてるから、キッチンに出しっぱなしでも気にならない。朝入れて、そのまま置いて、気づいたらまた使ってる。こういうのが1本あると、なんか暮らしが雑に強くなる。🫶\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00s7dno.4qw3jdb3.g00s7dno.4qw3k34b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbagray%2Fthermos-name750%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbagray%2Fi%2F10011092%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "手に取ったときのひんやりしない感じがまず好き。見た目がちゃんとしてるから、キッチンに出しっぱなしでも気にならない。朝入れて、そのまま置いて、気づいたらまた使ってる。こういうのが1本あると、なんか暮らしが雑に強くなる。🫶",
+      "topicTag": "防災",
+      "productId": "trend-e52754a217",
+      "productName": "真空断熱防災ボトル",
+      "itemName": "サーモス 水筒 名入れ 名前入り 750ml JNL-S750 JNR-753LTD THERMOS タンブラー 子供用 真空断熱ボトル ステンレスボトル 直飲",
+      "category": "gear",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s7dno.4qw3jdb3.g00s7dno.4qw3k34b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbagray%2Fthermos-name750%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbagray%2Fi%2F10011092%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/bagray/cabinet/image07/thermos-name750n1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "真空断熱 防災ボトル",
+        "amazon": "真空断熱 防災ボトル"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18126485287924629",
       "replyIds": [
         "18438609970151234"
