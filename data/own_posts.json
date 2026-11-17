@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18024416552940163",
+      "replyIds": [
+        "18081918656405658"
+      ],
+      "postedAt": "2026-11-17T14:27:07.917Z",
+      "hook": "これ、夜の光が賢すぎる。\n普段はふつうに使えて、いざって時だけ頼れる感じがちょうどいい。\n置きっぱなしでも気にならない見た目で、場所もとらない。\n火曜日のゆるい夜に、こういう“ひとつある安心”って効く。",
+      "reply": "つけたときの見た目がまず自然で、ちゃんと暮らしの中に馴染むのが好き。\n大げさな防災感がなくて、普段からそのまま使いたくなる。\n棚まわりに置いても邪魔にならないから、出しっぱなしでもストレスがない。\n「これ、あるだけで安心だね」って感覚がかなり強い\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E4%BB%98%E3%81%8DLED%E9%9B%BB%E7%90%83&tag=growfolio-22\n#PR #防災",
+      "productPitch": "つけたときの見た目がまず自然で、ちゃんと暮らしの中に馴染むのが好き。\n大げさな防災感がなくて、普段からそのまま使いたくなる。\n棚まわりに置いても邪魔にならないから、出しっぱなしでもストレスがない。\n「これ、あるだけで安心だね」って感覚がかなり強い",
+      "topicTag": "防災",
+      "productId": "trend-a4dfef9433",
+      "productName": "充電式センサー付きLED電球",
+      "itemName": "充電式センサー付きLED電球",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%85%85%E9%9B%BB%E5%BC%8F%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E4%BB%98%E3%81%8DLED%E9%9B%BB%E7%90%83&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/creamchic/cabinet/hom/hom_000/hom-0001_00.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式センサー付きLED電球",
+        "amazon": "充電式センサー付きLED電球"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18425317192159565",
       "replyIds": [
         "18122828912277961"
