@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18110834255302677",
+      "replyIds": [
+        "18444029425178543"
+      ],
+      "postedAt": "2026-11-18T04:23:40.118Z",
+      "hook": "足元だけ、別世界になる。\nこの手のやつ、出しっぱなしでもダサくないのが強い。\n朝の冷えで足が先に終わる日、ほんと助かる。\n部屋全体を無理に温めなくていい感じが好き。\n寒い日の味方、ひとつ増えた☕",
+      "reply": "見た目がやたらごつくなくて、普通に部屋になじむのがいい。使わない時も置きっぱなしにしやすいから、しまうのが面倒な人ほど向いてる。足元がじわっとあったかいだけで、体感がかなり変わる。冬のだるさに触れる前に、先にこれを敷いておきたくなる。暮らし寄りだけど、いざという時も心強い感じがある\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E8%B6%B3%E5%85%83%E6%9A%96%E6%88%BF+%E9%9B%BB%E6%B0%97%E6%AF%9B%E5%B8%83&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がやたらごつくなくて、普通に部屋になじむのがいい。使わない時も置きっぱなしにしやすいから、しまうのが面倒な人ほど向いてる。足元がじわっとあったかいだけで、体感がかなり変わる。冬のだるさに触れる前に、先にこれを敷いておきたくなる。暮らし寄りだけど、いざという時も心強い感じがある",
+      "topicTag": "暮らし",
+      "productId": "trend-c6cf2be730",
+      "productName": "足元暖房付き電気毛布",
+      "itemName": "足元暖房付き電気毛布",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E8%B6%B3%E5%85%83%E6%9A%96%E6%88%BF+%E9%9B%BB%E6%B0%97%E6%AF%9B%E5%B8%83&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsucame/cabinet/fuj-02/fke0047c.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "足元暖房 電気毛布",
+        "amazon": "足元暖房 電気毛布"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18024416552940163",
       "replyIds": [
         "18081918656405658"
