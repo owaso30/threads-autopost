@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18037110689911427",
+      "replyIds": [
+        "18136993219708429"
+      ],
+      "postedAt": "2026-11-18T14:01:22.004Z",
+      "hook": "これ、停電の不安ごと片づく。\n置きっぱなしでも景色がうるさくないのに、普段の暮らしにもちゃんと馴染む。\n冬前になると、こういうの一台あるだけで気持ちが軽い。\n見た目がごつすぎないから、リビングに置いても「備え置いてる感」が強すぎないのがいい。\nいざという時のため、でも今も使いたくなるやつ。",
+      "reply": "思ってたよりずっと“家に置きやすい”見た目で、まずそこが好きでした。\n出しっぱなしでも変に主張しないから、部屋の景色がごちゃつかない。\n持った時の安心感があって、なんか頼れる雰囲気があるんだよね。\n普段の充電まわりにも自然になじむし、冬が来る前に迎えておくと気持ちが落ち着く感じ。友達にも普通に「これいいね」って言われそう\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+400W+444Wh&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ってたよりずっと“家に置きやすい”見た目で、まずそこが好きでした。\n出しっぱなしでも変に主張しないから、部屋の景色がごちゃつかない。\n持った時の安心感があって、なんか頼れる雰囲気があるんだよね。\n普段の充電まわりにも自然になじむし、冬が来る前に迎えておくと気持ちが落ち着く感じ。友達にも普通に「これいいね」って言われそう",
+      "topicTag": "防災",
+      "productId": "trend-cefe4f174e",
+      "productName": "多機能ポータブル電源",
+      "itemName": "多機能ポータブル電源",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E9%9B%BB%E6%BA%90+400W+444Wh&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/c-c-s/citaeb01sp_set_c_top.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル電源 400W 444Wh",
+        "amazon": "ポータブル電源 400W 444Wh"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18110834255302677",
       "replyIds": [
         "18444029425178543"
