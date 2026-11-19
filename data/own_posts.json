@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18228917083340654",
+      "replyIds": [
+        "18123829009988303"
+      ],
+      "postedAt": "2026-11-19T04:12:28.925Z",
+      "hook": "これ、洗えない日のストレス減る。\n場所を取らないのに、あるとないで気持ちが全然ちがう。\n断水っぽい日でも、ちょっと洗えたら気分が立て直せる。\nしかも見た目がごちゃつかないから、出しっぱなしにしても嫌じゃない。\n暮らしの保険って、こういうのがちょうどいい。",
+      "reply": "思ったより小回りきいて、置き場所に困らないのがまずよかった。\n大げさな家電感がなくて、部屋になじむのがかなり好き。\n使わない日はしまえるし、いざという時にすぐ出せそうな安心感がある。✨\n普段のちょい洗いにも使いたくなる感じで、ただの備えで終わらないのがいい。友達にもこれ便利じゃんって言われそう\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E6%BF%AF%E6%A9%9F+%E5%B0%8F%E5%9E%8B&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったより小回りきいて、置き場所に困らないのがまずよかった。\n大げさな家電感がなくて、部屋になじむのがかなり好き。\n使わない日はしまえるし、いざという時にすぐ出せそうな安心感がある。✨\n普段のちょい洗いにも使いたくなる感じで、ただの備えで終わらないのがいい。友達にもこれ便利じゃんって言われそう",
+      "topicTag": "暮らし",
+      "productId": "trend-9730d2d3a8",
+      "productName": "ポータブル洗濯機",
+      "itemName": "ポータブル洗濯機",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E6%B4%97%E6%BF%AF%E6%A9%9F+%E5%B0%8F%E5%9E%8B&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/soppy/cabinet/z/z100755-1.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ポータブル洗濯機 小型",
+        "amazon": "ポータブル洗濯機 小型"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18037110689911427",
       "replyIds": [
         "18136993219708429"
