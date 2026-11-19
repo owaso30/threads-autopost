@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17986226429938823",
+      "replyIds": [
+        "18116675546612735"
+      ],
+      "postedAt": "2026-11-19T14:27:26.422Z",
+      "hook": "これ、コンセント周りが急に頼れる。\n多機能だけどごちゃつかなくて、置きっぱなしでいい見た目がちょうどいい。\n木曜のうちにひとつ仕込むと、部屋の安心感がじわっと増える。\n“いつか”じゃなくて、今の暮らしにすっと入るやつ。",
+      "reply": "見た目が思ったよりすっきりしてて、まずそこが好印象だった。コンセントまわりに置いても主張しすぎなくて、日用品っぽくなじむのがいい。手に取ったときも軽すぎず、ちゃんと置いた感がある。こういうの、あるだけで気持ちが落ち着くから好き。🙂\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00rf7qo.4qw3jaca.g00rf7qo.4qw3ka4f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fssk-1%2Fasve-4521718517681_05-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fssk-1%2Fi%2F20903569%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "見た目が思ったよりすっきりしてて、まずそこが好印象だった。コンセントまわりに置いても主張しすぎなくて、日用品っぽくなじむのがいい。手に取ったときも軽すぎず、ちゃんと置いた感がある。こういうの、あるだけで気持ちが落ち着くから好き。🙂",
+      "topicTag": "防災",
+      "productId": "trend-851ee7847c",
+      "productName": "多機能ガス警報器コンセント一体型",
+      "itemName": "ARTEC 防護服 M(適正身長165-175) 全身一体型で隙間を極力なくした防護服 ATC51768 住宅 防災 | 家具転倒防止器具 耐震マット 扉ストッ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rf7qo.4qw3jaca.g00rf7qo.4qw3ka4f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fssk-1%2Fasve-4521718517681_05-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fssk-1%2Fi%2F20903569%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ssk-1/cabinet/asve/178/4521718517681-500.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ガス警報器 コンセント一体型",
+        "amazon": "ガス警報器 コンセント一体型"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18228917083340654",
       "replyIds": [
         "18123829009988303"
