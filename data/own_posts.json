@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18121061563948596",
+      "replyIds": [
+        "17993524724867214"
+      ],
+      "postedAt": "2026-11-20T14:01:52.775Z",
+      "hook": "これ、夏前に買うやつだった。\n首まわりがすぐ整うから、朝も夜も出しっぱなしでいい。\n見た目がごつすぎなくて、玄関に置いてても浮かないのが地味に好き。\n暑い日の家事でまず手が伸びるし、停電したらこれがある安心感もある。\n金曜の「まだ耐える？」を減らしたい人、かなり刺さる。",
+      "reply": "これ、触った瞬間に「涼しいの早い」ってなるやつ。首にかけたときの軽さと、ピタッと当たる感じが気持ちよくて、思ったより毎日出しやすい。見た目も変に主張しないから、棚に置きっぱなしでも平気だった。暑い日の家の中で地味に効くし、もしものときもこれがあると気持ちが全然ちがう。余計な準備感がなくて、普通に暮らしの延長で持てるのがいい\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E5%86%B7%E5%8D%B4%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88+%E9%A6%96%E6%8E%9B%E3%81%91%E3%83%95%E3%82%A1%E3%83%B3&tag=growfolio-22\n#PR #防災",
+      "productPitch": "これ、触った瞬間に「涼しいの早い」ってなるやつ。首にかけたときの軽さと、ピタッと当たる感じが気持ちよくて、思ったより毎日出しやすい。見た目も変に主張しないから、棚に置きっぱなしでも平気だった。暑い日の家の中で地味に効くし、もしものときもこれがあると気持ちが全然ちがう。余計な準備感がなくて、普通に暮らしの延長で持てるのがいい",
+      "topicTag": "暮らし",
+      "productId": "trend-2faa1a3a87",
+      "productName": "冷却プレート付き首掛けファン",
+      "itemName": "冷却プレート付き首掛けファン",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E5%86%B7%E5%8D%B4%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88+%E9%A6%96%E6%8E%9B%E3%81%91%E3%83%95%E3%82%A1%E3%83%B3&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/premium-interior/cabinet/item/fan/lff-fb18_tum02.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "冷却プレート 首掛けファン",
+        "amazon": "冷却プレート 首掛けファン"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "17986226429938823",
       "replyIds": [
         "18116675546612735"
