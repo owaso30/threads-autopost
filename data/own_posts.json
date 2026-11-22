@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18142478746713719",
+      "replyIds": [
+        "17913584190571403"
+      ],
+      "postedAt": "2026-11-22T13:22:50.120Z",
+      "hook": "これ、玄関に置いても浮かない。\n見た目がちゃんとしてるから、いざって時のために見えない場所へ押し込まなくていい。\n日曜の片づけついでに出しておける感じ。\n断水の日だけじゃなく、車で長く動けない時も「あ、これある」で気持ちが軽い。\nふだんの暮らしにそのまま混ざるのが、かなりいい。",
+      "reply": "思ったよりちゃんとした見た目で、雑に置いても生活感が出すぎないのが好き。\n箱から出すのも戻すのも面倒じゃなくて、こういうのは手に取りやすい方が勝ちだなって思った。\n置き場所を取らないから、しまい込んで忘れる感じがないのもいい。🚗\n「防災用品です」って感じが強すぎないのに、あるだけで安心感がちゃんとある\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%9D%9E%E5%B8%B8%E3%83%88%E3%82%A4%E3%83%AC&tag=growfolio-22\n#PR #防災",
+      "productPitch": "思ったよりちゃんとした見た目で、雑に置いても生活感が出すぎないのが好き。\n箱から出すのも戻すのも面倒じゃなくて、こういうのは手に取りやすい方が勝ちだなって思った。\n置き場所を取らないから、しまい込んで忘れる感じがないのもいい。🚗\n「防災用品です」って感じが強すぎないのに、あるだけで安心感がちゃんとある",
+      "topicTag": "防災",
+      "productId": "trend-2f3007b1d7",
+      "productName": "折りたたみ非常トイレ",
+      "itemName": "折りたたみ非常トイレ",
+      "category": "gear",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%9D%9E%E5%B8%B8%E3%83%88%E3%82%A4%E3%83%AC&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/yoshiokadenko/cabinet/portable-toilet/imgrc0097875930.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 非常トイレ",
+        "amazon": "折りたたみ 非常トイレ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18116421584136038",
       "replyIds": [
         "18102258668386482"
