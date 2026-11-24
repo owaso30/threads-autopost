@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18469799980191803",
+      "replyIds": [
+        "17913790719309724"
+      ],
+      "postedAt": "2026-11-24T06:57:48.393Z",
+      "hook": "これ、火曜の台所が急に強くなる。\n出しっぱなしでも気にならないのに、しまうときは薄くまとまるのずるい。\nお湯沸かすのも、ちょっと作るのも気が楽。\n停電とか大げさな話じゃなくて、普段の「もう今日はこれでいい」が叶う感じ。\n暮らしの温度がひとつ上がるやつ。",
+      "reply": "見た目がごつすぎなくて、台所に置いたときの圧が少ないのがいい。使わない日は薄くして端に寄せられるから、狭い場所でもじゃまになりにくい。ちょい使いしたい日に、わざわざ大きい鍋を出さなくていいのがかなり快適。これあると、いつものごはんも気持ちも少し楽になる。いざという時の安心感も、ちゃんとついてくる感じ\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%9B%BB%E6%B0%97%E9%8D%8B+%E4%B8%80%E4%BA%BA%E6%9A%AE%E3%82%89%E3%81%97&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がごつすぎなくて、台所に置いたときの圧が少ないのがいい。使わない日は薄くして端に寄せられるから、狭い場所でもじゃまになりにくい。ちょい使いしたい日に、わざわざ大きい鍋を出さなくていいのがかなり快適。これあると、いつものごはんも気持ちも少し楽になる。いざという時の安心感も、ちゃんとついてくる感じ",
+      "topicTag": "暮らし",
+      "productId": "trend-70d0c9c3eb",
+      "productName": "折りたたみ電気鍋",
+      "itemName": "折りたたみ電気鍋",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF+%E9%9B%BB%E6%B0%97%E9%8D%8B+%E4%B8%80%E4%BA%BA%E6%9A%AE%E3%82%89%E3%81%97&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fudanzukainoomise/cabinet/blcx897/qjaqxob5x67d39zd.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "折りたたみ 電気鍋 一人暮らし",
+        "amazon": "折りたたみ 電気鍋 一人暮らし"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18142478746713719",
       "replyIds": [
         "17913584190571403"
