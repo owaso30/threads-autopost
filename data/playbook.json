@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:42:06.577Z",
+  "updatedAt": "2026-11-25T04:43:51.552Z",
   "theme": "暮らしと防災",
   "viral": {
     "sampleSize": 21,
@@ -75,17 +75,30 @@
     "source": "observed"
   },
   "own": {
-    "winningHooks": [],
-    "winningProducts": [],
+    "winningHooks": [
+      {
+        "text": "洗濯が、止まらない安心。\n置きっぱなしでも邪魔にならないのに、いざという時の頼もしさがかなり強い。\n土曜にこれが家にあると、気持ちがちょっと軽い。\n回すたびに、生活の面倒がひとつ減る感じ。\n水まわりが弱い日でも、服のことはちゃんと回せる。",
+        "likes": 2,
+        "clicks": 0
+      }
+    ],
+    "winningProducts": [
+      {
+        "productId": "trend-9730d2d3a8",
+        "network": "rakuten",
+        "likes": 2,
+        "clicks": 0
+      }
+    ],
     "networkClicks": {
       "amazon": 0,
       "rakuten": 0,
       "byCategory": {
-        "gear": {
+        "electronics": {
           "amazon": 0,
           "rakuten": 0
         },
-        "electronics": {
+        "gear": {
           "amazon": 0,
           "rakuten": 0
         },
