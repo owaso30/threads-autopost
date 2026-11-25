@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "18081372767431519",
+      "replyIds": [
+        "18107302481013742"
+      ],
+      "postedAt": "2026-11-25T05:27:04.328Z",
+      "hook": "これ、夜の不安をひとつ減らす。\n置きっぱなしでも邪魔にならないのに、あるだけで気持ちがかなり軽い。\n玄関でも棚でも浮かない見た目で、普段の部屋にそのまま置ける。\nいざという時の灯りと、情報が一緒にある感じが思った以上に頼もしい。\n土曜に家にあると、なんか安心して休める。",
+      "reply": "見た目がゴツすぎなくて、普段の部屋にそのまま置けるのがいい。棚に入れても邪魔にならないし、出しっぱなしでも生活感が強く出ない感じ。触るたびに「これ1台でいいのか」と思えるくらい、頼もしさがある。いざという時の置き場を考えるストレスが減るのも地味に好き。こういうの、あるだけで気持ちが少し軽くなる\nAmazon ⤵️\nhttps://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E5%85%85%E9%9B%BB%E5%BC%8F%E3%83%A9%E3%82%B8%E3%82%AA%E3%83%A9%E3%82%A4%E3%83%88&tag=growfolio-22\n#PR #防災",
+      "productPitch": "見た目がゴツすぎなくて、普段の部屋にそのまま置けるのがいい。棚に入れても邪魔にならないし、出しっぱなしでも生活感が強く出ない感じ。触るたびに「これ1台でいいのか」と思えるくらい、頼もしさがある。いざという時の置き場を考えるストレスが減るのも地味に好き。こういうの、あるだけで気持ちが少し軽くなる",
+      "topicTag": "防災",
+      "productId": "trend-514faf8314",
+      "productName": "ソーラー充電式ラジオライト",
+      "itemName": "ソーラー充電式ラジオライト",
+      "category": "electronics",
+      "network": "amazon",
+      "preferredNetwork": "amazon",
+      "fallback": false,
+      "affiliateUrl": "https://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC%E5%85%85%E9%9B%BB%E5%BC%8F%E3%83%A9%E3%82%B8%E3%82%AA%E3%83%A9%E3%82%A4%E3%83%88&tag=growfolio-22",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/lock110/cabinet/jishahin46/517106_sin.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "ソーラー充電式ラジオライト",
+        "amazon": "ソーラー充電式ラジオライト"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18469799980191803",
       "replyIds": [
         "17913790719309724"
