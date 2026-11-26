@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "17991407085106600",
+      "replyIds": [
+        "18171185149472815"
+      ],
+      "postedAt": "2026-11-26T05:06:27.195Z",
+      "hook": "これ、木曜の夜に置いとくやつ。\n部屋のすみっこにいるのに、ちゃんと頼れる感じがいい。\n吊るしても置いても浮かないから、普段の景色にそのままなじむ。\n暗い夜でも「まあ大丈夫か」が増えるの、地味に強い。",
+      "reply": "見た目がやわらかくて、ちゃんと部屋に置きたくなるやつでした。出しておいても生活感が重くならないから、片付けるよりそこにあるほうが自然。夜にふわっと光る感じが気持ちよくて、玄関や水まわりの近くに置きたくなる。いざという時のため、ってより、まず普段使いで好きになれるのがいいです。置きっぱなしでも邪魔に見えないの、かなり買いでした\n楽天 ⤵️\nhttps://hb.afl.rakuten.co.jp/hgc/g00qfvqo.4qw3j22a.g00qfvqo.4qw3k68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Futsunomiya%2Fsolar-lantern-f%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Futsunomiya%2Fi%2F10004303%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f\n#PR #防災",
+      "productPitch": "見た目がやわらかくて、ちゃんと部屋に置きたくなるやつでした。出しておいても生活感が重くならないから、片付けるよりそこにあるほうが自然。夜にふわっと光る感じが気持ちよくて、玄関や水まわりの近くに置きたくなる。いざという時のため、ってより、まず普段使いで好きになれるのがいいです。置きっぱなしでも邪魔に見えないの、かなり買いでした",
+      "topicTag": "防災",
+      "productId": "trend-96748c9bfc",
+      "productName": "充電式LEDランタン",
+      "itemName": "ガーデンライト ソーラー ランタン アンティーク 屋外 防水 電球色 LED 明るい おしゃれ ガーデニング 防災 庭 玄関 室内 インテリア 照明 キャンプ ",
+      "category": "electronics",
+      "network": "rakuten",
+      "preferredNetwork": "rakuten",
+      "fallback": false,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qfvqo.4qw3j22a.g00qfvqo.4qw3k68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Futsunomiya%2Fsolar-lantern-f%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Futsunomiya%2Fi%2F10004303%2F&rafcid=wsc_i_is_ced3b3ff-1e8e-4e89-93fe-51d51ad2ca8f",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/utsunomiya/cabinet/item-img2/solar-lantern-f.jpg?_ex=800x800",
+      "keywords": {
+        "rakuten": "充電式 LED ランタン 置き型 吊り下げ",
+        "amazon": "充電式 LED ランタン 置き型 吊り下げ"
+      },
+      "trendSource": "feed",
+      "reuseFrom": null,
+      "generation": 1,
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "clicks": 0
+      },
+      "verdict": "pending"
+    },
+    {
       "id": "18081372767431519",
       "replyIds": [
         "18107302481013742"
